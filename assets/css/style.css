@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+/*------Heading*/
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/sis-logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90px;
+}
+
+.navbar {
+    background-color: #000;
+    min-height: 90px;
+}
+
+.nav-item {
+    list-style-type: none;
+}
+
+.nav-link {
+    display: inline;    
+    color: #13A6DB;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.dropdown-item {
+    color: #13A6DB;
+    background-color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+ul.dropdown-menu {
+    border: 0;
+    padding: 0;
+}
+
+ul li {
+    line-height: 15px;
+}
+
+/*------Hover*/
+
+.nav-link:focus, .nav-link:hover {
+    color: #F9F871;
+}
+
+.dropdown-item:hover {
+    color: #F9F871;
+    background-color: #000;
+}
