@@ -6,17 +6,24 @@ header {
     margin: 0;
 }
 
+.complete-header {
+    background-color: #000;    
+}
+
 .logo {
     background: url("../images/sis-logo.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 90px;
 }
 
 .navbar {
-    background-color: #000;
     min-height: 90px;
+}
+
+.navbar-mainheader {
+    margin: auto;
 }
 
 .nav-item {
