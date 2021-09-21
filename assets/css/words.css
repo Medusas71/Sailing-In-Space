@@ -7,15 +7,22 @@ header {
 }
 
 .complete-header {
-    background-color: #000;
+    background-color: #000;     
+}
+
+a {
+    text-decoration: none;
 }
 
 .logo {
-    background: url("../images/sis-logo.jpg");
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
     min-height: 90px;
+    margin-left: 10px;
+    color: #13A6DB;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 50px;
+    letter-spacing: 1px;
 }
 
 .navbar {
@@ -62,6 +69,10 @@ ul li {
 }
 
 /*----------------------------------------------------Hover*/
+
+.logo:hover {
+    color: #F9F871; 
+}
 
 .nav-link:focus, .nav-link:hover {
     color: #F9F871;
