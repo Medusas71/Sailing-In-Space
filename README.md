@@ -63,7 +63,7 @@ merchandise to their fans.
     * As a potential fan, I would like to follow the band on social media.
     * As a potential fan, I would like to see if the band have played many gigs.
     * As a potential fan, I would like to see the site on all devices such as phone, tablet and desktop.  
-<br>
+
   * Existing Fans Goals
 
     * As an existing fan, I would like to learn more about the bands history and the band members.

@@ -26,10 +26,6 @@ header {
     margin: auto;
 }
 
-.nav-item {
-    list-style-type: none;
-}
-
 .nav-link {
     display: inline;    
     color: #13A6DB;
@@ -63,6 +59,11 @@ ul li {
 
 /*----------------------------------------------------Hover*/
 
+a:hover {
+    color: #F9F871;
+    text-decoration: none;
+}
+
 .nav-link:focus, .nav-link:hover {
     color: #F9F871;
 }
@@ -70,10 +71,6 @@ ul li {
 .dropdown-item:hover {
     color: #F9F871;
     background-color: #000;
-}
-
-.button-style:hover {
-    color: #F9F871;
 }
 
 .social-links li a i:hover {
@@ -86,8 +83,11 @@ ul li {
     background-color: #000;
 }
 
-.button-style {
+a {
     color: #13A6DB;
+}
+
+.button-style {    
     background-color: #000;
     font-family: "Titillium Web", sans-serif;
     font-style: italic;
@@ -112,12 +112,8 @@ ul li {
 }
 
 .social-links li a i {
-    list-style-type: none;
     margin: 0;
     color: #13A6DB;
     margin-top: 20px;
 }
 
-.list-inline {
-    align: right;
-}
