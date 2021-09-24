@@ -72,7 +72,7 @@ merchandise to their fans.
     * As an existing fan, I would like to see what upcoming gigs the band is playing at.
     * As an existing fan, I would like to purchase the bands merchandise.
     * As an existing fan, I would like to see the site on all devices such as phone, tablet and desktop.  
-<br>
+
   * Site Owner Goals
 
     * As a band member of Sailing In Space, I would like to get more gigs.
@@ -82,7 +82,7 @@ merchandise to their fans.
     * As a band member of Sailing In Space, I would like to sell merchandise.
     * As a band member of Sailing In Space, I would like to increase our social media following.
     * As a band member of Sailing In Space, I would like to receive a record deal.  
-<br>
+
   * Record Company Goals
 
     * As a record company, I would like to listen to the bands music.
@@ -151,22 +151,38 @@ users expect from a band website.
 <a id="skeleton"></a>
 ### 4. Skeleton  
 
-The [wireframes](/documents/sailing-in-space-wireframes.pdf) have been created using Balsamiq.
+Originally there were 16 wireframes. After discussion with my Mentor I have cut down the website.
+There are now 8 wireframes.
+
+The current [wireframes](/documents/sailing-in-space-wireframes.pdf) have been created using Balsamiq.  
 
 * [Home Page Wireframe](https://assets/images/wireframes/homepage.png)  
-* [Phone Navigation Wireframe](https://assets/images/wireframes/phone-navigation.png) 
-* [Coming Soon Wireframe](https://assets/images/wireframes/coming-soon.png)  
-* [Singles Wireframe](https://assets/images/wireframes/singles.png)  
-* [Albums Wireframe](https://assets/images/wireframes/albums.png)  
-* [Upcoming Events Wireframe](https://assets/images/wireframes/upcoming-events.png)  
-* [Private Functions Wireframe](https://assets/images/wireframes/private-functions.png)  
-* [Venue Bookings Wireframe](https://assets/images/wireframes/venue-bookings.png)  
-* [Meet the Boys Wireframe](https://assets/images/wireframes/meet-the-boys.png)  
-* [Gallery Wireframe](https://assets/images/wireframes/gallery.png)  
-* [Merchandise Wireframe](https://assets/images/wireframes/merchandise.png)  
+* [Phone Navigation Wireframe](https://assets/images/wireframes/phone-navigation.png)  
+* [The Music Wireframe](https://assets/images/wireframes/the-music.png)  
+* [Gigs Wireframe](https://assets/images/wireframes/gigs.png)  
+* [The Band Wireframe](https://assets/images/wireframes/the-band.png)  
 * [Contact Us Wireframe](https://assets/images/wireframes/contact-us.png)  
 * [Thank You Wireframe](https://assets/images/wireframes/thank-you.png)  
-* [404 Error Wireframe](https://assets/images/wireframes/404-error.png)
+* [404 Error Wireframe](https://assets/images/wireframes/404-error.png)  
+
+The former [wireframes](/documents/sailing-in-space-wireframes-v1.pdf) have been created using Balsamiq.
+
+* [Home Page Wireframe V1](https://assets/images/wireframes/version1/homepage-v1.png)  
+* [Phone Navigation Wireframe V1](https://assets/images/wireframes/version1/phone-navigation-v1.png) 
+* [Coming Soon Wireframe V1](https://assets/images/wireframes/version1/coming-soon-v1.png)  
+* [Singles Wireframe V1](https://assets/images/wireframes/version1/singles-v1.png)  
+* [Albums Wireframe V1](https://assets/images/wireframes/version1/albums-v1.png)  
+* [Upcoming Events Wireframe V1](https://assets/images/wireframes/version1/upcoming-events-v1.png)  
+* [Private Functions Wireframe V1](https://assets/images/wireframes/version1/private-functions-v1.png)  
+* [Venue Bookings Wireframe V1](https://assets/images/wireframes/version1/venue-bookings-v1.png)  
+* [Meet the Boys Wireframe V1](https://assets/images/wireframes/version1/meet-the-boys-v1.png)  
+* [Gallery Wireframe V1](https://assets/images/wireframes/version1/gallery-v1.png) 
+* [Photos Wireframe V1](https://assets/images/wireframes/version1/photos-v1.png)  
+* [Videos Wireframe V1](https://assets/images/wireframes/version1/videos-v1.png)  
+* [Merchandise Wireframe V1](https://assets/images/wireframes/version1/merchandise-v1.png)  
+* [Contact Us Wireframe V1](https://assets/images/wireframes/version1/contact-us-v1.png)  
+* [Thank You Wireframe V1](https://assets/images/wireframes/version1/thank-you-v1.png)  
+* [404 Error Wireframe V1](https://assets/images/wireframes/version1/404-error.png)
 
 <a id="surface"></a>
 ### 5. Surface  
