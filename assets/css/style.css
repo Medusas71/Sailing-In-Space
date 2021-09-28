@@ -48,6 +48,70 @@ a:hover {
     color: #F9F871;
 }
 
+/*----------------------------------------------------Index.html*/
+
+section {
+    background-color: #000;
+}
+
+.jesse-hero-image {
+    background-repeat: no-repeat;
+    padding-top: 90px;
+    padding-right: 0;
+    padding-left: 0;
+    width: 268px;
+    height: 666px;
+    position: cover;
+}
+
+.coming-soon-heading {
+    color: #13A6DB;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.coming-soon-song-title {
+    color: #13A6DB;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    /* padding-left: 120px; */
+}
+
+.video {
+    position: center;
+    /* padding-left: 1200px; */
+}
+
+.upcoming-events {
+    color: #13A6DB;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 1px;
+    width: 407px;
+    padding-left: 50px;
+}
+
+.dylan-hero-image {
+    background-repeat: no-repeat;
+    padding-top: 90px;
+    padding-right: 0;
+    padding-left: 0;
+    width: 268px;
+    height: 666px;
+    position: cover;
+}
+
 /*----------------------------------------------------Footer*/
 
 .footer-background {
