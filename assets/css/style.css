@@ -97,13 +97,6 @@ a:hover {
     text-align: center;
 }
 
-/* .video {
-    width: 497px;
-    height: 240px;
-    display: block;
-    margin: auto;
-} */
-
 .upcoming-events {
     color: #13A6DB;
     font-family: "Titillium Web", sans-serif;
@@ -112,7 +105,6 @@ a:hover {
     font-size: 30px;
     letter-spacing: 1px;
     text-align: center;
-    /* padding-top: 40px; */
 }
 
 .dates {
@@ -135,18 +127,16 @@ a:hover {
 }
 
 .second-event {
-    padding-bottom: 100px;
+    padding-bottom: 20px;
 }
 
 .dylan-hero-image {
     background-repeat: no-repeat;
-    padding-left: 100px;    
 }
 
 /*----------------------------------------------------Footer*/
 
-.footer-background {  /*.......received assistance from Tutor Support with the footer CSS*/
-    /* width: 100vw; */
+.footer-background {
     background-color: #000;
     display: flex;
     flex-direction: row;
@@ -196,12 +186,15 @@ a {
     color: #13A6DB;
     margin-top: 20px;
     margin-bottom: 20px;
-    /* margin-right: 20px; */
 }
 
 /*----------------------------------------------------media queries*/
 
 @media screen and (max-width: 520px) {
+    .coming-soon-heading {
+        padding-top: 20px;
+    }
+    
     .footer-links {
         width: 100%;
         display: flex;
