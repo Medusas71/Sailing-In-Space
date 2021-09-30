@@ -50,18 +50,27 @@ a:hover {
 
 /*----------------------------------------------------Index.html*/
 
-section {
+.home-background {
     background-color: #000;
+    padding-top: 120px;
+}
+
+.sis-bio p {
+    color: #FFF;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 .jesse-hero-image {
     background-repeat: no-repeat;
-    padding-top: 90px;
-    padding-right: 0;
-    padding-left: 0;
-    width: 268px;
-    height: 666px;
-    position: cover;
+}
+
+.hero-image {
+    background-repeat: no-repeat;
 }
 
 .coming-soon-heading {
@@ -71,7 +80,6 @@ section {
     font-style: italic;
     font-size: 30px;
     letter-spacing: 1px;
-    padding-top: 120px;
     text-align: center;
 }
 
@@ -83,12 +91,13 @@ section {
     font-size: 30px;
     letter-spacing: 1px;
     text-align: center;
-    /* padding-left: 120px; */
 }
 
 .video {
-    position: center;
-    /* padding-left: 1200px; */
+    width: 497px;
+    height: 240px;
+    display: block;
+    margin: auto;
 }
 
 .upcoming-events {
@@ -98,23 +107,37 @@ section {
     font-style: italic;
     font-size: 30px;
     letter-spacing: 1px;
-    width: 407px;
-    padding-left: 50px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.dates {
+    color: #FFF;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.upcoming-events-images{
+    background-repeat: no-repeat;
+    display: block;
+    margin: auto;
+    padding-top: 30px;
 }
 
 .dylan-hero-image {
     background-repeat: no-repeat;
-    padding-top: 90px;
-    padding-right: 0;
-    padding-left: 0;
-    width: 268px;
-    height: 666px;
-    position: cover;
+    padding-left: 100px;    
 }
 
 /*----------------------------------------------------Footer*/
 
-.footer-background {
+.footer-background {  
     width: 100vw;
     background-color: #000;
     display: flex;
@@ -165,9 +188,10 @@ a {
     color: #13A6DB;
     margin-top: 20px;
     margin-bottom: 20px;
+    /* margin-right: 20px; */
 }
 
-/*----------------------------------------------------media screen*/
+/*----------------------------------------------------media queries*/
 
 @media screen and (max-width: 520px) {
     .footer-links {
@@ -185,4 +209,3 @@ a {
         padding: 0 20px;
     }
 }
-
