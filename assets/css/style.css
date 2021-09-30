@@ -12,7 +12,7 @@ header {
 }
 
 .logo {
-    background: url("../images/sis-logo.jpg");
+    background: url("../images/homepage/sis-logo.jpg");
     background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
@@ -108,7 +108,7 @@ a:hover {
     font-size: 30px;
     letter-spacing: 1px;
     text-align: center;
-    padding-top: 40px;
+    /* padding-top: 40px; */
 }
 
 .dates {
@@ -118,8 +118,8 @@ a:hover {
     font-style: italic;
     font-size: 16px;
     letter-spacing: 1px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    /* padding-bottom: 80px; */
     text-align: center;
 }
 
@@ -137,7 +137,7 @@ a:hover {
 
 /*----------------------------------------------------Footer*/
 
-.footer-background {  
+.footer-background {  /*.......received assistance from Tutor Support with the footer CSS*/
     width: 100vw;
     background-color: #000;
     display: flex;
