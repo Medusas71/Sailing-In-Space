@@ -8,7 +8,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">    
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
@@ -19,39 +18,84 @@
 </head>
 <body>
   <header>
+    <!-- Header - Logo and Navigation Bar -->
     <nav class="navbar navbar-expand-lg fixed-top">
+      <!-- Image used for logo -->
       <a href="index.html" class="col-4 logo">
-        <!-- Image used for logo -->
       </a>
+      <!-- Hamburger and Navbar -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
-      </button>    
+      </button>
+      <!-- Navbar links -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">The Music <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="the-music.html">The Music <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">The Band</a>
+            <a class="nav-link" href="the-band.html">The Band</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="contact-us.html">Contact Us</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
   <section>
-    
+     <!-- Main Section of the Home Page --> 
+     <div class="main main-background container-fluid">
+       <div class="row">
+         <div class="col-12 page-title">
+           <img class="img-fluid bg-music-image" src="assets/images/music/j&d-b&w-music.jpg" alt="Jesse and Dylan performing">
+            <div class="transbox"> 
+              <p>
+                <h1>The Music</h1>
+              </p>
+            </div>
+           </img>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4 page-title transbox-vertical">
+            <p>
+              <h2 class="h2-music">Singles</h2>
+            </p>
+          </div>
+          <div class="col-12 col-md-4 coming-soon-head">
+            <p>
+              <h2>Coming Soon !!!</h2>
+            </p>
+            <p style="color:red">Blurb about Like It</p>
+            <video class="video" controls>
+              <source src="assets/videos/like-it.mp4" type="video/mp4">
+              <source src="assets/videos/like-it.ogg" type="video/ogg">
+            </video>
+          </div>
+          <div class="col-12 col-md-4 page-title transbox-vertical">
+            <p>
+              <h2 class="h2-music">Albums</h2>
+            </p>
+          </div>
+
+
+
+
+          </image>
+        </div>
+      </div>
+     </div>
   </section>
-  <footer>
+   <!-- Footer -->
+   <footer>
     <div class="footer-background fixed-bottom">
       <div class="footer-links column-button-style">
         <div class="button-style">
-          <a href="../meet-the-boys.html">About</a>           
+          <a href="the-band.html">About</a>   
         </div>
         <div class="button-style">
-          <a href="../contact-us.html">Contact Us</a>
+          <a href="contact-us.html">Contact Us</a>
         </div>
       </div>
       <div class="copywright-style">
@@ -59,6 +103,7 @@
         <p>Developed by Megan Vella</p>
       </div>
       <div class="d-flex">
+        <!-- Social Media Icons/Links -->
         <ul class="list-inline social-links">
           <li class="list-inline-item">
             <a href="https://www.facebook.com/SailingInSpace" target="_blank">
