@@ -4,10 +4,11 @@
 
 header {
     margin: 0;
+    background-color: #000;
 }
 
 body {
-    padding-bottom: 81px;
+    background-color: #000;
 }
 
 .navbar {
@@ -55,7 +56,6 @@ a:hover {
 /*----------------------------------------------------Index.html*/
 
 .home-background {
-    background-color: #000;
     padding-top: 120px;
 }
 
@@ -97,6 +97,11 @@ a:hover {
     text-align: center;
 }
 
+.video {
+    height: auto;
+    width: 100%;
+}
+
 .upcoming-events {
     color: #13A6DB;
     font-family: "Titillium Web", sans-serif;
@@ -115,7 +120,6 @@ a:hover {
     font-size: 16px;
     letter-spacing: 1px;
     padding-top: 20px;
-    /* padding-bottom: 80px; */
     text-align: center;
 }
 
@@ -136,7 +140,7 @@ a:hover {
 
 /*----------------------------------------------------Footer*/
 
-.footer-background {
+.footer-background { /*.......received assistance from Tutor Support with the footer CSS*/
     background-color: #000;
     display: flex;
     flex-direction: row;
@@ -157,8 +161,7 @@ a {
     text-decoration: none;
 }
 
-.button-style {    
-    background-color: #000;
+.button-style {
     font-family: "Titillium Web", sans-serif;
     font-style: italic;
     font-size: 24px;
@@ -190,7 +193,11 @@ a {
 
 /*----------------------------------------------------media queries*/
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 576px) {
+    .main { 
+    margin-bottom: 230px;
+    }
+    
     .coming-soon-heading {
         padding-top: 20px;
     }
@@ -208,5 +215,11 @@ a {
         justify-content: space-between;
         align-items: center;
         padding: 0 20px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .main {  
+    margin-bottom: 230px;
     }
 }
