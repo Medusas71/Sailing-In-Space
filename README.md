@@ -3,6 +3,10 @@
 <h3>Stream One Project - User-Centric Frontend Development</h3>  
 <br>
 
+[View the deployed Sailing In Space Website](https://medusas71.github.io/Sailing-In-Space/)
+
+**Please note: To open any links in this document in a new browser tab, press 'CTRL + Click'.**
+
 <!-- Table of Contents and the (click to expand or hide) is not my original work. 
 It has been sourced from https://gist.github.com/rachelhyman/b1f109155c9dafffe618#real-cool-heading 
 and https://github.com/ElectricRCAircraftGuy/AlfaWiFiAdapterSoftware/blob/master/README.md#wiki-instructions> -->
@@ -26,8 +30,11 @@ https://google.github.io/styleguide/docguide/style.html> -->
      4. [Skeleton](#skeleton)
      5. [Surface](#surface)
 3. [Features](#features)  
+    * [Current Features](#current-features)  
+    * [Future Features](#future-features)  
 4. [Technologies Used](#technologies-used)  
-5. [Testing](#testing)  
+5. [Testing](#testing) 
+6. [Lessons Learned](#lessons-learned) 
 6. [Deployment](#deployment)  
 7. [Credits](#credits)  
 
@@ -44,7 +51,9 @@ This website is my first milestone project which is part of the User Centric Fro
 
 This website has been created for local Sunshine Coast Band - Sailing In Space. 
 The purpose of this website is for the band to promote gigs, their music and 
-merchandise to their fans.
+merchandise to their fans.  
+
+The final project was published on DATE and submitted on DATE.
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -198,14 +207,37 @@ Colour Scheme
   This font was chosen as it is a close font to Sailing In Spaces logo.  
 
   Imagery
-  * All images, except the 404 error page, were sourced from Sailing In Space and include images of the band, merchandise and gigs.
+  * All images, except the 404 error page, were sourced from Sailing In Space and include images of the band, merchandise and gigs.  
+  * The 404 error page was sourced from [Freepik](https://www.freepik.com)  
 
 [Back to Table of Contents](#table-of-contents)
 
 <a id="features"></a>
 # Features  
 
+<a id="current-features"></a>
+**Current Features**    
 
+Each page features: 
+* A fixed header that contains:  
+  * a logo featured on the left hand side that when clicked takes you to the Home Page  
+  * a responsive navigation bar that includes 3 links - The Music, The Band and Contact Us  
+* A fixed footer that contains:
+  * an About and Contact Us link on the bottom left hand side
+  * copywright information placed in the middle
+  * social media icons on the right hand side linking to 6 social media and music pages  
+
+The Home Page features:
+* 2 hero images on anything larger than a phone
+* 1 hero image on anything smaller than a tablet
+* The bands new single
+* Upcoming gigs  
+
+
+<a id="future-features"></a>
+**Future Features to implement**
+
+* Include Past Events 
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -219,20 +251,28 @@ Languages Used
 
 Frameworks, Libraries, Programs and Resources Used  
 
-1. [Anna Greaves (portait-artist)](https://github.com/AJGreaves/portrait-artist#readme) - for ideas and information from the README file  
-2. [Balsamiq](https://balsamiq.com/) - wireframes  
-3. [Code Insitute course content](https://learn.codeinstitute.net/login?next=/) - main source of fundamental knowledge  
-4. [Commonmark](https://commonmark.org/help/) - markdown language references  
-5. [Freepik](https://www.freepik.com) - 404 error page  
-6. [Google Fonts](https://fonts.google.com/) - typography  
-7. [GitPod](https://www.gitpod.io/) - IDE  
-8. [Git](https://git-scm.com/) - version control  
-9. [GitHub](https://github.com/) - hosting service  
-10. [Jim Lynx (Explore Island)](https://github.com/JimLynx/CI-MS1-Explore-Ireland/blob/master/README.md) - for ideas and information from the README file  
-11. [Slack](https://slack.com/) - main source of assistance from other students, developers and documents/resources  
-12. [Snagit](https://www.techsmith.com/screen-capture.html) - screen capture  
-13. [TinyPNG](https://tinypng.com/) - efficient compression of images for the site  
-14. [WebAIM](https://webaim.org/resources/contrastchecker/) - web accessibility contrast checker
+1. [Adobe Spark](https://www.adobe.com/express/feature/image/resize) - resizing images  
+2. [Anna Greaves (portait-artist)](https://github.com/AJGreaves/portrait-artist#readme) - for ideas and information from the README file  
+3. [Balsamiq](https://balsamiq.com/) - wireframes  
+4. [Bootstrap 4.6 CDN](https://getbootstrap.com/docs/4.6/getting-started/introduction/) - to make the website responsive  
+5. [Code Insitute course content](https://learn.codeinstitute.net/login?next=/) - main source of fundamental knowledge  
+6. [Commonmark](https://commonmark.org/help/) - markdown language references  
+7. [Favicon Generator](https://favicon.io/favicon-generator/) - to generate the favicon  
+8. [Facebook](https://www.facebook.com/SailingInSpace) - for the images and videos  
+9. [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2) - for their icons  
+10. [Freepik](https://www.freepik.com) - 404 error page  
+11. [Google Fonts](https://fonts.google.com/) - typography  
+12. [GitPod](https://www.gitpod.io/) - IDE  
+13. [Git](https://git-scm.com/) - version control  
+14. [GitHub](https://github.com/) - hosting service  
+15. [Jim Lynx (Explore Island)](https://github.com/JimLynx/CI-MS1-Explore-Ireland/blob/master/README.md) - for ideas and information from the README file 
+16. [jQuery](https://jquery.com/) - for the responsive navbar  
+17. [Popper.js](https://popper.js.org/) - for the responsive navbar  
+18. [Slack](https://slack.com/) - main source of assistance from other students, developers and documents/resources  
+19. [Snagit](https://www.techsmith.com/screen-capture.html) - screen capture and resizing images  
+20. [TinyPNG](https://tinypng.com/) - efficient compression of images for the site  
+21. [W3Schools](https://www.w3schools.com/) - to assist with code
+22. [WebAIM](https://webaim.org/resources/contrastchecker/) - web accessibility contrast checker
 
 
 [Back to Table of Contents](#table-of-contents)
@@ -242,12 +282,53 @@ Frameworks, Libraries, Programs and Resources Used
 
 [See Testing.md for testing information](TESTING.md)
 
+[Back to Table of Contents](#table-of-contents)  
+
+
+<a id="lessons-learned"></a>  
+# Lessons Learned  
+
+* Don't try and do the whole website at once
+  * other features can be added later  
+  * check for scope creep  
+* How to word commit messages and format them  
+  * You don't need one huge line of text  
+  * You can break the commit messages into different lines  
+* Take regular breaks  
+* You know more than you give yourself credit for  
+* Only go by videos that you have watched throughout the course  
+  * For example, only use Bootstrap 4 as Bootstrap 5 is not supported by Code Institute  
+
 [Back to Table of Contents](#table-of-contents)
 
 <a id="deployment"></a>
 # Deployment  
 
+The code for this website was written in [Gitpod](https://www.gitpod.io/) and pushed to GitHub Pages from its [GitHub repository](https://github.com/Medusas71/Sailing-In-Space) using Chrome browser.
 
+The following process was used to deploy this website:
+
+* In the [GitHub repository](https://github.com/Medusas71/Sailing-In-Space) click [Settings](https://github.com/Medusas71/Sailing-In-Space/settings)
+* Select 'Pages' from the menu on the left hand side
+* [GitHub Pages](https://github.com/Medusas71/Sailing-In-Space/settings/pages) displays
+* Under 'Source', click 'Branch' and select 'Main'
+* Click 'Save'
+* A URL displays advising that you site has been published
+* Use this URL for your live website
+
+Each time the code is pushed from Gitpod to GitHub, the deployed site is automatically published.
+
+**Run this site locally**
+
+You can clone this repository directly into an editor of your choice and run the site locally.
+
+To do this:
+
+* From the [GitHub repository](https://github.com/Medusas71/Sailing-In-Space) which is on the 'Code' heading page
+* Click the dropdown 'Code' button which is next to the green Gitpod button
+* You can either copy the link into your own IDE or 'Download Zip' which can be unzipped on your local machine
+
+Please Note: That if you are wanting to use Gitpod as your IDE you will need to install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/). After installation, restart the browser.
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -256,19 +337,27 @@ Frameworks, Libraries, Programs and Resources Used
 
 Code  
 
+* Dave Horrocks, Code Institute student for his assistance in helping me understand some code  
+and for showing me a new way to do the commits so it isn't all on 1 line  
+* SuzyBee, Code Institute student for her assistance in helping me understand some code  
+* Tutor Support for assistance in helping me understand some code  
+* [W3Schools](https://www.w3schools.com/) for assistance with code  
+* [Responsive CSS Aspect Ratio](https://blog.webdevsimplified.com/2020-12/responsive-css-video/) for how to make the videos responsive  
+
 Content  
+* All content was courtesy of Sailing In Space  
+* The text for the Home Page was created by [JJJ Unearthed](https://www.triplejunearthed.com/artist/sailing-space.html)  
 
 Media 
 * All images are courtesy of Sailing In Space except for the 404 error page
-* 404 error page courtesy of Business Vector created by pikisuperstar - www.freepik.com - 
-https://www.freepik.com/free-vector/error-404-concept-landing-page_4730712.htm#page=1&query=404&position=4   
+* 404 error page courtesy of Business Vector created by pikisuperstar - [www.freepik.com](https://www.freepik.com/free-vector/error-404-concept-landing-page_4730712.htm#page=1&query=404&position=4)   
 
 Readme
 * Table of Contents and the (click to expand or hide) has been sourced from:  
-  * https://gist.github.com/rachelhyman/b1f109155c9dafffe618#real-cool-heading and
-  * https://github.com/ElectricRCAircraftGuy/AlfaWiFiAdapterSoftware/blob/master/README.md#wiki-instructions  
+  * [Rachel Hyman](https://gist.github.com/rachelhyman/b1f109155c9dafffe618#real-cool-heading) and
+  * [Gabriel Staples ElectricRCAircraftGuy](https://github.com/ElectricRCAircraftGuy/AlfaWiFiAdapterSoftware/blob/master/README.md#wiki-instructions)  
 * Nested list spacing has been sourced from:  
-  * https://google.github.io/styleguide/docguide/style.html  
+  * [Markdown Style Guide](https://google.github.io/styleguide/docguide/style.html)
 
 Acknowledgements
 * Sailing In Space, my family and friends for their input and support
