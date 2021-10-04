@@ -9,19 +9,9 @@
     font-style: italic;
     font-size: 50px;
     letter-spacing: 1px;
-    margin-top: 50px;
-    text-align: center;
-}
-
-h1 {
-    color: #13A6DB;
-    margin-top: -1400px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 80px;
-    letter-spacing: 1px;
-    text-align: center;
+    position: absolute;
+    /* top: 10%;
+    left: 50%; */
 }
 
 /*----------------------------------------------------Heading*/
@@ -222,10 +212,23 @@ a {
 /*----------------------------------------------------music.html*/
 
 .bg-music-image {
-    background-repeat: no-repeat;
-    max-width: 100%;
+    position: relative;
+    background: url(assets/images/music/j&d-b&w-music.jpg) no-repeat center;
     width: 100vw;
+    margin: auto;
     opacity: 0.2;
+}
+
+.music-title {   /*------------received assistance from a student in Slack with the positioning*/
+    color: #13A6DB;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 80px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
 }
 
 .new-single {
