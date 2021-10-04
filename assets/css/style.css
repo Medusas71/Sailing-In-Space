@@ -3,7 +3,25 @@
 /*----------------------------------------------------Special paddings/margins/text*/
 
 .page-title {
-    color: red;
+    color: #13A6DB;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: #13A6DB;
+    margin-top: -1400px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 80px;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 /*----------------------------------------------------Heading*/
@@ -44,14 +62,18 @@ body {
     letter-spacing: 1px;
 }
 
-/*----------------------------------------------------Hover*/
+/*----------------------------------------------------Hover/Active*/
 
 a:hover {
     color: #F9F871;
     text-decoration: none;
 }
 
-.nav-link:focus, .nav-link:hover {
+.nav-link:hover {
+    color: #F9F871;
+}
+
+.active {
     color: #F9F871;
 }
 
@@ -200,11 +222,47 @@ a {
 /*----------------------------------------------------music.html*/
 
 .bg-music-image {
-    background-image: url("/assets/images/music/j&d-b&w-music.jpg");
-    background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 100px;
-    height: 100%;
+    max-width: 100%;
+    width: 100vw;
+    opacity: 0.2;
+}
+
+.new-single {
+    color: #13A6DB;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.new-single-text {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.text-block {
+    position: left;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-left: 100px;
+    padding-top: 50px;
+    width: 100vw;
+}
+
+.b-style {
+    color: #13A6DB;
 }
 
 /*----------------------------------------------------media queries*/
