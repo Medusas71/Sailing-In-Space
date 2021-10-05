@@ -219,6 +219,25 @@ a {
     opacity: 0.2;
 }
 
+.col-singles {
+    color: red;
+    /* position: relative; */
+    top: 20%;
+    left: 25%;
+}
+
+.col-coming {
+    color: red;
+    /* position: relative; */
+    top: 20%;
+}
+
+.col-albums {
+    color: red;
+    /* position: relative; */
+    top: 20%;
+}
+
 .music-title {   /*------------received assistance from a student in Slack with the positioning*/
     color: #13A6DB;
     font-family: "Roboto", sans-serif;
@@ -232,13 +251,16 @@ a {
 }
 
 .new-single {
+    position: absolute;
+    top: 20%;
+    left: 50%;
     color: #13A6DB;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: italic;
     font-size: 30px;
     letter-spacing: 1px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .new-single-text {
@@ -252,7 +274,7 @@ a {
 }
 
 .text-block {
-    position: left;
+    /* position: ; */
     color: #fff;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
