@@ -2,17 +2,17 @@
 
 /*----------------------------------------------------Special paddings/margins/text*/
 
-.page-title {
+/* .page-title {
     color: #13A6DB;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 50px;
+    font-size: 30px;
     letter-spacing: 1px;
-    position: absolute;
-    /* top: 10%;
-    left: 50%; */
-}
+    margin-top: 50px;
+    text-align: center;
+} */
+
 
 /*----------------------------------------------------Heading*/
 
@@ -23,6 +23,7 @@ header {
 
 body {
     background-color: #000;
+    margin-bottom: 250px;
 }
 
 .navbar {
@@ -212,59 +213,68 @@ a {
 /*----------------------------------------------------music.html*/
 
 .bg-music-image {
-    position: relative;
-    background: url(assets/images/music/j&d-b&w-music.jpg) no-repeat center;
+    background-repeat: no-repeat;
+    max-width: 100%;
     width: 100vw;
-    margin: auto;
     opacity: 0.2;
 }
 
-.col-singles {
-    color: red;
-    /* position: relative; */
-    top: 20%;
-    left: 25%;
+.music-title {
+    color: #13A6DB;
+    margin-top: -1400px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 25px;
 }
 
-.col-coming {
-    color: red;
-    /* position: relative; */
-    top: 20%;
-}
-
-.col-albums {
-    color: red;
-    /* position: relative; */
-    top: 20%;
-}
-
-.music-title {   /*------------received assistance from a student in Slack with the positioning*/
+.column-title {
     color: #13A6DB;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 80px;
+    font-size: 40px;
     letter-spacing: 1px;
-    position: absolute;
-    top: 10%;
-    left: 50%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.text-block {
+    /* position: right; */
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-left: 100px;
+    padding-top: 25px;
+    /* width: 100vw; */
+}
+
+.btn-style {
+    color: #13A6DB;
+    cursor: pointer;
+}
+
+.modal-title {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    width: 90%;
+}
+
+.modal-body {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
 }
 
 .new-single {
-    position: absolute;
-    top: 20%;
-    left: 50%;
     color: #13A6DB;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 30px;
-    letter-spacing: 1px;
-    /* text-align: center; */
-}
-
-.new-single-text {
-    color: #fff;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: italic;
@@ -273,39 +283,65 @@ a {
     text-align: center;
 }
 
-.text-block {
-    /* position: ; */
-    color: #fff;
+.new-single-text {
+    color: red;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 30px;
+    font-size: 15px;
     letter-spacing: 1px;
-    padding-left: 100px;
-    padding-top: 50px;
-    width: 100vw;
+    text-align: center;
 }
 
-.b-style {
-    color: #13A6DB;
-    cursor: pointer;
-    font-family: "Roboto", sans-serif;
-}
 
-.modal-title, .modal-body {
-    color: #000;
-    font-family: "Roboto", sans-serif;
+#songs-row .row {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /*----------------------------------------------------media queries*/
 
+/*-----extra small devices (portrait, phones, less than 576px)....*/
 @media screen and (max-width: 576px) {
     .main { 
-    margin-bottom: 230px;
+       margin-bottom: 230px;
+    }
+
+    .main-music {
+        margin-top: 0;
+        /* margin-bottom: 230px; */
+    }
+
+    .music-title {
+        color: #13A6DB;
+        margin-top: -115px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 50px;
+        letter-spacing: 1px;
+        text-align: center;
+        padding: 25px;
+    }
+
+    .column-title {
+        color: #13A6DB;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 40px;
+        letter-spacing: 1px;
+        margin-top: 0px;
+        text-align: center;
+        order: 1;
     }
     
     .coming-soon-heading {
         padding-top: 20px;
+    }
+
+    .play-lyrics {
+        display: block;
     }
     
     .footer-links {
@@ -324,8 +360,144 @@ a {
     }
 }
 
+/*-------------------------small devices (landscape, phones, 576px and up)....*/
+
 @media screen and (min-width: 576px) {
     .main {  
-    margin-bottom: 230px;
+        margin-bottom: 230px;
     }
-}
+
+    .main-music {
+        margin-top: 100px;
+        /* margin-bottom: 230px; */
+    }
+
+    .music-title {
+        color: #13A6DB;
+        margin-top: -145px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 50px;
+        letter-spacing: 1px;
+        text-align: center;
+        padding: 25px;
+    }
+
+    .play-lyrics {
+        display: block;
+    }
+ }
+
+/*-------------------------medium devices (tablets, 768px and up)....*/
+
+ @media screen and (min-width: 768px) {
+    .play-lyrics {
+        display: block;
+    }
+
+    .main-music {
+        margin-top: 100px;
+        /* margin-bottom: 230px; */
+    }
+
+    .music-title {
+        color: #13A6DB;        
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 50px;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-top: -500px;
+        padding: 25px;
+    }
+
+    .text-block {
+        /* position: right; */
+        color: #fff;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 20px;
+        letter-spacing: 1px;
+        padding-left: 100px;
+        padding-top: 25px;
+        /* width: 100vw; */
+    }
+ }
+
+ /*-------------------------larger devices (ipad pro, 1024px and up)....*/
+
+ @media screen and (min-width: 1024px) {
+    .play-lyrics {
+        display: block;
+    }
+
+    .main-music {
+        margin-top: 100px;
+        /* margin-bottom: 230px; */
+    }
+
+    .music-title {
+        color: #13A6DB;        
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 50px;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-top: -700px;
+        padding: 25px;
+    }
+
+    .text-block {
+        /* position: right; */
+        color: #fff;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 20px;
+        letter-spacing: 1px;
+        padding-left: 100px;
+        padding-top: 25px;
+        /* width: 100vw; */
+    }
+
+    /*-------------------------extra large devices (large desktop, 1200px and up)....*/
+
+ @media screen and (min-width: 1200px) {
+    .play-lyrics {
+        display: block;
+    }
+
+    .main-music {
+        margin-top: 100px;
+        /* margin-bottom: 230px; */
+    }
+
+    .music-title {
+        color: #13A6DB;        
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 50px;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-top: -700px;
+        padding: 25px;
+    }
+
+    .text-block {
+        /* position: right; */
+        color: #fff;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 20px;
+        letter-spacing: 1px;
+        padding-left: 100px;
+        padding-top: 25px;
+        /* width: 100vw; */
+    }
+ }
