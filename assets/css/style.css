@@ -294,7 +294,7 @@ a {
 }
 
 
-#songs-row .row {
+#songs-row .row { /*-- Received assistance from Tutor Support --*/
     margin-left: 0;
     margin-right: 0;
 }
@@ -340,7 +340,7 @@ a {
         padding-top: 20px;
     }
 
-    .play-lyrics {
+    .play-lyrics { /*-- Received assistance from Tutor Support --*/
         display: block;
     }
     
@@ -384,7 +384,7 @@ a {
         padding: 25px;
     }
 
-    .play-lyrics {
+    .play-lyrics { /*-- Received assistance from Tutor Support --*/
         display: block;
     }
  }
@@ -392,7 +392,7 @@ a {
 /*-------------------------medium devices (tablets, 768px and up)....*/
 
  @media screen and (min-width: 768px) {
-    .play-lyrics {
+    .play-lyrics { /*-- Received assistance from Tutor Support --*/
         display: block;
     }
 
@@ -430,10 +430,6 @@ a {
  /*-------------------------larger devices (ipad pro, 1024px and up)....*/
 
  @media screen and (min-width: 1024px) {
-    .play-lyrics {
-        display: block;
-    }
-
     .main-music {
         margin-top: 100px;
         /* margin-bottom: 230px; */
@@ -461,16 +457,12 @@ a {
         letter-spacing: 1px;
         padding-left: 100px;
         padding-top: 25px;
-        /* width: 100vw; */
+        width: 30vw;
     }
 
     /*-------------------------extra large devices (large desktop, 1200px and up)....*/
 
  @media screen and (min-width: 1200px) {
-    .play-lyrics {
-        display: block;
-    }
-
     .main-music {
         margin-top: 100px;
         /* margin-bottom: 230px; */
@@ -484,7 +476,7 @@ a {
         font-size: 50px;
         letter-spacing: 1px;
         text-align: center;
-        margin-top: -700px;
+        margin-top: -1450px;
         padding: 25px;
     }
 
@@ -498,6 +490,6 @@ a {
         letter-spacing: 1px;
         padding-left: 100px;
         padding-top: 25px;
-        /* width: 100vw; */
+        width: 30vw;
     }
  }
