@@ -2,16 +2,20 @@
 
 /*----------------------------------------------------Special paddings/margins/text*/
 
-/* .page-title {
+
+
+/* .column-title {
     color: #13A6DB;
-    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    /* text-align: center; */
+    /* font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 1px;
-    margin-top: 50px;
-    text-align: center;
-} */
+}  */
 
 
 /*----------------------------------------------------Heading*/
@@ -243,7 +247,6 @@ a {
 }
 
 .text-block {
-    /* position: right; */
     color: #fff;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -252,7 +255,7 @@ a {
     letter-spacing: 1px;
     padding-left: 100px;
     padding-top: 25px;
-    /* width: 100vw; */
+    /* text-align: left; */
 }
 
 .btn-style {
@@ -297,6 +300,191 @@ a {
 #songs-row .row { /*-- Received assistance from Tutor Support --*/
     margin-left: 0;
     margin-right: 0;
+}
+
+/*----------------------------------------------------gigs.html*/
+
+.container-fluid {
+    position: relative;
+    text-align: center;
+    /* color: white; */
+} 
+
+.gigs-background-image {
+    background: url("../images/gigs/jesse-&-dylan-performing.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vw;
+    opacity: 0.5;
+}
+
+.page-background {
+    padding-top: 120px;
+}
+
+.page-title {
+    color: #13A6DB;
+    position: absolute;
+    top: 100px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 25px;
+}
+
+.upcoming-events-two {
+    color: #13A6DB;
+    position: absolute;
+    top: 200px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/* .gigs-title {    
+    color: #13A6DB;
+    position: absolute;
+    top: 100px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+} */
+
+.dates-two {
+    color: #FFF;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: left;
+    /* padding-top: 20px; */
+    /* text-align: center; */
+}
+
+.images-position { 
+    width: 500px;
+    height: 500px;
+}
+
+.upcoming-events-images-one {
+    background-repeat: no-repeat;
+    display: block;
+    /* margin: auto; */
+    padding-top: 30px;
+}
+
+.dates-three {
+    color: #FFF;
+    position: absolute;
+    top: 300px;
+    right: 100px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+    /* padding-top: 20px; */
+    /* text-align: center; */
+}
+
+/* .upcoming-events-pf {
+    color: #13A6DB;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+} */
+
+/* .upcoming-events-vb {
+    color: #13A6DB;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+} */
+
+
+/* .upcoming-events-book {
+    color: #13A6DB;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+} */
+
+.second-event {
+    padding-bottom: 20px;
+}
+
+.column-title-left {
+    color: #13A6DB;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+/* .column-title-middle {
+    color: #13A6DB;
+    position: absolute;
+    top: 250px;
+    left: 45%;
+    /* text-align: center; */
+    /* font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+    letter-spacing: 1px;
+} */
+
+.column-title-right {
+    color: #13A6DB;
+    /* position: absolute; */
+    top: 200px;
+    right: 0;
+    /* text-align: center; */
+    /* margin-left: 750px; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.book-us {
+    color: #13A6DB;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 /*----------------------------------------------------media queries*/
@@ -371,7 +559,7 @@ a {
         margin-top: 100px;
         /* margin-bottom: 230px; */
     }
-
+    
     .music-title {
         color: #13A6DB;
         margin-top: -145px;
@@ -384,7 +572,7 @@ a {
         padding: 25px;
     }
 
-    .play-lyrics { /*-- Received assistance from Tutor Support --*/
+    .play-lyrics { /*-- Received assistance from Tutor Support*/
         display: block;
     }
  }
@@ -392,7 +580,7 @@ a {
 /*-------------------------medium devices (tablets, 768px and up)....*/
 
  @media screen and (min-width: 768px) {
-    .play-lyrics { /*-- Received assistance from Tutor Support --*/
+    .play-lyrics { /*-- Received assistance from Tutor Support*/
         display: block;
     }
 
@@ -414,7 +602,7 @@ a {
     }
 
     .text-block {
-        /* position: right; */
+        position: right;
         color: #fff;
         font-family: "Roboto", sans-serif;
         font-weight: 400;
@@ -422,9 +610,9 @@ a {
         font-size: 20px;
         letter-spacing: 1px;
         padding-left: 100px;
-        padding-top: 25px;
-        /* width: 100vw; */
-    }
+        padding-top: 25px; 
+        /* width: 100vw;  */
+    } 
  }
 
  /*-------------------------larger devices (ipad pro, 1024px and up)....*/
