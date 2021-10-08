@@ -310,57 +310,94 @@ a {
     /* color: white; */
 } 
 
-.gigs-background-image {
-    background: url("../images/gigs/jesse-&-dylan-performing.jpg") no-repeat;
+.row-width {
+    column-width: 100vw;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.bg-gigs-image {
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
-    height: 90vw;
+    /* max-width: 100%; */
+    /* width: 100%; */
+    /* height: 90vw; */
     opacity: 0.5;
 }
 
-.page-background {
+
+
+/* .page-background {
     padding-top: 120px;
-}
+} */
 
 .page-title {
     color: #13A6DB;
     position: absolute;
-    top: 100px;
+    top: 200px;
+    left: 45%;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: italic;
     font-size: 50px;
     letter-spacing: 1px;
-    text-align: center;
+    /* text-align: center; */
     padding: 25px;
 }
 
 .upcoming-events-two {
     color: #13A6DB;
     position: absolute;
-    top: 200px;
+    top: 350px;
+    left: 0%;
     font-family: "Titillium Web", sans-serif;
     font-weight: 600;
     font-style: italic;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 1px;
+    /* text-align: center; */
+}
+
+.first-date {
+    color: #FFF;
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 50px 50px;
     text-align: center;
 }
 
-/* .gigs-title {    
-    color: #13A6DB;
-    position: absolute;
-    top: 100px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 50px;
-    letter-spacing: 1px;
-    text-align: center;
-} */
+.date-padding {
+    padding: 20px;
+}
 
-.dates-two {
+.second-date {
+    color: #FFF;
+    position: absolute;
+    top: 400px;
+    Right: 100px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+
+
+/* .dates-two {
     color: #FFF;
     position: absolute;
     top: 300px;
@@ -373,21 +410,78 @@ a {
     text-align: left;
     /* padding-top: 20px; */
     /* text-align: center; */
-}
+/* }  */
 
-.images-position { 
+/* .images-position { 
     width: 500px;
     height: 500px;
-}
+} */
 
 .upcoming-events-images-one {
     background-repeat: no-repeat;
     display: block;
-    /* margin: auto; */
-    padding-top: 30px;
+    margin: auto;
+    /* height: 200px; */
+    width: 400px;
+    height: 220px;
 }
 
-.dates-three {
+.upcoming-events-images-two {
+    background-repeat: no-repeat;
+    display: block;
+    margin: auto;
+    /* height: 200px; */
+    width: 400px;
+    height: 220px;
+}
+
+.private-functions {
+    color: #13A6DB;
+    position: absolute;
+    top: 800px;
+    left: 10%;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 40px;
+    letter-spacing: 1px;
+    /* text-align: center; */
+}
+
+.bookings {
+    color: #13A6DB;
+    position: absolute;
+    top: 800px;
+    left: 38%;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 40px;
+    letter-spacing: 1px;
+    /* text-align: center; */
+}
+
+.venue-bookings {
+    color: #13A6DB;
+    position: absolute;
+    top: 800px;
+    Right: 300px;
+    left: 60%;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 40px;
+    letter-spacing: 1px;
+    /* text-align: center; */
+}
+
+.blurb {
+    color: red;
+}
+
+
+
+/* .dates-three {
     color: #FFF;
     position: absolute;
     top: 300px;
@@ -397,10 +491,10 @@ a {
     font-style: italic;
     font-size: 16px;
     letter-spacing: 1px;
-    text-align: center;
+    text-align: center; */
     /* padding-top: 20px; */
     /* text-align: center; */
-}
+/* } */
 
 /* .upcoming-events-pf {
     color: #13A6DB;
@@ -433,22 +527,23 @@ a {
     text-align: center;
 } */
 
-.second-event {
+/* .second-event {
     padding-bottom: 20px;
-}
+} */
 
-.column-title-left {
+/* .column-title-left {
     color: #13A6DB;
     position: absolute;
-    top: 200px;
-    left: 0;
-    text-align: center;
+    top: 700px;
+    left: 100px; */
+    /* left: 0; */
+    /* text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: italic;
     font-size: 40px;
-    letter-spacing: 1px;
-}
+    letter-spacing: 1px; */
+/* } */
 
 /* .column-title-middle {
     color: #13A6DB;
@@ -463,29 +558,31 @@ a {
     letter-spacing: 1px;
 } */
 
-.column-title-right {
-    color: #13A6DB;
+/* .column-title-right {
+    color: #13A6DB; */
     /* position: absolute; */
-    top: 200px;
-    right: 0;
+    /* top: 700px;
+    right: 0px; */
+    /* right: 0; */
     /* text-align: center; */
     /* margin-left: 750px; */
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: italic;
     font-size: 40px;
     letter-spacing: 1px;
-}
+} */
 
-.book-us {
+/* .book-us {
     color: #13A6DB;
+    bottom: 350px;
     font-family: "Titillium Web", sans-serif;
     font-weight: 500;
     font-style: italic;
     font-size: 30px;
     letter-spacing: 1px;
     text-align: center;
-}
+} */
 
 /*----------------------------------------------------media queries*/
 
@@ -580,9 +677,9 @@ a {
 /*-------------------------medium devices (tablets, 768px and up)....*/
 
  @media screen and (min-width: 768px) {
-    .play-lyrics { /*-- Received assistance from Tutor Support*/
+    /* .play-lyrics { -- Received assistance from Tutor Support
         display: block;
-    }
+    } */
 
     .main-music {
         margin-top: 100px;
