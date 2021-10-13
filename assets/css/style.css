@@ -20,19 +20,19 @@
 
 /*----------------------------------------------------Heading*/
 
-header {
-    margin: 0;
-    background-color: #000;
-}
-
 body {
     background-color: #000;
     margin-bottom: 250px;
 }
 
+header {
+    margin: 0;
+    /* background-color: #000; */
+}
+
 .navbar {
     min-height: 90px;
-    background-color: #000;
+    /* background-color: #000; */
 }
 
 .logo {
@@ -223,20 +223,35 @@ a {
     opacity: 0.2;
 }
 
-.music-title {
-    color: #13A6DB;
-    margin-top: -1400px;
-    font-family: "Roboto", sans-serif;
+/* .music-title {
+    color: #13A6DB; */
+    /* margin-top: -1400px; */
+    /* font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: italic;
     font-size: 50px;
     letter-spacing: 1px;
     text-align: center;
     padding: 25px;
-}
+} */
 
-.column-title {
+.column-title-left {
     color: #13A6DB;
+    position: absolute;
+    top: 250px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    text-align: center;
+}
+.column-title-centre {
+    color: #13A6DB;
+    position: absolute;
+    top: 250px;
+    left: 35%;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: italic;
@@ -246,21 +261,46 @@ a {
     text-align: center;
 }
 
+.column-title-right {
+    color: #13A6DB;
+    position: absolute;
+    top: 250px;
+    right: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
 .text-block {
     color: #fff;
+    /* position: absolute; */
+    /* left: 0; */
+    margin-left: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: italic;
     font-size: 20px;
     letter-spacing: 1px;
-    padding-left: 100px;
-    padding-top: 25px;
-    /* text-align: left; */
+    padding-bottom: 5px;
+    padding-top: 20px;
+    /* padding-left: 50px;
+    padding-top: 25px; */
+    text-align: left;
+}
+
+.album-songs{
+    margin-left: 100px;
 }
 
 .btn-style {
     color: #13A6DB;
     cursor: pointer;
+    padding-left: 10px;
 }
 
 .modal-title {
@@ -338,8 +378,8 @@ a {
 .page-title {
     color: #13A6DB;
     position: absolute;
-    top: 200px;
-    left: 45%;
+    top: 100px;
+    /* left: 45%; */
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: italic;
@@ -349,10 +389,10 @@ a {
     padding: 25px;
 }
 
-.upcoming-events-two {
+.page-heading {
     color: #13A6DB;
     position: absolute;
-    top: 350px;
+    top: 300px;
     left: 0%;
     font-family: "Titillium Web", sans-serif;
     font-weight: 600;
@@ -444,6 +484,7 @@ a {
     font-weight: 600;
     font-style: italic;
     font-size: 40px;
+    padding: 50px 50px;
     letter-spacing: 1px;
     /* text-align: center; */
 }
@@ -452,7 +493,7 @@ a {
     color: #13A6DB;
     position: absolute;
     top: 800px;
-    left: 38%;
+    left: 33%;
     font-family: "Titillium Web", sans-serif;
     font-weight: 600;
     font-style: italic;
@@ -466,11 +507,12 @@ a {
     position: absolute;
     top: 800px;
     Right: 300px;
-    left: 60%;
+    left: 55%;
     font-family: "Titillium Web", sans-serif;
     font-weight: 600;
     font-style: italic;
     font-size: 40px;
+    padding: 50px 50px;
     letter-spacing: 1px;
     /* text-align: center; */
 }
@@ -479,7 +521,66 @@ a {
     color: red;
 }
 
+.wedding-text {
+    color: #fff;
+    position: absolute;
+    /* text-align: center; */
+    width: 300px;
+    margin-left: 50%;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+    padding: 50px 50px 25px;
+    letter-spacing: 1px;
+}
 
+.wedding-video-one {
+    height: auto;
+    color: #13A6DB;
+    /* position: absolute; */
+    display: block;
+    margin-left: 90%;
+    margin-top: 100%;
+    /* padding: 25px 0 0; */
+    /* width: 100%; */
+    /* left: 50px; */
+    /* margin: center;
+    text-align: center; */
+}
+
+/* .wedding-text {
+    color: #fff;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-left: 140%;
+    text-align: center
+} */
+
+/* .wedding-text-red {
+    color: red;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+} */
+
+.wedding-video-two {
+    height: auto;
+    /* position: absolute; */
+    display: block;
+    margin-left: 110%;
+    padding: 50px 0;
+    /* width: 100%; */
+    /* left: 50px; */
+    /* margin: center;
+    text-align: center; */
+}
 
 /* .dates-three {
     color: #FFF;
@@ -597,7 +698,64 @@ a {
         /* margin-bottom: 230px; */
     }
 
-    .music-title {
+    .page-title {
+        color: #13A6DB;
+        /* position: absolute;
+        top: 100px; */
+        /* left: 45%; */
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 50px;
+        letter-spacing: 1px;
+        /* text-align: center; */
+        padding: 25px;
+    }
+
+    .column-title-centre-media-query {
+        color: #13A6DB;
+        /* position: absolute; */
+        /* top: 250px; */
+        left: 0;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 40px;
+        letter-spacing: 1px;
+        /* margin-top: 50px; */
+        text-align: center;
+    }
+
+    /* .column-title-left-media-query {
+        color: #13A6DB; */
+        /* position: absolute; */
+        /* display: block;
+        top: 250px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 40px;
+        letter-spacing: 1px;
+        margin-top: 50px;
+        text-align: center;
+    } */
+
+    .column-title-right {
+    color: #13A6DB;
+    /* position: absolute;
+    top: 250px; */
+    right: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 40px;
+    letter-spacing: 1px;
+    /* margin-top: 50px; */
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+    /* .music-title {
         color: #13A6DB;
         margin-top: -115px;
         font-family: "Roboto", sans-serif;
@@ -607,7 +765,7 @@ a {
         letter-spacing: 1px;
         text-align: center;
         padding: 25px;
-    }
+    } */
 
     .column-title {
         color: #13A6DB;
@@ -618,7 +776,7 @@ a {
         letter-spacing: 1px;
         margin-top: 0px;
         text-align: center;
-        order: 1;
+        /* order: 1; */
     }
     
     .coming-soon-heading {
@@ -657,7 +815,7 @@ a {
         /* margin-bottom: 230px; */
     }
     
-    .music-title {
+    /* .music-title {
         color: #13A6DB;
         margin-top: -145px;
         font-family: "Roboto", sans-serif;
@@ -667,7 +825,21 @@ a {
         letter-spacing: 1px;
         text-align: center;
         padding: 25px;
-    }
+    } */
+
+    /* .column-title-left-media-query {
+        color: #13A6DB; */
+        /* position: absolute; */
+        /* display: block;
+        top: 250px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 40px;
+        letter-spacing: 1px;
+        margin-top: 50px;
+        text-align: center;
+    } */
 
     .play-lyrics { /*-- Received assistance from Tutor Support*/
         display: block;
@@ -686,7 +858,7 @@ a {
         /* margin-bottom: 230px; */
     }
 
-    .music-title {
+    /* .music-title {
         color: #13A6DB;        
         font-family: "Roboto", sans-serif;
         font-weight: 400;
@@ -696,9 +868,9 @@ a {
         text-align: center;
         margin-top: -500px;
         padding: 25px;
-    }
+    } */
 
-    .text-block {
+    /* .text-block {
         position: right;
         color: #fff;
         font-family: "Roboto", sans-serif;
@@ -707,9 +879,9 @@ a {
         font-size: 20px;
         letter-spacing: 1px;
         padding-left: 100px;
-        padding-top: 25px; 
+        padding-top: 25px;  */
         /* width: 100vw;  */
-    } 
+    /* }  */
  }
 
  /*-------------------------larger devices (ipad pro, 1024px and up)....*/
@@ -720,7 +892,7 @@ a {
         /* margin-bottom: 230px; */
     }
 
-    .music-title {
+    /* .music-title {
         color: #13A6DB;        
         font-family: "Roboto", sans-serif;
         font-weight: 400;
@@ -730,11 +902,11 @@ a {
         text-align: center;
         margin-top: -700px;
         padding: 25px;
-    }
+    } */
 
-    .text-block {
+    /* .text-block { */
         /* position: right; */
-        color: #fff;
+        /* color: #fff;
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-style: italic;
@@ -743,7 +915,7 @@ a {
         padding-left: 100px;
         padding-top: 25px;
         width: 30vw;
-    }
+    } */
  }
 
     /*-------------------------extra large devices (large desktop, 1200px and up)....*/
@@ -754,7 +926,7 @@ a {
         /* margin-bottom: 230px; */
     }
 
-    .music-title {
+    /* .music-title {
         color: #13A6DB;        
         font-family: "Roboto", sans-serif;
         font-weight: 400;
@@ -764,11 +936,11 @@ a {
         text-align: center;
         margin-top: -1450px;
         padding: 25px;
-    }
+    } */
 
-    .text-block {
+    /* .text-block { */
         /* position: right; */
-        color: #fff;
+        /* color: #fff;
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-style: italic;
@@ -777,5 +949,5 @@ a {
         padding-left: 100px;
         padding-top: 25px;
         width: 30vw;
-    }
+    } */
  }
