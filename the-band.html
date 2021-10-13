@@ -34,6 +34,9 @@
           <li class="nav-item">
             <a class="nav-link" href="the-music2.html">The Music2</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gigs.html">Gigs</a>
+          </li>
           <li class="nav-item active">
             <a class="nav-link active" href="the-band.html">The Band <span class="sr-only">(current)</span></a>
           </li>
@@ -45,6 +48,129 @@
     </nav>
   </header>
   <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <!-- Image only displays on medium devices and above -->
+          <img class="img-fluid bg-band-image d-none d-md-block" src="assets/images/band/jesse&dylan-bandpage.jpg" alt="Jesse and Dylan sitting at a table">
+            <h1 class="col-12 page-title">The Band</h1>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">            
+              <p class="sis-name">The name Sailing In space was originally formed when Dylan was in High school. 
+                It was a play on the saying ‘you have your head in the clouds’ and Dylan was brainstorming 
+                of what would be the most progressive version of that particular cliché.<span id="dots">....</span><span id="more">Space was what came to mind as it is above the clouds. And ‘sailing’ came along with the thought of an 
+                action that involves going with the flow. Dylan was making music under the name, which 
+                involved heavy electronic sounds and thumping beats. Later, in 2017 Dylan was living in 
+                an apartment on the Gold Coast and I (Jesse) was wanting to start a musical project after 
+                writing the song ‘Stubborn’ at our residence in Nambour Heights. And so we began.</span></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <button onclick="myFunction()" id="myBtn">Read more</button>
+              <!--Read More Read Less script credits from - w3schools.com-->
+              <script>
+                function myFunction() {
+                  var dots = document.getElementById("dots");
+                  var moreText = document.getElementById("more");
+                  var btnText = document.getElementById("myBtn");
+                
+                  if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more"; 
+                    moreText.style.display = "none";
+                  } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less"; 
+                    moreText.style.display = "inline";
+                  }
+                }
+              </script>
+            </div>
+          </div>        
+          <div class="row">
+            <div class="col-12 col-md-6 jesse-title">
+              <h3>Jesse: Lead Vocals | Keys</h3>
+              <!-- Button trigger modal -->
+              <a class="btn-style" data-toggle="modal" data-target="#jesse-bioModal">Jesse Bio</a>
+              <!-- Modal -->
+              <div class="modal fade" id="jesse-bioModal" tabindex="-1" aria-labelledby="jesse-bioModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="jesse-bioModalLabel">Jesse</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Jesse started writing poems and music in High School and became inspired by both Dylan’s 
+                        talent and music involvement when he was in high school. He came about singing due to his 
+                        brother, Dylan, singing around the house. Jesse got singing lessons and piano lessons so 
+                        he could improve and learn the art professionally. Eventually Jesse decided to pursue a 
+                        solo career in music through school doing both covers and originals. With his writing 
+                        capability he wrote numerous songs with Dylan for his music assignments, such as 
+                        I Am Gallium (on Youtube) and many others. Jesse was happy with how Dylan managed to 
+                        write and produce his songs and decided that in 2017, after writing with Dylan, he 
+                        wanted to start a project with him. Then Sailing In Space started.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>       
+              </div> 
+            </div>
+            <div class="col-12 col-md-6 dylan-title">
+              <h3>Dylan: Vocals | Base</h3>
+              <!-- Button trigger modal -->
+              <a class="btn-style" data-toggle="modal" data-target="#dylan-bioModal">Dylan Bio</a>
+              <!-- Modal -->
+              <div class="modal fade" id="dylan-bioModal" tabindex="-1" aria-labelledby="dylan-bioModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="dylan-bioModalLabel">Dylan</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>DYLAN TEXT !!!!!!!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>       
+              </div>                
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="col">
+      Merchandise
+    </div>
+    <div class="row">
+      Blurb about merchandise
+    </div>
+    <div class="row">
+      <div class="col">
+        t-shirt
+      </div>
+      <div class="col">
+        sticker
+      </div>
+
+    </div>
+  </div>
+          
     
   </section>
   <footer>

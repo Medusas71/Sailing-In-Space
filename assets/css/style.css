@@ -32,7 +32,7 @@ header {
 
 .navbar {
     min-height: 90px;
-    /* background-color: #000; */
+    background-color: #000;
 }
 
 .logo {
@@ -70,6 +70,15 @@ a:hover {
 
 .active {
     color: #F9F871;
+}
+
+#myBtn:hover { 
+    /* background-color: black; */
+    color: #F9F871;
+    /* font-family: "Titillium Web", sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    letter-spacing: 1px; */
 }
 
 .social-links li a i:hover {
@@ -299,6 +308,7 @@ a {
 
 .btn-style {
     color: #13A6DB;
+    font-size: 30px;
     cursor: pointer;
     padding-left: 10px;
 }
@@ -378,7 +388,7 @@ a {
 .page-title {
     color: #13A6DB;
     position: absolute;
-    top: 100px;
+    top: 150px;
     /* left: 45%; */
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -685,6 +695,86 @@ a {
     text-align: center;
 } */
 
+/*----------------------------------------------------The Band*/
+
+.bg-band-image {
+    background-repeat: no-repeat;
+    max-width: 100%;
+    width: 100vw;
+    /* opacity: 0.2; */
+}
+
+.container-fluid {
+    position: absolute;
+}
+
+.sis-name {
+    color: #fff;
+    /* position: absolute; */
+    position: block;
+    margin-bottom: 300px;
+    margin-left: 770px;
+    margin-right: 700px;
+    margin-top: 400px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 1px;
+    /* text-align: center; */
+}
+
+#more {
+    margin-top: 300px;
+    display: none;
+}
+
+#myBtn { 
+    background-color: black;
+    color: #13A6DB;
+    font-family: "Titillium Web", sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 500px;
+}
+
+.jesse-title {
+    color: #fff;
+    position: absolute;
+    margin-top: -1000px;
+    /* margin-left: -700px; */
+    font-family: "Titillium Web", sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.dylan-title {
+    color: #fff;
+    position: absolute;
+    margin-top: -1000px;
+    margin-left: 1100px;
+    font-family: "Titillium Web", sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+
+/* 
+.button-style {
+    font-family: "Titillium Web", sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin: 20px 0px 20px 10px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+} */
+
+
 /*----------------------------------------------------media queries*/
 
 /*-----extra small devices (portrait, phones, less than 576px)....*/
@@ -700,8 +790,8 @@ a {
 
     .page-title {
         color: #13A6DB;
-        /* position: absolute;
-        top: 100px; */
+        position: absolute;
+        top: 100px;
         /* left: 45%; */
         font-family: "Roboto", sans-serif;
         font-weight: 400;
