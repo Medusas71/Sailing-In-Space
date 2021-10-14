@@ -4,30 +4,18 @@
 
 
 
-/* .column-title {
-    color: #13A6DB;
-    position: absolute;
-    top: 250px;
-    left: 0;
-    /* text-align: center; */
-    /* font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 40px;
-    letter-spacing: 1px;
-}  */
+
 
 
 /*----------------------------------------------------Heading*/
 
 body {
     background-color: #000;
-    margin-bottom: 250px;
+    margin-bottom: 270px;
 }
 
 header {
     margin: 0;
-    /* background-color: #000; */
 }
 
 .navbar {
@@ -73,12 +61,7 @@ a:hover {
 }
 
 #myBtn:hover { 
-    /* background-color: black; */
     color: #F9F871;
-    /* font-family: "Titillium Web", sans-serif;
-    font-style: italic;
-    font-size: 24px;
-    letter-spacing: 1px; */
 }
 
 .social-links li a i:hover {
@@ -114,7 +97,7 @@ a:hover {
     font-family: "Titillium Web", sans-serif;
     font-weight: 600;
     font-style: italic;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 1px;
     text-align: center;
 }
@@ -139,7 +122,7 @@ a:hover {
     font-family: "Titillium Web", sans-serif;
     font-weight: 600;
     font-style: italic;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 1px;
     text-align: center;
 }
@@ -149,21 +132,23 @@ a:hover {
     font-family: "Titillium Web", sans-serif;
     font-weight: 300;
     font-style: italic;
-    font-size: 16px;
+    font-size: 28px;
     letter-spacing: 1px;
     padding-top: 20px;
     text-align: center;
 }
 
-.upcoming-events-images{
+.upcoming-events-images {
     background-repeat: no-repeat;
     display: block;
     margin: auto;
     padding-top: 30px;
+    width: 400px;
+    height: 220px;
 }
 
 .second-event {
-    padding-bottom: 20px;
+    padding-bottom: 90px;
 }
 
 .dylan-hero-image {
@@ -197,6 +182,7 @@ a {
     font-family: "Titillium Web", sans-serif;
     font-style: italic;
     font-size: 24px;
+    font-weight: 300;
     letter-spacing: 1px;
     margin: 20px 0px 20px 10px;
     border-radius: 50%;
@@ -232,24 +218,12 @@ a {
     opacity: 0.2;
 }
 
-/* .music-title {
-    color: #13A6DB; */
-    /* margin-top: -1400px; */
-    /* font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 50px;
-    letter-spacing: 1px;
-    text-align: center;
-    padding: 25px;
-} */
-
 .column-title-left {
     color: #13A6DB;
     position: absolute;
     top: 250px;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: italic;
     font-size: 40px;
     letter-spacing: 1px;
@@ -262,7 +236,7 @@ a {
     top: 250px;
     left: 35%;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: italic;
     font-size: 40px;
     letter-spacing: 1px;
@@ -276,7 +250,7 @@ a {
     top: 250px;
     right: 0;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: italic;
     font-size: 40px;
     letter-spacing: 1px;
@@ -287,18 +261,14 @@ a {
 
 .text-block {
     color: #fff;
-    /* position: absolute; */
-    /* left: 0; */
     margin-left: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 20px;
+    font-size: 25px;
     letter-spacing: 1px;
     padding-bottom: 5px;
     padding-top: 20px;
-    /* padding-left: 50px;
-    padding-top: 25px; */
     text-align: left;
 }
 
@@ -329,9 +299,9 @@ a {
 .new-single {
     color: #13A6DB;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: italic;
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 1px;
     text-align: center;
 }
@@ -347,17 +317,16 @@ a {
 }
 
 
-#songs-row .row { /*-- Received assistance from Tutor Support --*/
+/* #songs-row .row { -- Received assistance from Tutor Support --
     margin-left: 0;
     margin-right: 0;
-}
+} */
 
 /*----------------------------------------------------gigs.html*/
 
 .container-fluid {
     position: relative;
     text-align: center;
-    /* color: white; */
 } 
 
 .row-width {
@@ -373,9 +342,6 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* max-width: 100%; */
-    /* width: 100%; */
-    /* height: 90vw; */
     opacity: 0.5;
 }
 
@@ -389,13 +355,11 @@ a {
     color: #13A6DB;
     position: absolute;
     top: 150px;
-    /* left: 45%; */
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: italic;
     font-size: 50px;
     letter-spacing: 1px;
-    /* text-align: center; */
     padding: 25px;
 }
 
@@ -409,7 +373,6 @@ a {
     font-style: italic;
     font-size: 40px;
     letter-spacing: 1px;
-    /* text-align: center; */
 }
 
 .first-date {
@@ -444,34 +407,10 @@ a {
     text-align: center;
 }
 
-
-
-
-/* .dates-two {
-    color: #FFF;
-    position: absolute;
-    top: 300px;
-    left: 100px;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-    font-size: 16px;
-    letter-spacing: 1px;
-    text-align: left;
-    /* padding-top: 20px; */
-    /* text-align: center; */
-/* }  */
-
-/* .images-position { 
-    width: 500px;
-    height: 500px;
-} */
-
 .upcoming-events-images-one {
     background-repeat: no-repeat;
     display: block;
     margin: auto;
-    /* height: 200px; */
     width: 400px;
     height: 220px;
 }
@@ -480,7 +419,6 @@ a {
     background-repeat: no-repeat;
     display: block;
     margin: auto;
-    /* height: 200px; */
     width: 400px;
     height: 220px;
 }
@@ -495,8 +433,7 @@ a {
     font-style: italic;
     font-size: 40px;
     padding: 50px 50px;
-    letter-spacing: 1px;
-    /* text-align: center; */
+    letter-spacing: 1px;    
 }
 
 .bookings {
@@ -509,7 +446,6 @@ a {
     font-style: italic;
     font-size: 40px;
     letter-spacing: 1px;
-    /* text-align: center; */
 }
 
 .venue-bookings {
@@ -524,7 +460,6 @@ a {
     font-size: 40px;
     padding: 50px 50px;
     letter-spacing: 1px;
-    /* text-align: center; */
 }
 
 .blurb {
@@ -534,7 +469,6 @@ a {
 .wedding-text {
     color: #fff;
     position: absolute;
-    /* text-align: center; */
     width: 300px;
     margin-left: 50%;
     font-family: "Titillium Web", sans-serif;
@@ -548,152 +482,17 @@ a {
 .wedding-video-one {
     height: auto;
     color: #13A6DB;
-    /* position: absolute; */
     display: block;
     margin-left: 90%;
     margin-top: 100%;
-    /* padding: 25px 0 0; */
-    /* width: 100%; */
-    /* left: 50px; */
-    /* margin: center;
-    text-align: center; */
 }
-
-/* .wedding-text {
-    color: #fff;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 10px;
-    letter-spacing: 1px;
-    margin-left: 140%;
-    text-align: center
-} */
-
-/* .wedding-text-red {
-    color: red;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 30px;
-    letter-spacing: 1px;
-    text-align: center;
-} */
 
 .wedding-video-two {
     height: auto;
-    /* position: absolute; */
     display: block;
     margin-left: 110%;
     padding: 50px 0;
-    /* width: 100%; */
-    /* left: 50px; */
-    /* margin: center;
-    text-align: center; */
 }
-
-/* .dates-three {
-    color: #FFF;
-    position: absolute;
-    top: 300px;
-    right: 100px;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-    font-size: 16px;
-    letter-spacing: 1px;
-    text-align: center; */
-    /* padding-top: 20px; */
-    /* text-align: center; */
-/* } */
-
-/* .upcoming-events-pf {
-    color: #13A6DB;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 30px;
-    letter-spacing: 1px;
-    text-align: center;
-} */
-
-/* .upcoming-events-vb {
-    color: #13A6DB;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 30px;
-    letter-spacing: 1px;
-    text-align: center;
-} */
-
-
-/* .upcoming-events-book {
-    color: #13A6DB;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 30px;
-    letter-spacing: 1px;
-    text-align: center;
-} */
-
-/* .second-event {
-    padding-bottom: 20px;
-} */
-
-/* .column-title-left {
-    color: #13A6DB;
-    position: absolute;
-    top: 700px;
-    left: 100px; */
-    /* left: 0; */
-    /* text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 40px;
-    letter-spacing: 1px; */
-/* } */
-
-/* .column-title-middle {
-    color: #13A6DB;
-    position: absolute;
-    top: 250px;
-    left: 45%;
-    /* text-align: center; */
-    /* font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 40px;
-    letter-spacing: 1px;
-} */
-
-/* .column-title-right {
-    color: #13A6DB; */
-    /* position: absolute; */
-    /* top: 700px;
-    right: 0px; */
-    /* right: 0; */
-    /* text-align: center; */
-    /* margin-left: 750px; */
-    /* font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 40px;
-    letter-spacing: 1px;
-} */
-
-/* .book-us {
-    color: #13A6DB;
-    bottom: 350px;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-    font-size: 30px;
-    letter-spacing: 1px;
-    text-align: center;
-} */
 
 /*----------------------------------------------------The Band*/
 
@@ -701,7 +500,6 @@ a {
     background-repeat: no-repeat;
     max-width: 100%;
     width: 100vw;
-    /* opacity: 0.2; */
 }
 
 .container-fluid {
@@ -710,7 +508,6 @@ a {
 
 .sis-name {
     color: #fff;
-    /* position: absolute; */
     position: block;
     margin-bottom: 300px;
     margin-left: 770px;
@@ -721,7 +518,6 @@ a {
     font-style: italic;
     font-size: 25px;
     letter-spacing: 1px;
-    /* text-align: center; */
 }
 
 #more {
@@ -743,7 +539,6 @@ a {
     color: #fff;
     position: absolute;
     margin-top: -1000px;
-    /* margin-left: -700px; */
     font-family: "Titillium Web", sans-serif;
     font-style: italic;
     font-size: 24px;
@@ -760,20 +555,6 @@ a {
     font-size: 24px;
     letter-spacing: 1px;
 }
-
-
-/* 
-.button-style {
-    font-family: "Titillium Web", sans-serif;
-    font-style: italic;
-    font-size: 24px;
-    letter-spacing: 1px;
-    margin: 20px 0px 20px 10px;
-    border-radius: 50%;
-    text-align: center;
-    text-decoration: none;
-} */
-
 
 /*----------------------------------------------------media queries*/
 
