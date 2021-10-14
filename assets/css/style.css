@@ -556,6 +556,69 @@ a {
     letter-spacing: 1px;
 }
 
+/*----------------------------------------------------Merchandise*/
+
+.merchandise-title {
+    color: #13A6DB;
+    position: absolute;
+    top: 150px;
+    left: 40%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 50px;
+    letter-spacing: 1px;
+    padding: 25px;
+}
+
+.merch-wording {
+    color: #fff;
+    margin-top: 250px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 1px;
+} 
+
+.shirt-dylan {
+    margin-right: 1600px;
+    margin-left: 200px;
+}
+
+/*----------------------------------------------------carousel*/
+
+.carousel {
+    margin-left: 150px;
+    overflow: hidden;
+    height: 500px;
+    width: 597px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.carousel-caption {
+    top: 40px;
+    color: #13A6DB;
+    z-index: 10;
+}
+
+.carousel .item {
+    height: 500px;
+    width: 400px;
+    background-color: transparent;
+}
+
+.carousel-inner > .item > img {
+    position: relative;
+    margin: 0px auto;
+    min-width: auto;
+    height: 500px;
+    max-width: none;
+}
+
+
+
 /*----------------------------------------------------media queries*/
 
 /*-----extra small devices (portrait, phones, less than 576px)....*/
@@ -573,13 +636,13 @@ a {
         color: #13A6DB;
         position: absolute;
         top: 100px;
-        /* left: 45%; */
+        /* left: 40%; */
         font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-style: italic;
         font-size: 50px;
         letter-spacing: 1px;
-        /* text-align: center; */
+        text-align: center;
         padding: 25px;
     }
 
