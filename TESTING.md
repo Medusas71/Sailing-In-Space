@@ -141,4 +141,14 @@ Testing was conducted manually and through different validator services on each 
 
 **4.    Issue**:  
     I originally had the background image URL on the music page in the HTML instead of the CSS. I was advised by some of the slack students that it was better if I have the URL in the CSS. I tried to put it in the CSS but I was having lots of issues having the image displayed as I wanted it. I spoke to Tutor Support and they advised that there is nothing wrong with having the URL and a huge negative margin to display the text on top of the image.
-* **Fix**: I placed the URL for the background image on the music page back in the HTML and I was able to display the image perfectly.
+* **Fix**: I placed the URL for the background image on the music page back in the HTML and I was able to display the image perfectly.  
+
+**Merchandise Page merchandise.html**
+
+**1.    Issue**: 
+    I was interested in adding a carousel to the merchandise page. I copied the code from Bootstrap, however whenever I would click the arrow on the carousel, the carousel would change size and get larger.  
+* **Fix**: I found the same question asked on [stack overflow](https://stackoverflow.com/questions/49844515/how-do-i-stop-my-bootstrap-carousel-from-changing-size) and found a resolution to the issue by adding an overflow to the css.  
+
+**2.    Issue**;
+    On the carousel the text wouldn't display on the first 2 images, but will display on the 3rd image.  
+* **Fix**: I had a look on Slack and found this article by [Des Cahill](https://slack-files.com/T0L30B202-F8BFVUW8K-afa2370dff) that I copied and modified accordingly. I could then view the text on the carousel and was able to move the text position.

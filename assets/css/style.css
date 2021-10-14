@@ -586,11 +586,11 @@ a {
     margin-left: 200px;
 }
 
-/*----------------------------------------------------carousel*/
+/*----------------------------------------------------carousel - credits to Slack*/
 
 .carousel {
     margin-left: 150px;
-    overflow: hidden;
+    overflow: hidden; /*---credits to stackoverflow---*/
     height: 500px;
     width: 597px;
     margin: 0 auto;
@@ -778,6 +778,8 @@ a {
     .play-lyrics { /*-- Received assistance from Tutor Support*/
         display: block;
     }
+
+  
  }
 
 /*-------------------------medium devices (tablets, 768px and up)....*/
@@ -816,6 +818,14 @@ a {
         padding-top: 25px;  */
         /* width: 100vw;  */
     /* }  */
+
+  /* @media (min-width: 768px) {
+        .carousel-caption p {
+            margin-bottom: 20px;
+            font-size: 21px;
+            line-height: 1.4;
+        } */
+
  }
 
  /*-------------------------larger devices (ipad pro, 1024px and up)....*/

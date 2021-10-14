@@ -298,6 +298,8 @@ Frameworks, Libraries, Programs and Resources Used
 * You know more than you give yourself credit for  
 * Only go by videos that you have watched throughout the course  
   * For example, only use Bootstrap 4 as Bootstrap 5 is not supported by Code Institute  
+* There is so much to learn  
+  * It takes time to introduce new features, it isn't as simple as copying and pasting code from Bootstrap and other sources.
 
 [Back to Table of Contents](#table-of-contents)
 
