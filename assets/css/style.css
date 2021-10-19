@@ -617,7 +617,70 @@ a {
     max-width: none;
 }
 
+/*----------------------------------------------------contact-us*/
 
+.contact-us-form {
+    margin-top: 300px;
+    margin-left: 30px;
+    position: absolute;
+    text-align: left;
+    color: #13A6DB;
+    font-family: "Titillium Web", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.label-position {
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 75px;
+    /* position: relative; */
+}
+
+#name, #email, #phone-number {
+    text-align: left;
+    width: 300px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#subject {
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.text-area {
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.submit-button {
+    margin-left: 30px;
+    background-color: #000;
+    color: #13A6DB;
+    font-family: "Titillium Web", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact-us-image {
+    margin-top: 300px;
+    /* margin-right: 50px; */
+    margin-right: 600px;
+    margin-left: 200px;
+}
 
 /*----------------------------------------------------media queries*/
 
