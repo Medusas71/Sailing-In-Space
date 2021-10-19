@@ -70,13 +70,14 @@ The final project was published on DATE and submitted on DATE.
     they produce.
     * As a potential fan, I would like the opportunity to book the band for a show.
     * As a potential fan, I would like to follow the band on social media.
-    * As a potential fan, I would like to see if the band have played many gigs.
+    * As a potential fan, I would like to see the band at an upcoming gig.
     * As a potential fan, I would like to see the site on all devices such as phone, tablet and desktop.  
 
   * Existing Fans Goals
 
     * As an existing fan, I would like to learn more about the bands history and the band members.
     * As an existing fan, I would like to listen to their songs.
+    * As an existing fan, I would like to sing along to a song with the lyrics.
     * As an existing fan, I would like the opportunity to book the band for a show.
     * As an existing fan, I would like to see what upcoming gigs the band is playing at.
     * As an existing fan, I would like to purchase the bands merchandise.
@@ -87,7 +88,6 @@ The final project was published on DATE and submitted on DATE.
     * As a band member of Sailing In Space, I would like to get more gigs.
     * As a band member of Sailing In Space, I would like the opportunity for fans to purchase
     tickets to upcoming gigs.
-    * As a band member of Sailing In Space, I would like to sell more music.
     * As a band member of Sailing In Space, I would like to sell merchandise.
     * As a band member of Sailing In Space, I would like to increase our social media following.
     * As a band member of Sailing In Space, I would like to receive a record deal.  
@@ -110,19 +110,16 @@ The purpose of this project is to create a website for Sailing In Space that
 showcases their talent to their fans and for a potential record deal.
 
 The site owner goals of this website are:
-  * To sell more music
-  * To sell merchandise
+  * To receive a record deal
   * To get more gigs which include functions and weddings
   * For fans to purchase tickets to upcoming gigs
   * To increase our social media following
-  * To receive a record deal
+  * To sell merchandise
 
 The existing and potential fan goals of this website are:
   * To listen to their music
-  * To purchase their music
   * To attend gigs
   * To learn more about the band
-  * To view photos and videos of the band
   * To purchase merchandise
   * To follow the band on social media
   * To book the band for functions and/or weddings
@@ -137,14 +134,11 @@ The record company goals of this website are:
 
 The features of this project will include:
   * The ability to listen to the bands music
-  * The ability to purchase the bands music
   * The ability to purchase merchandise
   * The ability to learn more about the band
   * The ability to see what gigs they are playing at
-  * The ability to show my interest to attend gigs
   * The ability to contact the band
   * The ability to contact the band for a potential booking
-  * The ability to view photos and videos of the band
   * The ability to go straight to social media platforms from the website
 
 <a id="structure"></a>
@@ -197,9 +191,23 @@ The former [wireframes](/documents/sailing-in-space-wireframes-v1.pdf) have been
 ### 5. Surface  
 
 Colour Scheme  
-  * The main colours will be black #000000 for the background, white #FFFFFF for the text and blue #13A6DB for the Navigation bar, buttons and titles.
-  These colours represent space.  
+  * I wanted to use black and white as colours that represented space. The main colour will be black #000 for the background and white #FFF for the text. I used blue #13A6DB (Cerulean Crayola) for the navigation bar, buttons and titles.
+    The blue was selected from the logo by using [Image Color Picker](https://imagecolorpicker.com/).  
 
+    ![3 Colours](assets/images/readme/3-colours-of-website.JPG)   
+    Colours sourced using [Coolors](https://coolors.co/13a6db-ffffff-000000)  
+  * I came up with this selection by firstly checking [WebAIM](https://webaim.org/resources/contrastchecker/) to ensure that the foreground colour of #13A6DB and the background colour #000 were accessible.  
+    
+  ![WebAIM Contrast Checker](assets/images/readme/webaim-contrast-checker.JPG)  
+  * I then wanted a different colour to display when hovering over a link. I used [Color Space](https://mycolor.space/?hex=%2313A6DB&sub=1) and found the yellow #F9F871 (Icterine) in the generic gradient to use as my link colour.  
+    
+  ![Generic Gradient](assets/images/readme/generic-gradient.JPG)  
+
+  * The final four colours chosen:
+
+  ![Final Colours of Website](assets/images/readme/final-colours-of-website.JPG)  
+  Colours sourced using [Coolors](https://coolors.co/13a6db-f9f871-ffffff-000000)
+  
   Typography  
   * The Roboto font is the main font used throughout the whole website with sans-serif as the fallback font.
   This font was chosen as it compliments the Titillium Web font that is used for the titles.  
@@ -221,7 +229,7 @@ Colour Scheme
 Each page features: 
 * A fixed header that contains:  
   * a logo featured on the left hand side that when clicked takes you to the Home Page  
-  * a responsive navigation bar that includes 3 links - The Music, The Band and Contact Us  
+  * a responsive navigation bar that includes 5 links - The Music, Gigs, The Band, Merchandise and Contact Us  
 * A fixed footer that contains:
   * an About and Contact Us link on the bottom left hand side
   * copywright information placed in the middle
@@ -230,14 +238,55 @@ Each page features:
 The Home Page features:
 * 2 hero images on anything larger than a phone
 * 1 hero image on anything smaller than a tablet
-* The bands new single
-* Upcoming gigs  
+* A link to the bands new single
+* 1 Upcoming Event and a link to further upcoming events that is linked to the Gigs page
 
+The Music Page features: 
+* An opaque background image of Jesse and Dylan playing in black and white
+* The bands singles that you can play and/or read the lyrics
+* A sneak preview to their new video "Like It" where the user has control of 
+when to play the video
+* The songs to the bands album that you can play and/or read the lyrics
+* When any song is played a new tab displays the song in Spotify where the user
+has control of when to press the play button
+* The lyrics all display in their own modals
+
+The Gigs Page features:
+* An opaque background image of Jesse and Dylan playing
+* A list of all their upcoming events with links to each gig in Facebook
+* Information regarding private functions and venue bookings
+* Two videos where the band had played at weddings
+* A link to book the band that is linked to the Contact Us page
+
+The Band Page features:
+* A background image of Jesse and Dylan
+* A partial spiel of how Sailing In Space was formed
+* A 'read more' link to read more about how Sailing In Space was formed
+* A link to a bio on each of the bands members
+
+The Merchandise Page features:
+* A link to order merchandise 
+* A carousel of the bands merchandise that inludes the price of the item
+* An image of the back of the shirt worn by Dylan
+
+The Contact Us Page features:
+* A form to contact the band about bookings, merchandise, general enquiries and anything else
+* Once you click 'submit' on the form, you are taken to a thank you page
+* An image of Sailing in Space
 
 <a id="future-features"></a>
 **Future Features to implement**
 
-* Include Past Events 
+* Include Past Events. This will give the audience an idea of how many gigs 
+they have done and the venues they play at
+* A photo gallery
+* A video gallery
+* Sell the bands music
+* Singles to be a stand-alone page
+* Add thumbnail of album cover and link to album page
+* Add thumbnail of singles and link to singles page
+* SEO Optimised
+
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -265,14 +314,17 @@ Frameworks, Libraries, Programs and Resources Used
 12. [GitPod](https://www.gitpod.io/) - IDE  
 13. [Git](https://git-scm.com/) - version control  
 14. [GitHub](https://github.com/) - hosting service  
-15. [Jim Lynx (Explore Island)](https://github.com/JimLynx/CI-MS1-Explore-Ireland/blob/master/README.md) - for ideas and information from the README file 
-16. [jQuery](https://jquery.com/) - for the responsive navbar  
-17. [Popper.js](https://popper.js.org/) - for the responsive navbar  
-18. [Slack](https://slack.com/) - main source of assistance from other students, developers and documents/resources  
-19. [Snagit](https://www.techsmith.com/screen-capture.html) - screen capture and resizing images  
-20. [TinyPNG](https://tinypng.com/) - efficient compression of images for the site  
-21. [W3Schools](https://www.w3schools.com/) - to assist with code
-22. [WebAIM](https://webaim.org/resources/contrastchecker/) - web accessibility contrast checker
+15. [Image Colour Picker](https://imagecolorpicker.com/) - to select a main colour for navigation bars, buttons
+and titles.
+16. [Jim Lynx (Explore Island)](https://github.com/JimLynx/CI-MS1-Explore-Ireland/blob/master/README.md) - for ideas and information from the README file 
+17. [jQuery](https://jquery.com/) - for the responsive navbar  
+18. [PIXLR](https://pixlr.com/x/) - to reverse a photo  
+19. [Popper.js](https://popper.js.org/) - for the responsive navbar  
+20. [Slack](https://slack.com/) - main source of assistance from other students, developers and documents/resources  
+21. [Snagit](https://www.techsmith.com/screen-capture.html) - screen capture and resizing images  
+22. [TinyPNG](https://tinypng.com/) - efficient compression of images for the site  
+23. [W3Schools](https://www.w3schools.com/) - to assist with code
+24. [WebAIM](https://webaim.org/resources/contrastchecker/) - web accessibility contrast checker
 
 
 [Back to Table of Contents](#table-of-contents)
@@ -299,7 +351,9 @@ Frameworks, Libraries, Programs and Resources Used
 * Only go by videos that you have watched throughout the course  
   * For example, only use Bootstrap 4 as Bootstrap 5 is not supported by Code Institute  
 * There is so much to learn  
-  * It takes time to introduce new features, it isn't as simple as copying and pasting code from Bootstrap and other sources.
+  * It takes time to introduce new features, it isn't as simple as copying and pasting code from Bootstrap and other sources
+  * Don't forget to commit after an introduction of an item. I get too excited learning and playing that
+  I forget to commit regularly
 
 [Back to Table of Contents](#table-of-contents)
 
