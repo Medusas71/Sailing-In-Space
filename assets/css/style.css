@@ -3,7 +3,11 @@
 /*----------------------------------------------------Special paddings/margins/text*/
 
 
-
+.main { 
+    /* margin-bottom: 230px; */
+    min-height: 100%;
+    position: relative;
+}
 
 
 
@@ -103,18 +107,20 @@ a:hover {
 }
 
 .coming-soon-song-title {
-    color: #13A6DB;
+    color: #fff;
     font-family: "Titillium Web", sans-serif;
     font-weight: 500;
     font-style: italic;
-    font-size: 30px;
+    font-size: 24px;
     letter-spacing: 1px;
     text-align: center;
+    padding-bottom: 20px;
 }
 
-.video {
+.new-song-image {
     height: auto;
     width: 100%;
+    padding-bottom: 20px;
 }
 
 .upcoming-events {
@@ -147,9 +153,20 @@ a:hover {
     height: 220px;
 }
 
-.second-event {
-    padding-bottom: 90px;
+.upcoming-events-text {
+    color: #FFF;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    text-align: center;
 }
+
+/* .second-event {
+    padding-bottom: 90px;
+} */
 
 .dylan-hero-image {
     background-repeat: no-repeat;
@@ -502,9 +519,9 @@ a {
     width: 100vw;
 }
 
-.container-fluid {
+/* .container-fluid {
     position: absolute;
-}
+} */
 
 .sis-name {
     color: #fff;
@@ -704,12 +721,14 @@ a {
 /*-----extra small devices (portrait, phones, less than 576px)....*/
 @media screen and (max-width: 576px) {
     .main { 
-       margin-bottom: 230px;
+        /* margin-bottom: 230px; */
+        min-height: 100%;
+        position: relative;
     }
 
     .main-music {
         margin-top: 0;
-        /* margin-bottom: 230px; */
+        margin-bottom: 230px;
     }
 
     .page-title {
