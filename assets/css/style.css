@@ -3,13 +3,12 @@
 /*----------------------------------------------------Special paddings/margins/text*/
 
 
-.main { 
-    /* margin-bottom: 230px; */
-    min-height: 100%;
-    position: relative;
-}
 
 
+  /* .main-music { */
+        /* margin-top: 100px; */
+        /* margin-bottom: 230px; */
+  /* } */
 
 /*----------------------------------------------------Heading*/
 
@@ -43,7 +42,7 @@ header {
     display: inline;    
     color: #13A6DB;
     font-family: "Titillium Web", sans-serif;
-    font-weight: 300;
+    font-weight: 700;
     font-style: italic;
     font-size: 24px;
     letter-spacing: 1px;
@@ -73,6 +72,12 @@ a:hover {
 }
 
 /*----------------------------------------------------Index.html*/
+/* 
+.main {  */
+    /* margin-bottom: 230px; */
+    /* min-height: 100%;
+    position: relative;
+} */
 
 .home-background {
     padding-top: 120px;
@@ -199,10 +204,10 @@ a {
     font-family: "Titillium Web", sans-serif;
     font-style: italic;
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 700;
     letter-spacing: 1px;
     margin: 20px 0px 20px 10px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     text-align: center;
     text-decoration: none;
 }
@@ -228,11 +233,18 @@ a {
 
 /*----------------------------------------------------music.html*/
 
+/* .main-music {  */
+    /* margin-bottom: 230px; */
+    /* min-height: 100%;
+    position: relative;
+} */
+
 .bg-music-image {
     background-repeat: no-repeat;
     max-width: 100%;
     width: 100vw;
     opacity: 0.2;
+    margin-top: 100px;
 }
 
 .column-title-left {
@@ -246,6 +258,8 @@ a {
     letter-spacing: 1px;
     margin-top: 50px;
     text-align: center;
+    /* max-width: 100%; */
+    /* height: auto; */
 }
 .column-title-centre {
     color: #13A6DB;
@@ -259,6 +273,8 @@ a {
     letter-spacing: 1px;
     margin-top: 50px;
     text-align: center;
+    /* max-width: 100%; */
+    /* height: auto; */
 }
 
 .column-title-right {
@@ -272,7 +288,7 @@ a {
     font-size: 40px;
     letter-spacing: 1px;
     margin-top: 50px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     text-align: center;
 }
 
@@ -282,20 +298,21 @@ a {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 1px;
     padding-bottom: 5px;
     padding-top: 20px;
     text-align: left;
 }
 
-.album-songs{
+/* .album-songs{
     margin-left: 100px;
-}
+} */
 
 .btn-style {
     color: #13A6DB;
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: 700;
     cursor: pointer;
     padding-left: 10px;
 }
@@ -314,23 +331,23 @@ a {
 }
 
 .new-single {
-    color: #13A6DB;
+    color: #fff;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: italic;
-    font-size: 30px;
+    font-size: 24px;
     letter-spacing: 1px;
     text-align: center;
 }
 
 .new-single-text {
-    color: red;
+    color: #fff;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: italic;
     font-size: 15px;
     letter-spacing: 1px;
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -342,7 +359,7 @@ a {
 /*----------------------------------------------------gigs.html*/
 
 .container-fluid {
-    position: relative;
+    /* position: relative; */
     text-align: center;
 } 
 
@@ -538,7 +555,7 @@ a {
 }
 
 #more {
-    margin-top: 300px;
+    margin-top: 280px;
     display: none;
 }
 
@@ -547,9 +564,10 @@ a {
     color: #13A6DB;
     font-family: "Titillium Web", sans-serif;
     font-style: italic;
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: 700;
     letter-spacing: 1px;
-    margin-bottom: 500px;
+    margin-bottom: 20px;
 }
 
 .jesse-title {
@@ -720,16 +738,17 @@ a {
 
 /*-----extra small devices (portrait, phones, less than 576px)....*/
 @media screen and (max-width: 576px) {
-    .main { 
+    /* .main {  */
         /* margin-bottom: 230px; */
-        min-height: 100%;
+        /* min-height: 100%;
         position: relative;
-    }
+    } */
 
-    .main-music {
+
+    /* .main-music {
         margin-top: 0;
         margin-bottom: 230px;
-    }
+    } */
 
     .page-title {
         color: #13A6DB;
@@ -745,18 +764,33 @@ a {
         padding: 25px;
     }
 
-    .column-title-centre-media-query {
-        color: #13A6DB;
+    .column-title-left {
+        /* color: #13A6DB; */
         /* position: absolute; */
-        /* top: 250px; */
-        left: 0;
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
+        top: 900px;
+        /* font-family: "Roboto", sans-serif;
+        font-weight: 600;
         font-style: italic;
         font-size: 40px;
         letter-spacing: 1px;
+        margin-top: 50px;
+        text-align: center; */
+        /* max-width: 100%; */
+        /* height: auto; */
+    }
+
+    .column-title-centre-media-query {
+        /* color: #13A6DB; */
+        /* position: absolute; */
+        top: 150px;
+        left: 0;
+        /* font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 40px;
+        letter-spacing: 1px; */
         /* margin-top: 50px; */
-        text-align: center;
+        /* text-align: center; */
     }
 
     /* .column-title-left-media-query {
@@ -773,18 +807,19 @@ a {
         text-align: center;
     } */
 
-    .column-title-right {
-    color: #13A6DB;
-    /* position: absolute;
-    top: 250px; */
+.column-title-right {
+    /* color: #13A6DB; */
+    /* position: absolute; */
+    top: 1200px;
     right: 0;
-    font-family: "Roboto", sans-serif;
+    left: 0;
+    /* font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: italic;
     font-size: 40px;
-    letter-spacing: 1px;
+    letter-spacing: 1px; */
     /* margin-top: 50px; */
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     text-align: center;
 }
 
@@ -839,14 +874,14 @@ a {
 /*-------------------------small devices (landscape, phones, 576px and up)....*/
 
 @media screen and (min-width: 576px) {
-    .main {  
+    /* .main {  
         margin-bottom: 230px;
-    }
+    } */
 
-    .main-music {
-        margin-top: 100px;
+    /* .main-music {
+        margin-top: 100px; */
         /* margin-bottom: 230px; */
-    }
+    /* } */
     
     /* .music-title {
         color: #13A6DB;
@@ -888,10 +923,10 @@ a {
         display: block;
     } */
 
-    .main-music {
-        margin-top: 100px;
+    /* .main-music {
+        margin-top: 100px; */
         /* margin-bottom: 230px; */
-    }
+    /* } */
 
     /* .music-title {
         color: #13A6DB;        
@@ -930,10 +965,10 @@ a {
  /*-------------------------larger devices (ipad pro, 1024px and up)....*/
 
  @media screen and (min-width: 1024px) {
-    .main-music {
-        margin-top: 100px;
+    /* .main-music { */
+        /* margin-top: 100px; */
         /* margin-bottom: 230px; */
-    }
+    /* } */
 
     /* .music-title {
         color: #13A6DB;        
@@ -964,10 +999,10 @@ a {
     /*-------------------------extra large devices (large desktop, 1200px and up)....*/
 
  @media screen and (min-width: 1200px) {
-    .main-music {
-        margin-top: 100px;
+    /* .main-music {
+        margin-top: 100px; */
         /* margin-bottom: 230px; */
-    }
+    /* } */
 
     /* .music-title {
         color: #13A6DB;        
