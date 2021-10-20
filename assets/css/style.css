@@ -2,8 +2,13 @@
 
 /*----------------------------------------------------Special paddings/margins/text*/
 
+h1, h2, h4, h5 {
+    font-weight: 700;;
+}
 
-
+.blue-text {
+    font-weight: 700;
+}
 
   /* .main-music { */
         /* margin-top: 100px; */
@@ -161,7 +166,7 @@ a:hover {
 .upcoming-events-text {
     color: #FFF;
     font-family: "Titillium Web", sans-serif;
-    font-weight: 300;
+    font-weight: 600;
     font-style: italic;
     font-size: 24px;
     letter-spacing: 1px;
@@ -390,7 +395,7 @@ a {
     position: absolute;
     top: 150px;
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-style: italic;
     font-size: 50px;
     letter-spacing: 1px;
@@ -403,7 +408,7 @@ a {
     top: 300px;
     left: 0%;
     font-family: "Titillium Web", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: italic;
     font-size: 40px;
     letter-spacing: 1px;
@@ -666,10 +671,11 @@ a {
     letter-spacing: 1px;
 }
 
-.label-position {
+.label-text {
     margin-right: 30px;
     margin-left: 30px;
     width: 75px;
+    font-weight: 700;
     /* position: relative; */
 }
 
@@ -707,7 +713,7 @@ a {
     font-family: "Titillium Web", sans-serif;
     font-style: italic;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .contact-us-image {
@@ -726,7 +732,7 @@ a {
     left: 35%;
     /* left: 40%; */
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: italic;
     font-size: 20px;
     letter-spacing: 1px;
@@ -756,7 +762,7 @@ a {
         top: 100px;
         /* left: 40%; */
         font-family: "Roboto", sans-serif;
-        font-weight: 400;
+        font-weight: 700;
         font-style: italic;
         font-size: 50px;
         letter-spacing: 1px;
