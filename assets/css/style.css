@@ -422,7 +422,7 @@ a {
     font-family: "Titillium Web", sans-serif;
     font-weight: 300;
     font-style: italic;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 1px;
     padding: 50px 50px;
     text-align: center;
@@ -440,7 +440,7 @@ a {
     font-family: "Titillium Web", sans-serif;
     font-weight: 300;
     font-style: italic;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 1px;
     padding-top: 50px;
     text-align: center;
@@ -465,21 +465,21 @@ a {
 .private-functions {
     color: #13A6DB;
     position: absolute;
-    top: 800px;
-    left: 10%;
+    top: 900px;
+    left: 20%;
     font-family: "Titillium Web", sans-serif;
     font-weight: 600;
     font-style: italic;
     font-size: 40px;
-    padding: 50px 50px;
+    padding: 100px 50px 50px;
     letter-spacing: 1px;    
 }
 
 .bookings {
     color: #13A6DB;
     position: absolute;
-    top: 800px;
-    left: 33%;
+    top: 900px;
+    /* left: 33%; */
     font-family: "Titillium Web", sans-serif;
     font-weight: 600;
     font-style: italic;
@@ -497,15 +497,21 @@ a {
     font-weight: 600;
     font-style: italic;
     font-size: 40px;
-    padding: 50px 50px;
+    padding: 100px 50px 50px;
     letter-spacing: 1px;
 }
 
-.blurb {
-    color: red;
+.functions-venues {
+    color: #fff;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 1px;
+    top: 1000px;
 }
 
-.wedding-text {
+/* .wedding-text {
     color: #fff;
     position: absolute;
     width: 300px;
@@ -516,20 +522,20 @@ a {
     font-size: 20px;
     padding: 50px 50px 25px;
     letter-spacing: 1px;
-}
+} */
 
 .wedding-video-one {
     height: auto;
     color: #13A6DB;
     display: block;
     margin-left: 90%;
-    margin-top: 100%;
+    margin-top: 50%;
 }
 
 .wedding-video-two {
     height: auto;
     display: block;
-    margin-left: 110%;
+    margin-left: 500px;
     padding: 50px 0;
 }
 

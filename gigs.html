@@ -63,6 +63,12 @@
         <div class="row">
           <div class="col-12 col-md-6 first-date">
             <h3 class="date-padding">1 Oct 21 - 3 Oct 21</h3>
+            <p>Venue: Greaser Bar, Fortitude Valley<br>
+               259A Brunswick Street, Brisbane Qld</p>
+            <p>Starts at 5pm 1st October</p>
+            <p>For full details of this event and to purchase<br> 
+              tickets - Check out <a href="https://www.facebook.com/events/168270678669744/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D" 
+              target="_blank" class="blue-text">Facebook</p>
             <a href="https://www.facebook.com/events/168270678669744/?acontext=%7B%22event_action_history%22%3A[%7B%22surface%22%3A%22page%22%7D]%7D" 
                 target="_blank">
               <img class="upcoming-events-images-one img-fluid" src="assets/images/homepage/bands-&-rec-weekender-1-oct-2021.jfif" alt="Bands and Rec Weekender">
@@ -70,44 +76,71 @@
           </div>
           <div class="col-12 col-md-6 second-date">
             <h3 class="date-padding">17 Oct 21</h3>
+            <p>Venue: Mo's Desert Clubhouse<br>
+               6/36 Central Drive, Burleigh Heads Qld</p>
+           <p>Time: 4pm - 10pm</p>
+           <p>For full details of this event and to purchase<br> 
+            tickets - Check out <a href="https://www.mosdesertclubhouse.com/events/electric-farmers-club/pick-tickets" 
+            target="_blank" class="blue-text">Facebook</p>
               <a href="https://www.mosdesertclubhouse.com/events/electric-farmers-club/pick-tickets" target="_blank">
                 <img class="upcoming-events-images-two img-fluid" src="assets/images/homepage/sametime-17-oct-2021.jpg" alt="Sametime">
               </a>
           </div>
         <div class="row">
-          <div class="col-12 col-md-4 private-functions">
-            <h2>Private Functions</h2>
-            <p class="blurb">Blurb goes here</p>
-          </div>
-          <div class="col-12 col-md-4 bookings">
+          <div class="col-12 bookings">
             <div class="btn-style">
-            <a href="contact-us.html"><h1>Book Us Now</h1></a>
+              <a href="contact-us.html"><h1>Book Us Now</h1></a>
             </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 private-functions">
+            <h2>Private Functions and Venue Bookings</h2>
+            <p class="functions-venues">Sailing In Space have entertained a diverse range 
+              of people at a variety of events since forming a collection of 
+              <span id="dots">....</span><span id="more">live songs, both original and covers.<br>
+              They've played two weddings, two Corporate Christmas parties and many birthday parties. 
+              If you decide to book Sailing In Space for your function, you won't be able to resist 
+              getting on your feet and dancing to their 80's pop cover tunes and jumping to their 
+              funky, club pumping originals.</span></p>
             <div class="row">
-              <div class="col-12 col-md-4">
-                <p class="wedding-text">Wedding videos<br></p>
-                <video class="wedding-video-one" controls>
-                  <source src="assets/videos/uptownfunk.mp4" type="video/mp4">
-                  <source src="assets/videos/uptownfunk.ogg" type="video/ogg">
-                </video>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12 col-md-4">
-                <video class="wedding-video-two" controls>
-                  <source src="assets/videos/wedding.mp4" type="video/mp4">
-                  <source src="assets/videos/wedding.ogg" type="video/ogg">
-                </video>
+              <div class="col-12">
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+                <!--Read More Read Less script credits from - w3schools.com-->
+                <script>
+                  function myFunction() {
+                    var dots = document.getElementById("dots");
+                    var moreText = document.getElementById("more");
+                    var btnText = document.getElementById("myBtn");
+                  
+                    if (dots.style.display === "none") {
+                      dots.style.display = "inline";
+                      btnText.innerHTML = "Read more"; 
+                      moreText.style.display = "none";
+                    } else {
+                      dots.style.display = "none";
+                      btnText.innerHTML = "Read less"; 
+                      moreText.style.display = "inline";
+                    }
+                  }
+                </script>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-4 venue-bookings">
-            <h2>Venue Bookings</h2>
-            <p class="blurb">Blurb goes here</p>
-          </div>         
-        </div>
-        </div>
-       </div>
+        </div>             
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <!-- <p class="wedding-text">Wedding videos<br></p> -->
+            <video class="wedding-video-one" controls>
+              <source src="assets/videos/uptownfunk.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>        
+          <div class="col-12 col-md-6">
+            <video class="wedding-video-two" controls>
+              <source src="assets/videos/wedding.mp4" type="video/mp4">
+            </video>
+          </div>        
       </div>
     </div>
   </section>
