@@ -63,40 +63,31 @@ The final project was published on DATE and submitted on DATE.
   <a id="user-stories"></a>
 ## User Stories  
 
-  * Potential Fans Goals
+  * Fan Goals - which include potential fans and existing fans  
 
-    * As a potential fan, I would like to learn about the bands history and the band members.
-    * As a potential fan, I would like to listen to their songs to find out what kind of music
-    they produce.
-    * As a potential fan, I would like the opportunity to book the band for a show.
-    * As a potential fan, I would like to follow the band on social media.
-    * As a potential fan, I would like to see the band at an upcoming gig.
-    * As a potential fan, I would like to see the site on all devices such as phone, tablet and desktop.  
+    * As a fan, I would like to listen to their songs
+    * As a fan, I would like to learn about the bands history and the band members
+    * As a fan, I would like to follow the band on social media
+    * As a fan, I would like to see the band at an upcoming gig
+    * As a fan, I would like the opportunity to book the band for a show
+    * As a fan, I would like to read the lyrics whilst listening to their songs
+    * As a fan, I would like to purchase the bands merchandise
+    * As a fan, I would like to see the site on all devices such as phone, tablet and desktop  
 
-  * Existing Fans Goals
+  * Site Owner Goals  
 
-    * As an existing fan, I would like to learn more about the bands history and the band members.
-    * As an existing fan, I would like to listen to their songs.
-    * As an existing fan, I would like to sing along to a song with the lyrics.
-    * As an existing fan, I would like the opportunity to book the band for a show.
-    * As an existing fan, I would like to see what upcoming gigs the band is playing at.
-    * As an existing fan, I would like to purchase the bands merchandise.
-    * As an existing fan, I would like to see the site on all devices such as phone, tablet and desktop.  
-
-  * Site Owner Goals
-
-    * As a band member of Sailing In Space, I would like to get more gigs.
+    * As a band member of Sailing In Space, I would like to get more gigs
     * As a band member of Sailing In Space, I would like the opportunity for fans to purchase
-    tickets to upcoming gigs.
-    * As a band member of Sailing In Space, I would like to sell merchandise.
-    * As a band member of Sailing In Space, I would like to increase our social media following.
-    * As a band member of Sailing In Space, I would like to receive a record deal.  
+    tickets to upcoming gigs
+    * As a band member of Sailing In Space, I would like to sell merchandise
+    * As a band member of Sailing In Space, I would like to increase our social media following
+    * As a band member of Sailing In Space, I would like to receive a record deal  
+  
+  * Record Company Goals  
 
-  * Record Company Goals
-
-    * As a record company, I would like to listen to the bands music.
-    * As a record company, I would like to find out if they already have signed a record deal.
-    * As a record company, I would like to contact the band.  
+    * As a record company, I would like to listen to the bands music
+    * As a record company, I would like to find out if they already have signed a record deal
+    * As a record company, I would like to contact the band 
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -138,7 +129,6 @@ The features of this project will include:
   * The ability to learn more about the band
   * The ability to see what gigs they are playing at
   * The ability to contact the band
-  * The ability to contact the band for a potential booking
   * The ability to go straight to social media platforms from the website
 
 <a id="structure"></a>
@@ -306,25 +296,26 @@ Frameworks, Libraries, Programs and Resources Used
 4. [Bootstrap 4.6 CDN](https://getbootstrap.com/docs/4.6/getting-started/introduction/) - to make the website responsive  
 5. [Code Insitute course content](https://learn.codeinstitute.net/login?next=/) - main source of fundamental knowledge  
 6. [Commonmark](https://commonmark.org/help/) - markdown language references  
-7. [Favicon Generator](https://favicon.io/favicon-generator/) - to generate the favicon  
-8. [Facebook](https://www.facebook.com/SailingInSpace) - for the images and videos  
-9. [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2) - for their icons  
-10. [Freepik](https://www.freepik.com) - 404 error page  
-11. [Google Fonts](https://fonts.google.com/) - typography  
-12. [GitPod](https://www.gitpod.io/) - IDE  
-13. [Git](https://git-scm.com/) - version control  
-14. [GitHub](https://github.com/) - hosting service  
-15. [Image Colour Picker](https://imagecolorpicker.com/) - to select a main colour for navigation bars, buttons
+7. [Coolors](https://coolors.co/) - to display colour palettes
+8. [Favicon Generator](https://favicon.io/favicon-generator/) - to generate the favicon  
+9. [Facebook](https://www.facebook.com/SailingInSpace) - for the images and videos  
+10. [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2) - for their icons  
+11. [Freepik](https://www.freepik.com) - 404 error page  
+12. [Google Fonts](https://fonts.google.com/) - typography  
+13. [GitPod](https://www.gitpod.io/) - IDE  
+14. [Git](https://git-scm.com/) - version control  
+15. [GitHub](https://github.com/) - hosting service  
+16. [Image Colour Picker](https://imagecolorpicker.com/) - to select a main colour for navigation bars, buttons
 and titles.
-16. [Jim Lynx (Explore Island)](https://github.com/JimLynx/CI-MS1-Explore-Ireland/blob/master/README.md) - for ideas and information from the README file 
-17. [jQuery](https://jquery.com/) - for the responsive navbar  
-18. [PIXLR](https://pixlr.com/x/) - to reverse a photo  
-19. [Popper.js](https://popper.js.org/) - for the responsive navbar  
-20. [Slack](https://slack.com/) - main source of assistance from other students, developers and documents/resources  
-21. [Snagit](https://www.techsmith.com/screen-capture.html) - screen capture and resizing images  
-22. [TinyPNG](https://tinypng.com/) - efficient compression of images for the site  
-23. [W3Schools](https://www.w3schools.com/) - to assist with code
-24. [WebAIM](https://webaim.org/resources/contrastchecker/) - web accessibility contrast checker
+17. [Jim Lynx (Explore Island)](https://github.com/JimLynx/CI-MS1-Explore-Ireland/blob/master/README.md) - for ideas and information from the README file 
+18. [jQuery](https://jquery.com/) - for the responsive navbar  
+19. [PIXLR](https://pixlr.com/x/) - to reverse a photo  
+20. [Popper.js](https://popper.js.org/) - for the responsive navbar  
+21. [Slack](https://slack.com/) - main source of assistance from other students, developers and documents/resources  
+22. [Snagit](https://www.techsmith.com/screen-capture.html) - screen capture and resizing images  
+23. [TinyPNG](https://tinypng.com/) - efficient compression of images for the site  
+24. [W3Schools](https://www.w3schools.com/) - to assist with code
+25. [WebAIM](https://webaim.org/resources/contrastchecker/) - web accessibility contrast checker
 
 
 [Back to Table of Contents](#table-of-contents)
@@ -352,7 +343,7 @@ and titles.
   * For example, only use Bootstrap 4 as Bootstrap 5 is not supported by Code Institute  
 * There is so much to learn  
   * It takes time to introduce new features, it isn't as simple as copying and pasting code from Bootstrap and other sources
-  * Don't forget to commit after an introduction of an item. I get too excited learning and playing that
+* Don't forget to commit after an introduction of an item. I get too excited learning and playing that
   I forget to commit regularly
 
 [Back to Table of Contents](#table-of-contents)
