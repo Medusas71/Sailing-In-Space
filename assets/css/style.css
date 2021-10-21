@@ -547,21 +547,21 @@ a {
     width: 100vw;
 }
 
-/* .container-fluid {
+.container-fluid {
     position: absolute;
-} */
+}
 
 .sis-name {
     color: #fff;
     position: block;
-    margin-bottom: 300px;
-    margin-left: 770px;
-    margin-right: 700px;
-    margin-top: 400px;
+    /* margin-bottom: 300px; */
+    margin-left: 600px;
+    margin-right: 500px;
+    margin-top: 300px;
     font-family: "Titillium Web", sans-serif;
     font-weight: 500;
     font-style: italic;
-    font-size: 25px;
+    font-size: 15px;
     letter-spacing: 1px;
 }
 
@@ -584,7 +584,7 @@ a {
 .jesse-title {
     color: #fff;
     position: absolute;
-    margin-top: -1000px;
+    top: 400px;
     font-family: "Titillium Web", sans-serif;
     font-style: italic;
     font-size: 24px;
@@ -594,8 +594,8 @@ a {
 .dylan-title {
     color: #fff;
     position: absolute;
-    margin-top: -1000px;
-    margin-left: 1100px;
+    top: 400px;
+    margin-left: 900px;
     font-family: "Titillium Web", sans-serif;
     font-style: italic;
     font-size: 24px;
