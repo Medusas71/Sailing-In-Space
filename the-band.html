@@ -19,13 +19,16 @@
 </head>
 <body>
   <header>
+    <!-- Header - Logo and Navigation Bar. Navbar code sourced from Boostrap v4.6 -->
     <nav class="navbar navbar-expand-lg fixed-top">
+      <!-- Image used for logo -->
       <a href="index.html" class="col-4 logo">
-        <!-- Image used for logo -->
       </a>
+      <!-- Hamburger and Navbar. Hamburger and Navbar code sourced from Bootstrap v4.6 -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
-      </button>    
+      </button>
+      <!-- Navbar links - code sourced from Bootstrap v4.6 -->  
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -48,10 +51,12 @@
     </nav>
   </header>
   <section>
+    <!-- Main Section of the Band Page - Grid system code sourced from Bootstrap v4.6 -->    
     <div class="container-fluid">
       <div class="row">
         <div class="col-12">
-          <!-- Image only displays on medium devices and above -->
+          <!-- Image only displays on medium devices and above - Hiding elements code sourced
+          from Bootstrap v4.6 -->
           <img class="img-fluid bg-band-image" src="assets/images/band/jesse&dylan-bandpage.jpg" alt="Jesse and Dylan sitting at a table">
             <h1 class="col-12 page-title">The Band</h1>
         </div>
@@ -72,7 +77,7 @@
           <div class="row">
             <div class="col-12">
               <button onclick="myFunction()" id="myBtn">Read more</button>
-              <!--Read More Read Less script credits from - w3schools.com-->
+              <!--Read More Read Less script code and functionality sourced from - w3schools.com-->
               <script>
                 function myFunction() {
                   var dots = document.getElementById("dots");
@@ -95,9 +100,9 @@
           <div class="row">
             <div class="col-12 col-md-6 jesse-title">
               <h3>Jesse: Lead Vocals | Keys</h3>
-              <!-- Button trigger modal -->
+              <!-- Button trigger modal - Modal code sourced from Bootstrap v4.6 -->
               <a class="btn-style" data-toggle="modal" data-target="#jesse-bioModal">Jesse Bio</a>
-              <!-- Modal -->
+              <!-- Modal - code sourced from Bootstrap v4.6 -->
               <div class="modal fade" id="jesse-bioModal" tabindex="-1" aria-labelledby="jesse-bioModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
                   <div class="modal-content">
@@ -127,9 +132,9 @@
             </div>
             <div class="col-12 col-md-6 dylan-title">
               <h3>Dylan: Vocals | Base</h3>
-              <!-- Button trigger modal -->
+              <!-- Button trigger modal - Modal code sourced from Bootstrap v4.6 -->
               <a class="btn-style" data-toggle="modal" data-target="#dylan-bioModal">Dylan Bio</a>
-              <!-- Modal -->
+              <!-- Modal - code sourced from Bootstrap v4.6 -->
               <div class="modal fade" id="dylan-bioModal" tabindex="-1" aria-labelledby="dylan-bioModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
                   <div class="modal-content">
@@ -166,6 +171,7 @@
       </div>
     </div>
   </section>
+  <!-- Footer -->
   <footer>
     <div class="footer-background fixed-bottom">
       <div class="footer-links column-button-style">
@@ -181,6 +187,7 @@
         <p>Developed by Megan Vella</p>
       </div>
       <div class="d-flex">
+        <!-- Social Media Icons/Links - Icons sourced from Font Awesome -->
         <ul class="list-inline social-links">
           <li class="list-inline-item">
             <a href="https://www.facebook.com/SailingInSpace" target="_blank">
