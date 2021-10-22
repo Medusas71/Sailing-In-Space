@@ -2,25 +2,53 @@
 
 /*----------------------------------------------------Special paddings/margins/text*/
 
-h1, h2, h4, h5 {
+body {
+    background-color: #000;
+    /* margin-bottom: 270px; */
+}
+
+.container-fluid {
+    position: absolute;
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5 {
     font-weight: 700;;
+    font-family: "Titillium Web", sans-serif;
 }
 
 .blue-text {
     font-weight: 700;
 }
 
-  /* .main-music { */
-        /* margin-top: 100px; */
-        /* margin-bottom: 230px; */
-  /* } */
+.page-title {
+    color: #13A6DB;
+    position: absolute;
+    top: 150px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 50px;
+    letter-spacing: 1px;
+    padding: 25px;
+}
+
+.btn-style {
+    color: #13A6DB;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
 
 /*----------------------------------------------------Heading*/
-
-body {
-    background-color: #000;
-    margin-bottom: 270px;
-}
 
 header {
     margin: 0;
@@ -76,7 +104,7 @@ a:hover {
     color: #F9F871;
 }
 
-/*----------------------------------------------------Index.html*/
+/*----------------------------------------------------index.html*/
 /* 
 .main {  */
     /* margin-bottom: 230px; */
@@ -109,7 +137,7 @@ a:hover {
 .coming-soon-heading {
     color: #13A6DB;
     font-family: "Titillium Web", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: italic;
     font-size: 40px;
     letter-spacing: 1px;
@@ -118,8 +146,8 @@ a:hover {
 
 .coming-soon-song-title {
     color: #fff;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-style: italic;
     font-size: 24px;
     letter-spacing: 1px;
@@ -133,10 +161,10 @@ a:hover {
     padding-bottom: 20px;
 }
 
-.upcoming-events {
+.upcoming-events-heading {
     color: #13A6DB;
     font-family: "Titillium Web", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: italic;
     font-size: 40px;
     letter-spacing: 1px;
@@ -145,7 +173,7 @@ a:hover {
 
 .dates {
     color: #FFF;
-    font-family: "Titillium Web", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: italic;
     font-size: 28px;
@@ -165,7 +193,7 @@ a:hover {
 
 .upcoming-events-text {
     color: #FFF;
-    font-family: "Titillium Web", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-style: italic;
     font-size: 24px;
@@ -174,12 +202,41 @@ a:hover {
     text-align: center;
 }
 
-/* .second-event {
-    padding-bottom: 90px;
-} */
-
 .dylan-hero-image {
     background-repeat: no-repeat;
+}
+
+/*----------------------------------------------------Modal*/
+
+.modal-title {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    width: 90%;
+}
+
+.modal-body {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+/*----------------------------------------------------Read-more-Read-less-button*/
+
+#more {
+    margin-top: 280px;
+    display: none;
+}
+
+#myBtn { 
+    background-color: black;
+    color: #13A6DB;
+    font-family: "Titillium Web", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
 }
 
 /*----------------------------------------------------Footer*/
@@ -212,16 +269,15 @@ a {
     font-weight: 700;
     letter-spacing: 1px;
     margin: 20px 0px 20px 10px;
-    /* border-radius: 50%; */
     text-align: center;
     text-decoration: none;
 }
 
 .copywright-style {
     color: #FFF;
-    font-family: "Titillium Web", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: italic;
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 1px;
     line-height: 5px;
     margin-top: 20px;
@@ -238,12 +294,6 @@ a {
 
 /*----------------------------------------------------music.html*/
 
-/* .main-music {  */
-    /* margin-bottom: 230px; */
-    /* min-height: 100%;
-    position: relative;
-} */
-
 .bg-music-image {
     background-repeat: no-repeat;
     max-width: 100%;
@@ -256,8 +306,8 @@ a {
     color: #13A6DB;
     position: absolute;
     top: 250px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
     font-style: italic;
     font-size: 40px;
     letter-spacing: 1px;
@@ -271,8 +321,8 @@ a {
     position: absolute;
     top: 250px;
     left: 35%;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
     font-style: italic;
     font-size: 40px;
     letter-spacing: 1px;
@@ -287,8 +337,8 @@ a {
     position: absolute;
     top: 250px;
     right: 0;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
     font-style: italic;
     font-size: 40px;
     letter-spacing: 1px;
@@ -308,31 +358,6 @@ a {
     padding-bottom: 5px;
     padding-top: 20px;
     text-align: left;
-}
-
-/* .album-songs{
-    margin-left: 100px;
-} */
-
-.btn-style {
-    color: #13A6DB;
-    font-size: 20px;
-    font-weight: 700;
-    cursor: pointer;
-    padding-left: 10px;
-}
-
-.modal-title {
-    color: #000;
-    font-family: "Roboto", sans-serif;
-    font-size: 30px;
-    width: 90%;
-}
-
-.modal-body {
-    color: #000;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
 }
 
 .new-single {
@@ -355,51 +380,20 @@ a {
     text-align: left;
 }
 
-
-/* #songs-row .row { -- Received assistance from Tutor Support --
-    margin-left: 0;
-    margin-right: 0;
-} */
+.video {
+    height: auto;
+    width: 100%;
+}
 
 /*----------------------------------------------------gigs.html*/
-
-.container-fluid {
-    /* position: relative; */
-    text-align: center;
-} 
-
-.row-width {
-    column-width: 100vw;
-}
-
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
 
 .bg-gigs-image {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.5;
-}
-
-
-
-/* .page-background {
-    padding-top: 120px;
-} */
-
-.page-title {
-    color: #13A6DB;
-    position: absolute;
-    top: 150px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 50px;
-    letter-spacing: 1px;
-    padding: 25px;
+    /* max-width: 100%;
+    width: 100vw; */
 }
 
 .page-heading {
@@ -419,7 +413,7 @@ a {
     position: absolute;
     top: 400px;
     left: 10px;
-    font-family: "Titillium Web", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: italic;
     font-size: 20px;
@@ -437,7 +431,7 @@ a {
     position: absolute;
     top: 400px;
     Right: 100px;
-    font-family: "Titillium Web", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: italic;
     font-size: 20px;
@@ -446,7 +440,7 @@ a {
     text-align: center;
 }
 
-.upcoming-events-images-one {
+.upcoming-events-images {
     background-repeat: no-repeat;
     display: block;
     margin: auto;
@@ -454,56 +448,34 @@ a {
     height: 220px;
 }
 
-.upcoming-events-images-two {
-    background-repeat: no-repeat;
-    display: block;
-    margin: auto;
-    width: 400px;
-    height: 220px;
-}
-
-.private-functions {
+.private-functions-heading {
     color: #13A6DB;
     position: absolute;
     top: 900px;
     left: 20%;
     font-family: "Titillium Web", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: italic;
     font-size: 40px;
     padding: 100px 50px 50px;
     letter-spacing: 1px;    
 }
 
-.bookings {
+.bookings-heading {
     color: #13A6DB;
     position: absolute;
     top: 900px;
     /* left: 33%; */
     font-family: "Titillium Web", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: italic;
     font-size: 40px;
     letter-spacing: 1px;
 }
 
-.venue-bookings {
-    color: #13A6DB;
-    position: absolute;
-    top: 800px;
-    Right: 300px;
-    left: 55%;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 40px;
-    padding: 100px 50px 50px;
-    letter-spacing: 1px;
-}
-
-.functions-venues {
+.functions-venues-text {
     color: #fff;
-    font-family: "Titillium Web", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-style: italic;
     font-size: 20px;
@@ -511,22 +483,8 @@ a {
     top: 1000px;
 }
 
-/* .wedding-text {
-    color: #fff;
-    position: absolute;
-    width: 300px;
-    margin-left: 50%;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 20px;
-    padding: 50px 50px 25px;
-    letter-spacing: 1px;
-} */
-
 .wedding-video-one {
     height: auto;
-    color: #13A6DB;
     display: block;
     margin-left: 90%;
     margin-top: 50%;
@@ -547,10 +505,6 @@ a {
     width: 100vw;
 }
 
-.container-fluid {
-    position: absolute;
-}
-
 .sis-name {
     color: #fff;
     position: block;
@@ -558,34 +512,18 @@ a {
     margin-left: 600px;
     margin-right: 500px;
     margin-top: 300px;
-    font-family: "Titillium Web", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-style: italic;
     font-size: 15px;
     letter-spacing: 1px;
 }
 
-#more {
-    margin-top: 280px;
-    display: none;
-}
-
-#myBtn { 
-    background-color: black;
-    color: #13A6DB;
-    font-family: "Titillium Web", sans-serif;
-    font-style: italic;
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
-}
-
 .jesse-title {
     color: #fff;
     position: absolute;
     top: 400px;
-    font-family: "Titillium Web", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: italic;
     font-size: 24px;
     letter-spacing: 1px;
@@ -596,7 +534,7 @@ a {
     position: absolute;
     top: 400px;
     margin-left: 900px;
-    font-family: "Titillium Web", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: italic;
     font-size: 24px;
     letter-spacing: 1px;
@@ -604,18 +542,18 @@ a {
 
 /*----------------------------------------------------Merchandise*/
 
-.merchandise-title {
+/* .merchandise-title {
     color: #13A6DB;
     position: absolute;
     top: 150px;
     left: 40%;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
     font-style: italic;
     font-size: 50px;
     letter-spacing: 1px;
     padding: 25px;
-}
+} */
 
 .merch-wording {
     color: #fff;
@@ -646,6 +584,11 @@ a {
 .carousel-caption {
     top: 40px;
     color: #13A6DB;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 25px;
+    letter-spacing: 1px;
     z-index: 10;
 }
 
@@ -674,14 +617,14 @@ a {
     font-family: "Titillium Web", sans-serif;
     font-style: italic;
     font-size: 20px;
+    font-weight: 700;
     letter-spacing: 1px;
 }
 
 .label-text {
     margin-right: 30px;
     margin-left: 30px;
-    width: 75px;
-    font-weight: 700;
+    width: 140px;
     /* position: relative; */
 }
 
@@ -696,6 +639,7 @@ a {
 
 #subject {
     text-align: left;
+    height: 28px;
     font-family: "Roboto", sans-serif;
     font-style: italic;
     font-size: 16px;
@@ -703,7 +647,7 @@ a {
 }
 
 .text-area {
-    width: 300px;
+    width: 480px;
     height: 300px;
     margin-left: 30px;
     font-family: "Roboto", sans-serif;
@@ -733,10 +677,8 @@ a {
 
 .thank-you {
     color: #13A6DB;
-    position: absolute;
-    top: 400px;
-    left: 35%;
-    /* left: 40%; */
+    position: relative;
+    top: 250px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -754,12 +696,6 @@ a {
         /* margin-bottom: 230px; */
         /* min-height: 100%;
         position: relative;
-    } */
-
-
-    /* .main-music {
-        margin-top: 0;
-        margin-bottom: 230px;
     } */
 
     .page-title {
@@ -890,10 +826,7 @@ a {
         margin-bottom: 230px;
     } */
 
-    /* .main-music {
-        margin-top: 100px; */
-        /* margin-bottom: 230px; */
-    /* } */
+  
     
     /* .music-title {
         color: #13A6DB;
@@ -974,9 +907,15 @@ a {
 
  }
 
- /*-------------------------larger devices (ipad pro, 1024px and up)....*/
+ /*-------------------------large devices (desktops, 992px and up)....*/
 
- @media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
+
+}
+ 
+ /*-------------------------extra large devices (large desktops, 1200px and up)....*/
+
+ @media screen and (min-width: 1200px) {
     /* .main-music { */
         /* margin-top: 100px; */
         /* margin-bottom: 230px; */
