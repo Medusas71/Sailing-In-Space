@@ -103,6 +103,8 @@ Testing was conducted manually and through different validator services on each 
 *   iPhone 12
 *   iPhone 11
 *   iPhone 8 Plus
+*   laptop
+*   desktop 
 
 
 |Page   | Section | Action | Expected Behaviour | Result |
@@ -129,6 +131,8 @@ Testing was conducted manually and through different validator services on each 
 |       | Footer | Scroll to ensure the footer is fixed | The footer is fixed | 
 |       |         | Confirm there are two links on the left hand side called "About" and "Contact Us" | There are two links named "About" and "Contact Us" |
 |       |         | Hover over the two links stated above to ensure that they change colour to yellow | Both links change colour to yellow once hovered |
+|       |         | Click the "About" link | You are taken to "The Band" page |
+|       |         | Click the "Contact Us" link | You are taken to the "Contact Us" page |
 |       |         | Confirm the "copywright" information and the "developed by" information displays in the middle of the footer | Copywright and developed by information displays in the middle of the footer |
 |       |         | Confirm there are 6 icons in the bottom right of the footer, which includes Facebook, Instagram, YouTube, Spotify, Apple Music, SoundCloud | The correct 6 icons display | 
 |       |         | Hover over the 6 icons stated above to ensure that they change colour to yellow | All icons change colour to yellow once hovered | 
@@ -151,10 +155,12 @@ Testing was conducted manually and through different validator services on each 
 |       |         | There is a "Read more" button underneath part of the text that displays yellow when hovered over | The button displays and the text turns yellow on hover | 
 |       |         | When "Read more" is clicked, the remaining parts of the text about the new song display | The rest of the text displays and the button changes from "Read more" to "Read Less" | 
 |       |         | When hovering over the "Read less" button, the text changes colour; Once you click "Read less" the overflow of text disappears | The "Read less" button changes text colour from blue to yellow; once clicked the overflow of text disappears |
-|       |         | Under the button the Like It video displays; The video does not autoplay; Click play and the video plays and there is an option to open in full screen | The button displays; the video does not autoplay and you can open the video in full screen | 
+|       |         | Under the button the Like It video displays; The video does not autoplay; Click play and the video plays, click pause and the video pauses, click the sound button and the video mutes, there is an option to open in full screen and to close the full screen once opened | The button displays; the video does not autoplay, the video plays, the video pauses, the video mutes and you can open the video in full screen and close the full screen | 
 |       | Footer | Scroll to ensure the footer is fixed | The footer is fixed | 
 |       |         | Confirm there are two links on the left hand side called "About" and "Contact Us" | There are two links named "About" and "Contact Us" |
-|       |         | Hover over the two links stated above to ensure that they change colour to yellow | Both links change colour to yellow once hovered |
+|       |         | Hover over the two links stated above to ensure that they change colour to yellow | Both links change colour to yellow once hovered | 
+|       |         | Click the "About" link | You are taken to "The Band" page |
+|       |         | Click the "Contact Us" link | You are taken to the "Contact Us" page | 
 |       |         | Confirm the "copywright" information and the "developed by" information displays in the middle of the footer | Copywright and developed by information displays in the middle of the footer |
 |       |         | Confirm there are 6 icons in the bottom right of the footer, which includes Facebook, Instagram, YouTube, Spotify, Apple Music, SoundCloud | The correct 6 icons display | 
 |       |         | Hover over the 6 icons stated above to ensure that they change colour to yellow | All icons change colour to yellow once hovered | 
@@ -181,7 +187,9 @@ Testing was conducted manually and through different validator services on each 
 |       |         | Under the button two wedding videos display; The videos do not autoplay; Click play and the video plays and there is an option to open in full screen | The button displays; the videos do not autoplay and you can open each video in full screen | 
 |       | Footer | Scroll to ensure the footer is fixed | The footer is fixed | 
 |       |         | Confirm there are two links on the left hand side called "About" and "Contact Us" | There are two links named "About" and "Contact Us" |
-|       |         | Hover over the two links stated above to ensure that they change colour to yellow | Both links change colour to yellow once hovered |
+|       |         | Hover over the two links stated above to ensure that they change colour to yellow | Both links change colour to yellow once hovered | 
+|       |         | Click the "About" link | You are taken to "The Band" page |
+|       |         | Click the "Contact Us" link | You are taken to the "Contact Us" page |
 |       |         | Confirm the "copywright" information and the "developed by" information displays in the middle of the footer | Copywright and developed by information displays in the middle of the footer |
 |       |         | Confirm there are 6 icons in the bottom right of the footer, which includes Facebook, Instagram, YouTube, Spotify, Apple Music, SoundCloud | The correct 6 icons display | 
 |       |         | Hover over the 6 icons stated above to ensure that they change colour to yellow | All icons change colour to yellow once hovered | 
@@ -204,7 +212,9 @@ Testing was conducted manually and through different validator services on each 
 |       |         | Under the button to the right of the screen is Dylan's title and a link to his bio in blue; when you hover over the link it changes colour | The words "Dylan Bio" display in blue and change colour to yellow upon hover | 
 |       | Footer | Scroll to ensure the footer is fixed | The footer is fixed | 
 |       |         | Confirm there are two links on the left hand side called "About" and "Contact Us" | There are two links named "About" and "Contact Us" |
-|       |         | Hover over the two links stated above to ensure that they change colour to yellow | Both links change colour to yellow once hovered |
+|       |         | Hover over the two links stated above to ensure that they change colour to yellow | Both links change colour to yellow once hovered | 
+|       |         | Click the "About" link | You are taken to "The Band" page |
+|       |         | Click the "Contact Us" link | You are taken to the "Contact Us" page | 
 |       |         | Confirm the "copywright" information and the "developed by" information displays in the middle of the footer | Copywright and developed by information displays in the middle of the footer |
 |       |         | Confirm there are 6 icons in the bottom right of the footer, which includes Facebook, Instagram, YouTube, Spotify, Apple Music, SoundCloud | The correct 6 icons display | 
 |       |         | Hover over the 6 icons stated above to ensure that they change colour to yellow | All icons change colour to yellow once hovered | 
@@ -225,7 +235,9 @@ Testing was conducted manually and through different validator services on each 
 |       |         | To the right of the screen an image displays of the back of the Sailing In Space shirt worn by Dylan | Image displays of the back of the Sailing In Space shirt worn by Dylan | 
 |       | Footer | Scroll to ensure the footer is fixed | The footer is fixed | 
 |       |         | Confirm there are two links on the left hand side called "About" and "Contact Us" | There are two links named "About" and "Contact Us" |
-|       |         | Hover over the two links stated above to ensure that they change colour to yellow | Both links change colour to yellow once hovered |
+|       |         | Hover over the two links stated above to ensure that they change colour to yellow | Both links change colour to yellow once hovered | 
+|       |         | Click the "About" link | You are taken to "The Band" page |
+|       |         | Click the "Contact Us" link | You are taken to the "Contact Us" page | 
 |       |         | Confirm the "copywright" information and the "developed by" information displays in the middle of the footer | Copywright and developed by information displays in the middle of the footer |
 |       |         | Confirm there are 6 icons in the bottom right of the footer, which includes Facebook, Instagram, YouTube, Spotify, Apple Music, SoundCloud | The correct 6 icons display | 
 |       |         | Hover over the 6 icons stated above to ensure that they change colour to yellow | All icons change colour to yellow once hovered | 
@@ -249,7 +261,9 @@ Testing was conducted manually and through different validator services on each 
 |       |         | To the right of the screen an image display of Sailing In Space | an image of Sailing In Space displays | 
 |       | Footer | Scroll to ensure the footer is fixed | The footer is fixed | 
 |       |         | Confirm there are two links on the left hand side called "About" and "Contact Us" | There are two links named "About" and "Contact Us" |
-|       |         | Hover over the two links stated above to ensure that they change colour to yellow | Both links change colour to yellow once hovered |
+|       |         | Hover over the two links stated above to ensure that they change colour to yellow | Both links change colour to yellow once hovered | 
+|       |         | Click the "About" link | You are taken to "The Band" page |
+|       |         | Click the "Contact Us" link | You are taken to the "Contact Us" page | 
 |       |         | Confirm the "copywright" information and the "developed by" information displays in the middle of the footer | Copywright and developed by information displays in the middle of the footer |
 |       |         | Confirm there are 6 icons in the bottom right of the footer, which includes Facebook, Instagram, YouTube, Spotify, Apple Music, SoundCloud | The correct 6 icons display | 
 |       |         | Hover over the 6 icons stated above to ensure that they change colour to yellow | All icons change colour to yellow once hovered | 
