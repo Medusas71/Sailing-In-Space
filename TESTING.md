@@ -20,11 +20,11 @@ Testing was conducted manually and through different validator services on each 
 ### Fan Goals
 
 1.  As a fan and a record company, I would like to listen to the bands songs:
-    * This is achieved by clicking "The Music" navigation link at the top of each page in the fixed header
+    * This is achieved by clicking "The Music" navigation link at the top of each page in the fixed header. Once on "The Music" page, you can click the "Play" button next to each song. The song displays using Spotify in a new tab and it is up to the user to click play on the song. The users can also hear a snippet of the bands new upcoming single on "The Music" page.
     <p>&nbsp;</p>
 
 2.  As a fan, I would like to learn about the bands history and the band members:
-    * This is achieved by clicking "The Band" navigation link at the top of each page in the fixed header  and the "About" navigation link in the fixed footer on every page. 
+    * This is achieved by clicking "The Band" navigation link at the top of each page in the fixed header and the "About" navigation link in the fixed footer on every page. A snippet of information regarding the band is displayed on "the Band" page and there is a link to read more about the band. There is also a link against each band member that displays a modal with their bio included.
     <p>&nbsp;</p>
 
 3.  As a fan, I would like to follow the band on social media:
@@ -32,7 +32,7 @@ Testing was conducted manually and through different validator services on each 
     <p>&nbsp;</p> 
 
 4.  As a fan, I would like to see the band live at an upcoming gig:
-    * This is achieved by viewing the "Upcoming Events" on the "Home Page - index.html" and clicking the See more link.
+    * This is achieved by viewing the "Upcoming Events" on the "Home Page - index.html" and clicking the "See more" link. The user is taken to the "Gigs" page where they can see what events are upcoming.
     * This is also achieved by clicking the "Gigs" navigation link at the top of each page in the fixed header and viewing all upcoming events.
     <p>&nbsp;</p>
 
@@ -46,7 +46,7 @@ Testing was conducted manually and through different validator services on each 
     <p>&nbsp;</p>  
 
 7.  As a fan, I would like to view and possibly purchase the bands merchandise:
-    * The merchandise can be viewed by clicking "Merchandise" navigation link at the top of each page in the fixed header. The merchanise can be purchased by using the "Contact Us" form.
+    * The merchandise can be viewed by clicking the "Merchandise" navigation link at the top of each page in the fixed header. The merchandise can be purchased by using the "Contact Us" form.
     <p>&nbsp;</p>  
 
 8.  As a fan, I would like to see the site on all devices such as phone, tablet, laptop and desktop:
@@ -58,14 +58,14 @@ Testing was conducted manually and through different validator services on each 
 9.  As a band member of Sailing In Space, I would like to get more gigs:
     * This is achieved by:
         * displaying upcoming gigs on the home page to promote what they are currently doing;
-        * displaying upcoming gigs on the Band page to promote what they are currently doing;
-        * displaying videos of the band performing on the Band page to promote what they have done previously;
+        * displaying upcoming gigs on the "Gigs" page to promote what they are currently doing;
+        * displaying videos of the band performing on the "Gigs" page to promote what they have done previously;
         * having a contact form on the "Contact Us" page.
     <p>&nbsp;</p>  
 
 10. As a band member of Sailing In Space, I would like the opportunity for fans to purchase tickets to
     upcoming gigs:
-    * The upcoming gigs displayed on the "Home" and "The Band" page have links to the event where tickets can be purchased directly from the event via Facebook.
+    * The upcoming gigs displayed on the "Home" and "Gigs" page have links to the event where tickets can be purchased directly from the event via Facebook.
     <p>&nbsp;</p>  
 
 11. As a band member of Sailing In Space, I would like to sell merchandise:
@@ -78,7 +78,7 @@ Testing was conducted manually and through different validator services on each 
 
 13. As a band member of Sailing In Space, I would like to receive a record deal:
     * This can potentially be achieved by promoting their music on "The Music" page and their gigs on "The Band" page.
-    * Also, it is noted on "The Band" page that the band is looking for a record deal.
+    * Also, it is noted on the "Gigs" page that the band is looking for a record deal.
     <p>&nbsp;</p>  
 
 ### Record Company Goals
