@@ -4,22 +4,48 @@
 
 body {
     background-color: #000;
-    /* margin-bottom: 270px; */
 }
 
 .container-fluid {
-    position: absolute;
+    margin-bottom: 200px;
     text-align: center;
 }
 
 .img-fluid {
     max-width: 100%;
     height: auto;
+    background: no-repeat;
+    padding-bottom: 20px;
 }
 
 h1, h2, h3, h4, h5 {
+    color: #13A6DB;
     font-weight: 700;;
     font-family: "Titillium Web", sans-serif;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+
+}
+
+p {
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    letter-spacing: 1px;
 }
 
 .blue-text {
@@ -28,7 +54,6 @@ h1, h2, h3, h4, h5 {
 
 .page-title {
     color: #13A6DB;
-    position: absolute;
     top: 150px;
     font-family: "Titillium Web", sans-serif;
     font-weight: 700;
@@ -85,11 +110,12 @@ header {
 
 a:hover {
     color: #F9F871;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 .nav-link:hover {
     color: #F9F871;
+    text-decoration: underline;
 }
 
 .active {
@@ -105,138 +131,22 @@ a:hover {
 }
 
 /*----------------------------------------------------index.html*/
-/* 
-.main {  */
-    /* margin-bottom: 230px; */
-    /* min-height: 100%;
-    position: relative;
-} */
 
 .home-background {
     padding-top: 120px;
 }
 
-.sis-bio p {
-    color: #FFF;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 24px;
-    letter-spacing: 1px;
-    text-align: center;
-}
-
-.jesse-hero-image {
+/* .jesse-hero-image, .hero-image, .dylan-hero-image {
     background-repeat: no-repeat;
-}
-
-.hero-image {
-    background-repeat: no-repeat;
-}
-
-.coming-soon-heading {
-    color: #13A6DB;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 40px;
-    letter-spacing: 1px;
-    text-align: center;
-}
-
-.coming-soon-song-title {
-    color: #fff;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 24px;
-    letter-spacing: 1px;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.new-song-image {
-    height: auto;
-    width: 100%;
-    padding-bottom: 20px;
-}
-
-.upcoming-events-heading {
-    color: #13A6DB;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 40px;
-    letter-spacing: 1px;
-    text-align: center;
-}
+} */
 
 .dates {
     color: #FFF;
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-    font-size: 28px;
-    letter-spacing: 1px;
-    padding-top: 20px;
-    text-align: center;
-}
-
-.upcoming-events-images {
-    background-repeat: no-repeat;
-    display: block;
-    margin: auto;
-    padding-top: 30px;
-    width: 400px;
-    height: 220px;
-}
-
-.upcoming-events-text {
-    color: #FFF;
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-    font-size: 24px;
-    letter-spacing: 1px;
-    padding-top: 20px;
-    text-align: center;
-}
-
-.dylan-hero-image {
-    background-repeat: no-repeat;
-}
-
-/*----------------------------------------------------Modal*/
-
-.modal-title {
-    color: #000;
-    font-family: "Roboto", sans-serif;
-    font-size: 30px;
-    width: 90%;
-}
-
-.modal-body {
-    color: #000;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-}
-
-/*----------------------------------------------------Read-more-Read-less-button*/
-
-#more {
-    margin-top: 280px;
-    display: none;
-}
-
-#myBtn { 
-    background-color: black;
-    color: #13A6DB;
-    font-family: "Titillium Web", sans-serif;
-    font-style: italic;
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
+    font-weight: 400;    
+    font-size: 28px;    
+    padding-top: 10px;
+    padding-bottom: 20px;    
 }
 
 /*----------------------------------------------------Footer*/
@@ -259,10 +169,10 @@ a:hover {
 
 a {
     color: #13A6DB;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
-.button-style {
+.footer-button-style {
     font-family: "Titillium Web", sans-serif;
     font-style: italic;
     font-size: 24px;
@@ -273,12 +183,8 @@ a {
     text-decoration: none;
 }
 
-.copywright-style {
-    color: #FFF;
-    font-family: "Roboto", sans-serif;
-    font-style: italic;
-    font-size: 15px;
-    letter-spacing: 1px;
+.copywright-style p {
+    font-size: 15px;    
     line-height: 5px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -304,7 +210,7 @@ a {
 
 .column-title-left {
     color: #13A6DB;
-    position: absolute;
+    
     top: 250px;
     font-family: "Titillium Web", sans-serif;
     font-weight: 700;
@@ -318,7 +224,7 @@ a {
 }
 .column-title-centre {
     color: #13A6DB;
-    position: absolute;
+    
     top: 250px;
     left: 35%;
     font-family: "Titillium Web", sans-serif;
@@ -334,7 +240,7 @@ a {
 
 .column-title-right {
     color: #13A6DB;
-    position: absolute;
+    
     top: 250px;
     right: 0;
     font-family: "Titillium Web", sans-serif;
@@ -385,6 +291,39 @@ a {
     width: 100%;
 }
 
+/*----------------------------------------------------Modal*/
+
+.modal-title {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    width: 90%;
+}
+
+.modal-body {
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+/*----------------------------------------------------Read-more-Read-less-button*/
+
+#more {
+    margin-top: 280px;
+    display: none;
+}
+
+#myBtn { 
+    background-color: black;
+    color: #13A6DB;
+    font-family: "Titillium Web", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
 /*----------------------------------------------------gigs.html*/
 
 .bg-gigs-image {
@@ -398,7 +337,7 @@ a {
 
 .page-heading {
     color: #13A6DB;
-    position: absolute;
+    
     top: 300px;
     left: 0%;
     font-family: "Titillium Web", sans-serif;
@@ -410,7 +349,7 @@ a {
 
 .first-date {
     color: #FFF;
-    position: absolute;
+    
     top: 400px;
     left: 10px;
     font-family: "Roboto", sans-serif;
@@ -428,7 +367,7 @@ a {
 
 .second-date {
     color: #FFF;
-    position: absolute;
+    
     top: 400px;
     Right: 100px;
     font-family: "Roboto", sans-serif;
@@ -450,7 +389,7 @@ a {
 
 .private-functions-heading {
     color: #13A6DB;
-    position: absolute;
+    
     top: 900px;
     left: 20%;
     font-family: "Titillium Web", sans-serif;
@@ -463,7 +402,7 @@ a {
 
 .bookings-heading {
     color: #13A6DB;
-    position: absolute;
+    
     top: 900px;
     /* left: 33%; */
     font-family: "Titillium Web", sans-serif;
@@ -521,7 +460,7 @@ a {
 
 .jesse-title {
     color: #fff;
-    position: absolute;
+    
     top: 400px;
     font-family: "Roboto", sans-serif;
     font-style: italic;
@@ -531,7 +470,7 @@ a {
 
 .dylan-title {
     color: #fff;
-    position: absolute;
+    
     top: 400px;
     margin-left: 900px;
     font-family: "Roboto", sans-serif;
@@ -544,7 +483,7 @@ a {
 
 /* .merchandise-title {
     color: #13A6DB;
-    position: absolute;
+    
     top: 150px;
     left: 40%;
     font-family: "Titillium Web", sans-serif;
@@ -599,7 +538,7 @@ a {
 }
 
 .carousel-inner > .item > img {
-    position: relative;
+    
     margin: 0px auto;
     min-width: auto;
     height: 500px;
@@ -611,7 +550,7 @@ a {
 .contact-us-form {
     margin-top: 300px;
     margin-left: 30px;
-    position: absolute;
+    
     text-align: left;
     color: #13A6DB;
     font-family: "Titillium Web", sans-serif;
@@ -625,7 +564,7 @@ a {
     margin-right: 30px;
     margin-left: 30px;
     width: 140px;
-    /* position: relative; */
+    
 }
 
 #name, #email, #phone-number {
@@ -677,7 +616,7 @@ a {
 
 .thank-you {
     color: #13A6DB;
-    position: relative;
+    
     top: 250px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -692,30 +631,37 @@ a {
 
 /*-----extra small devices (portrait, phones, less than 576px)....*/
 @media screen and (max-width: 576px) {
+    
+    .container-fluid {
+        margin-bottom: 200px;
+        text-align: center;
+    }
+    
+    
     /* .main {  */
         /* margin-bottom: 230px; */
         /* min-height: 100%;
-        position: relative;
+        
     } */
 
-    .page-title {
+    /* .page-title {
         color: #13A6DB;
-        position: absolute;
-        top: 100px;
+       
+        top: 100px; */
         /* left: 40%; */
-        font-family: "Roboto", sans-serif;
+        /* font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-style: italic;
         font-size: 50px;
         letter-spacing: 1px;
         text-align: center;
         padding: 25px;
-    }
+    } */
 
-    .column-title-left {
+    /* .column-title-left { */
         /* color: #13A6DB; */
-        /* position: absolute; */
-        top: 900px;
+        
+        /* top: 900px; */
         /* font-family: "Roboto", sans-serif;
         font-weight: 600;
         font-style: italic;
@@ -725,13 +671,13 @@ a {
         text-align: center; */
         /* max-width: 100%; */
         /* height: auto; */
-    }
+    /* } */
 
-    .column-title-centre-media-query {
+    /* .column-title-centre-media-query { */
         /* color: #13A6DB; */
-        /* position: absolute; */
-        top: 150px;
-        left: 0;
+       
+        /* top: 150px;
+        left: 0; */
         /* font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-style: italic;
@@ -739,11 +685,11 @@ a {
         letter-spacing: 1px; */
         /* margin-top: 50px; */
         /* text-align: center; */
-    }
+    /* } */
 
     /* .column-title-left-media-query {
         color: #13A6DB; */
-        /* position: absolute; */
+        
         /* display: block;
         top: 250px;
         font-family: "Roboto", sans-serif;
@@ -755,12 +701,12 @@ a {
         text-align: center;
     } */
 
-.column-title-right {
+/* .column-title-right { */
     /* color: #13A6DB; */
-    /* position: absolute; */
-    top: 1200px;
+    
+    /* top: 1200px;
     right: 0;
-    left: 0;
+    left: 0; */
     /* font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: italic;
@@ -768,8 +714,8 @@ a {
     letter-spacing: 1px; */
     /* margin-top: 50px; */
     /* padding-bottom: 10px; */
-    text-align: center;
-}
+    /* text-align: center; */
+/* } */
 
     /* .music-title {
         color: #13A6DB;
@@ -783,7 +729,7 @@ a {
         padding: 25px;
     } */
 
-    .column-title {
+    /* .column-title {
         color: #13A6DB;
         font-family: "Roboto", sans-serif;
         font-weight: 400;
@@ -791,31 +737,31 @@ a {
         font-size: 40px;
         letter-spacing: 1px;
         margin-top: 0px;
-        text-align: center;
+        text-align: center; */
         /* order: 1; */
-    }
+    /* } */
     
-    .coming-soon-heading {
+    /* .coming-soon-heading {
         padding-top: 20px;
-    }
+    } */
 
-    .play-lyrics { /*-- Received assistance from Tutor Support --*/
+    /* .play-lyrics { -- Received assistance from Tutor Support --
         display: block;
-    }
+    } */
     
     .footer-links {
         width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        /* display: flex; */
+        /* flex-direction: row; */
+        /* justify-content: center; */
+        /* align-items: center; */
     }
 
     .footer-background {
         flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 20px;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        /* padding: 0 20px; */
     }
 }
 
@@ -842,7 +788,7 @@ a {
 
     /* .column-title-left-media-query {
         color: #13A6DB; */
-        /* position: absolute; */
+        
         /* display: block;
         top: 250px;
         font-family: "Roboto", sans-serif;
@@ -854,9 +800,9 @@ a {
         text-align: center;
     } */
 
-    .play-lyrics { /*-- Received assistance from Tutor Support*/
-        display: block;
-    }
+    /* .play-lyrics { -- Received assistance from Tutor Support */
+        /* display: block;
+    } */
 
   
  }
