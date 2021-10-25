@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-    margin-bottom: 200px;
+    margin-bottom: 210px;
     text-align: center;
 }
 
@@ -23,7 +23,6 @@ h1, h2, h3, h4, h5 {
 
 h1 {
     font-size: 50px;
-    /* margin-top: 20px; */
 }
 
 .para-text {
@@ -89,10 +88,9 @@ header {
 
 a:hover {
     color: #F9F871;
-    /* text-decoration: none; */
 }
 
-.nav-link:hover {
+.nav-link:hover, .book-us-btn:hover {
     color: #F9F871;
     text-decoration: underline;
 }
@@ -140,7 +138,7 @@ a:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
+    }
 
 a {
     color: #13A6DB;
@@ -156,6 +154,7 @@ a {
     text-align: center;
     text-decoration: none;
 }
+
 
 .copywright-style p {
     color: #FFF;
@@ -195,19 +194,18 @@ a {
     font-style: italic;
     letter-spacing: 1px;
     text-align: left;
+    margin-left: 10px;
 }
 
 .new-single-text {
     color: #FFF;
     font-family: "Roboto", sans-serif;
     font-size: 12px;
+    font-style: italic;
     letter-spacing: 1px; 
     text-align: left;
     margin-left: 20px;
-
 }
-
-
 
 /*----------------------------------------------------Modal*/
 
@@ -244,6 +242,22 @@ a {
 
 /*----------------------------------------------------gigs.html*/
 
+.gigs-background {
+    padding-top: 120px;
+}
+
+.book-us-btn {
+    /* color: #13A6DB; */
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.wedding-video-one {
+    width: 226px;
+    height: 400px;
+}
 
 /*----------------------------------------------------The Band*/
 
@@ -375,14 +389,21 @@ a {
 /*-----extra small devices (portrait, phones, less than 590px)....*/
 @media screen and (max-width: 590px) {
     
-   
     .footer-links {
         width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
-    .footer-background {
+    .footer-background { /*.......received assistance from Tutor Support with the footer CSS*/
         flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
     }
+
 }
 
 /*-------------------------small devices (landscape, phones, 590px and up)---*/
@@ -396,12 +417,21 @@ a {
 
  @media screen and (min-width: 768px) {
  
-    .container-fluid {
-        margin-bottom: 60px;
+    h1, h2 {
+        padding: 20px;
     }
     
     .bg-music-image {
         position: relative;
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bg-gigs-image {  
+        /* position: relative; */
         height: auto;
         width: 100%;
         display: flex;
@@ -422,6 +452,22 @@ a {
         left: 0;
         opacity: 0.2;
     }
+
+     /*--image opacity code sourced from coder-coder.com - see testing.md--*/
+    .bg-gigs-image::before {
+        content: "";
+        background-image: url("../images/gigs/jesse-&-dylan-performing.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        opacity: 0.5;
+    }
+
+
 
  }
 
