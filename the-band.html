@@ -22,7 +22,8 @@
     <!-- Header - Logo and Navigation Bar. Navbar code sourced from Boostrap v4.6 -->
     <nav class="navbar navbar-expand-lg fixed-top">
       <!-- Image used for logo -->
-      <a href="index.html" class="col-4 logo">
+      <a href="index.html" class="col-4 logo"  aria-hidden="true">
+        <span class="sr-only">Sailing In Space Logo</span>
       </a>
       <!-- Hamburger and Navbar. Hamburger and Navbar code sourced from Bootstrap v4.6 -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,26 +53,34 @@
   </header>
   <section>
     <!-- Main Section of the Band Page - Grid system code sourced from Bootstrap v4.6 -->    
-    <div class="container-fluid">
+    <div class="container-fluid bg-band-image">
       <div class="row">
         <div class="col-12">
           <!-- Image only displays on medium devices and above - Hiding elements code sourced
           from Bootstrap v4.6 -->
-          <img class="img-fluid bg-band-image" src="assets/images/band/jesse&dylan-bandpage.jpg" alt="Jesse and Dylan sitting at a table">
-            <h1 class="col-12 page-title">The Band</h1>
+          <h1>The Band</h1>
         </div>
-        <div class="container-fluid">
+        <!-- <div class="container-fluid"> -->
           <div class="row">
             <div class="col-12">            
-              <p class="sis-name">The name Sailing In space was originally formed when Dylan was in High school. 
-                It was a play on the saying ‘you have your head in the clouds’ and Dylan was brainstorming 
-                of what would be the most progressive version of that particular cliché.<span id="dots">....</span><span id="more">Space was what came to mind as it is above the clouds. And ‘sailing’ came along with the thought of an 
-                action that involves going with the flow. Dylan was making music under the name, which 
-                involved heavy electronic sounds and thumping beats. Later, in 2017 Dylan was living in 
-                an apartment on the Gold Coast and I (Jesse) was wanting to start a musical project after 
-                writing the song ‘Stubborn’ at our residence in Nambour Heights. And so we began.<br>
-                Sailing In Space are yet to sign a record deal and are looking for a record company to
-                sign a record deal with.</span></p>
+              <p class="para-text band-bio">
+                The name Sailing In space was originally formed<br>
+                when Dylan was in High school.<br>
+                It was a play on the saying ‘you have your head in<br>
+                the clouds’ and Dylan was brainstorming<br>
+                of what would be the most progressive version of that<br>
+                particular cliché. <span id="dots">....</span><span id="more">Space was what came<br>
+                to mind as it is above the clouds. And ‘sailing’<br>
+                came along with the thought of an action that involves<br>
+                going with the flow. Dylan was making music under the name,<br>
+                which involved heavy electronic sounds and thumping beats.<br> 
+                Later, in 2017 Dylan was living in an apartment on the Gold Coast<br>
+                and I (Jesse) was wanting to start a musical project after<br>
+                writing the song ‘Stubborn’ at our residence in Nambour Heights.<br>
+                And so we began.<br>
+                Sailing In Space are yet to sign a record deal and are looking for a<br>
+                record company to sign a record deal with.</span>
+              </p>
             </div>
           </div>
           <div class="row">
@@ -98,10 +107,12 @@
             </div>
           </div>        
           <div class="row">
-            <div class="col-12 col-md-6 jesse-title">
-              <h3>Jesse: Lead Vocals | Keys</h3>
+            <div class="col-12 col-md-6">
+              <h3 class="jesse-title">Jesse: Lead Vocals | Keys</h3>
+              <img class="img-fluid face d-block d-md-none" src="assets/images/band/jesse-face.jpg" 
+              alt="Jesse Face">              
               <!-- Button trigger modal - Modal code sourced from Bootstrap v4.6 -->
-              <a class="btn-style" data-toggle="modal" data-target="#jesse-bioModal">Jesse Bio</a>
+              <a data-toggle="modal" data-target="#jesse-bioModal" class="bio-link">Jesse Bio</a>
               <!-- Modal - code sourced from Bootstrap v4.6 -->
               <div class="modal fade" id="jesse-bioModal" tabindex="-1" aria-labelledby="jesse-bioModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
@@ -113,7 +124,8 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      <p>Jesse started writing poems and music in High School and became inspired by both Dylan’s 
+                      <p>
+                        Jesse started writing poems and music in High School and became inspired by both Dylan’s 
                         talent and music involvement when he was in high school. He came about singing due to his 
                         brother, Dylan, singing around the house. Jesse got singing lessons and piano lessons so 
                         he could improve and learn the art professionally. Eventually Jesse decided to pursue a 
@@ -121,7 +133,8 @@
                         capability he wrote numerous songs with Dylan for his music assignments, such as 
                         I Am Gallium (on Youtube) and many others. Jesse was happy with how Dylan managed to 
                         write and produce his songs and decided that in 2017, after writing with Dylan, he 
-                        wanted to start a project with him. Then Sailing In Space started.</p>
+                        wanted to start a project with him. Then Sailing In Space started.
+                      </p>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -130,10 +143,12 @@
                 </div>       
               </div> 
             </div>
-            <div class="col-12 col-md-6 dylan-title">
-              <h3>Dylan: Vocals | Base</h3>
+            <div class="col-12 col-md-6">
+              <h3 class="dylan-title">Dylan: Vocals | Base</h3>
+              <img class="img-fluid face d-block d-md-none" src="assets/images/band/dylan-face.jpg" 
+              alt="Dylan Face"> 
               <!-- Button trigger modal - Modal code sourced from Bootstrap v4.6 -->
-              <a class="btn-style" data-toggle="modal" data-target="#dylan-bioModal">Dylan Bio</a>
+              <a data-toggle="modal" data-target="#dylan-bioModal" class="bio-link">Dylan Bio</a>
               <!-- Modal - code sourced from Bootstrap v4.6 -->
               <div class="modal fade" id="dylan-bioModal" tabindex="-1" aria-labelledby="dylan-bioModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
@@ -145,9 +160,10 @@
                       </button>
                     </div>
                     <div class="modal-body">
-                      <p>Dylan started playing drums at an early age and by 15 he was performing in front 
+                      <p>
+                        Dylan started playing drums at an early age and by 15 he was performing in front 
                         of audiences with his school band. He got his first taste of  playing shows locally 
-                        while drumming for a  metalcore band called "We, The Relentless". After leaving school,  
+                        while drumming for a metalcore band called "We, The Relentless". After leaving school,  
                         Dylan was passionate about starting a music career and went straight into studying a 
                         diploma of music. He joined Electro Pop band "The Electro Kid" in 2013, who played many 
                         live shows and professionally recorded their E.P "Pixels" in Sydney. Dylan's drumming 
@@ -157,7 +173,8 @@
                         producing and writing his own music, honing his songwriting skills and looking for a 
                         vocalist to take Sailing In Space to the stage. Midway through 2017 Dylan heard a song 
                         Jesse had written and decided that Jesse would be the 2nd member of Sailing In Space, 
-                        taking the project to the next level.</p>
+                        taking the project to the next level.
+                      </p>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -167,19 +184,19 @@
               </div>                
             </div>            
           </div>
-        </div>
+        <!-- </div> -->
       </div>
     </div>
   </section>
   <footer>
     <!-- Footer - I received assistance from Tutor Support with my footer -->
     <div class="footer-background fixed-bottom">
-      <div class="footer-links column-button-style">
-        <div class="button-style">
-          <a href="../the-band.html">About</a>           
+      <div class="footer-links">
+        <div class="footer-button-style">
+          <a href="the-band.html">About</a>   
         </div>
-        <div class="button-style">
-          <a href="../contact-us.html">Contact Us</a>
+        <div class="footer-button-style">
+          <a href="contact-us.html">Contact Us</a>
         </div>
       </div>
       <div class="copywright-style">
