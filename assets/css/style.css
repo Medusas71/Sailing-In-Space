@@ -263,7 +263,7 @@ a {
 /*----------------------------------------------------The Band*/
 
 .band-heading {
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .band-bio {
@@ -297,7 +297,11 @@ a {
 
 /*----------------------------------------------------Merchandise*/
 
-
+.back-of-shirt-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*----------------------------------------------------carousel - credits to Slack*/
 
@@ -305,20 +309,24 @@ a {
     margin-left: 150px;
     overflow: hidden; /*---credits to stackoverflow---*/
     height: 500px;
-    width: 597px;
+    width: 300px;
     margin: 0 auto;
     margin-bottom: 60px;
 }
 
 .carousel-caption {
     top: 40px;
-    color: #13A6DB;
+    color: red;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: italic;
-    font-size: 25px;
+    font-size: 15px;
     letter-spacing: 1px;
     z-index: 10;
+}
+
+.carousel-caption-shirt {
+    top: 140px;
 }
 
 .carousel .item {
@@ -533,6 +541,10 @@ a {
         background-size: cover;
         background-attachment: fixed;
         height: 100vw;
+    }
+
+    .band-heading {
+        margin-top: 100px;
     }
 
     .band-bio {
