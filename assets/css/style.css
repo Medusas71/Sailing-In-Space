@@ -262,9 +262,9 @@ a {
 
 /*----------------------------------------------------The Band*/
 
-/* .band-heading {
+.band-heading {
     margin-top: 100px;
-} */
+}
 
 .band-bio {
     margin-top: 60px;
@@ -532,6 +532,7 @@ a {
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+        height: 100vw;
     }
 
     .band-bio {
