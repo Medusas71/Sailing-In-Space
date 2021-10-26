@@ -20,7 +20,8 @@
 <body>
   <header>
     <!-- Header - Logo and Navigation Bar. Navbar code sourced from Boostrap v4.6 -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top" aria-hidden="true">
+      <span class="sr-only">Sailing In Space Logo</span>
       <!-- Image used for logo -->
       <a href="index.html" class="col-4 logo">
       </a>
@@ -55,13 +56,13 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-12">
-          <h1 class="col-12 page-title">Contact Us</h1>
+          <h1>Contact Us</h1>
         </div>
       </div>
       <div class="row">
         <div class="col-12 col-md-6">
            <!-- Form code taken from w3schools.com -->
-          <form class="contact-us-form" action="/thank-you.html" method="GET">
+          <form class="contact-us-form" action="/thank-you.html">
             <label class="label-text" for="name">Name:</label>
             <input type="text" id="name" name="name" placeholder="name" required><br>
             <label class="label-text" for="email">Email:</label>
@@ -80,6 +81,7 @@
           </form>
         </div>
         <div class="col12 col-md-6">
+          <!-- Image displayed on medium devices and above -->
           <img class="img-fluid d-none d-md-block contact-us-image rounded" src="assets/images/contact/sis-boys.jpg" alt="Dylan and Jesse">
         </div>
       </div>
@@ -88,12 +90,12 @@
   <footer>
     <!-- Footer - I received assistance from Tutor Support with my footer -->
     <div class="footer-background fixed-bottom">
-      <div class="footer-links column-button-style">
-        <div class="button-style">
-          <a href="../the-band.html">About</a>           
+      <div class="footer-links">
+        <div class="footer-button-style">
+          <a href="the-band.html">About</a>   
         </div>
-        <div class="button-style">
-          <a href="../contact-us.html">Contact Us</a>
+        <div class="footer-button-style">
+          <a href="contact-us.html">Contact Us</a>
         </div>
       </div>
       <div class="copywright-style">
