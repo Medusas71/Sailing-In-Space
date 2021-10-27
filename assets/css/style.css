@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
-/*----------------------------------------------------Special paddings/margins/text*/
+/*----------------------------------------------------Special paddings/margins/text/colour*/
 
 body {
     background-color: #000;
@@ -18,7 +18,6 @@ h1, h2, h3, h4, h5 {
     font-family: "Titillium Web", sans-serif;
     font-style: italic;
     letter-spacing: 1px;
-    text-align: center;
 }
 
 h1 {
@@ -32,14 +31,11 @@ h1 {
     font-style: italic;
     font-size: 15px;
     letter-spacing: 1px;
-    text-align: center;
 }
 
 .img-fluid {
     background: no-repeat;
     padding-bottom: 20px;
-    /* height: auto; */
-    /* max-width: 100%; */
 }
 
 .blue-text {
@@ -90,7 +86,7 @@ a:hover {
     color: #F9F871;
 }
 
-.nav-link:hover, .book-us-btn:hover, .bio-link:hover{
+.nav-link:hover, .book-us-btn:hover, .bio-link:hover {
     color: #F9F871;
     text-decoration: underline;
 }
@@ -108,10 +104,6 @@ a:hover {
 }
 
 /*----------------------------------------------------index.html*/
-
-/* .home-background {
-    padding-top: 120px;
-} */
 
 .dates {
     color: #FFF;
@@ -156,7 +148,7 @@ a {
 }
 
 
-.copywright-style p {
+.copyright-style p {
     color: #FFF;
     font-family: "Roboto", sans-serif;
     font-size: 12px;
@@ -248,7 +240,6 @@ a {
 }
 
 .book-us-btn {
-    /* color: #13A6DB; */
     font-family: "Titillium Web", sans-serif;
     font-weight: 700;
     font-style: italic;
@@ -289,7 +280,6 @@ a {
     font-style: italic;
     letter-spacing: 1px;
     cursor: pointer;
-    /* margin-left: 10px; */
 }
 
 /*----------------------------------------------------Merchandise*/
@@ -304,7 +294,7 @@ a {
 
 .carousel {
     margin-left: 150px;
-    overflow: hidden; /*---credits to stackoverflow---*/
+    overflow: hidden; /*---credits to stack overflow---*/
     height: 500px;
     width: 300px;
     margin: 0 auto;
@@ -357,8 +347,7 @@ a {
 .label-text {
     margin-right: 30px;
     margin-left: 30px;
-    width: 140px;
-    
+    width: 140px;    
 }
 
 #name, #email, #phone-number {
@@ -379,7 +368,6 @@ a {
 }
 
 .text-area {
-    /* width: 480px; */
     height: 300px;
     font-family: "Roboto", sans-serif;
     font-style: italic;
@@ -399,7 +387,6 @@ a {
 
 .contact-us-image {
     margin-top: 100px;
-    /* margin-right: 50px; */
     margin-right: 600px;
     margin-left: 200px;
 }
@@ -407,8 +394,7 @@ a {
 /*----------------------------------------------------thank-you*/
 
 .thank-you {
-    color: #13A6DB;
-    
+    color: #13A6DB;    
     top: 250px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -438,7 +424,6 @@ a {
         align-items: center;
         padding: 0 20px;
     }
-
 }
 
 /*-------------------------small devices (landscape, phones, 590px and up)---*/
@@ -489,8 +474,7 @@ a {
         opacity: 0.2;
     }
 
-    .bg-gigs-image {  
-        /* position: relative; */
+    .bg-gigs-image { 
         height: auto;
         width: 100%;
         display: flex;
@@ -524,10 +508,6 @@ a {
         font-size: 25px;
     }
 
-    /* .container-fluid-band {
-        margin-bottom: 120px;
-    } */
-
     .bg-band-image {
         background: url("../images/band/jesse&dylan-bandpage.jpg");
         background-position: center center;
@@ -558,7 +538,10 @@ a {
  
  /*-------------------------extra large devices (large desktops, 1200px and up)....*/
 
- @media screen and (min-width: 1200px) {
-   
+ @media screen and (min-width: 1200px) { 
+
+
+
+ }
 
 }
