@@ -119,7 +119,7 @@ a:hover {
 .footer-background { /*.......received assistance from Tutor Support with the footer CSS*/
     background-color: #000;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
@@ -130,6 +130,7 @@ a:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 100%;
     }
 
 a {
@@ -410,20 +411,6 @@ a {
 /*-----extra small devices (portrait, phones, less than 590px)....*/
 @media screen and (max-width: 590px) {
     
-    .footer-links {
-        width: 100%;
-        /* display: flex; */
-        /* flex-direction: row; */
-        /* justify-content: center;
-        align-items: center; */
-    }
-
-    .footer-background { /*.......received assistance from Tutor Support with the footer CSS*/
-        flex-direction: column;
-        /* justify-content: space-between; */
-        /* align-items: center; */
-        /* padding: 0 20px; */
-    }
 }
 
 /*-------------------------small devices (landscape, phones, 590px and up)---*/
@@ -439,6 +426,14 @@ a {
  
     h1, h2 {
         padding: 20px;
+    }
+
+    .footer-links {
+        width: 200px;
+    }
+
+    .footer-background { /*.......received assistance from Tutor Support with the footer CSS*/
+        flex-direction: row;
     }
 
      .para-text {
