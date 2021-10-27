@@ -376,7 +376,7 @@ a {
     width: 140px;    
 }
 
-#name, #email, #phone-number {
+#name, #email, #phone {
     text-align: left;
     font-family: "Roboto", sans-serif;
     font-style: italic;
