@@ -18,17 +18,18 @@
 </head>
 <body>
   <header>
-    <!-- Header - Logo and Navigation Bar. Navbar code sourced from Boostrap v4.6 -->
+    <!-- Header - Logo and Navigation Bar -->
     <nav class="navbar navbar-expand-lg fixed-top">
       <!-- Image used for logo -->
-      <a href="index.html" class="col-4 logo" aria-hidden="true">
+      <a href="index.html" class="col-4 logo">
         <span class="sr-only">Sailing In Space Logo</span>
       </a>
-      <!-- Hamburger and Navbar. Hamburger and Navbar code sourced from Bootstrap v4.6 -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- Hamburger and Navbar -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
       </button>
-      <!-- Navbar links - code sourced from Bootstrap v4.6 -->
+      <!-- Navbar links -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -50,8 +51,9 @@
       </div>
     </nav>
   </header>
-  <section>
-    <!-- Main Section of the Gigs Page - Grid system code sourced from Bootstrap v4.6 -->  
+  <main>
+    <!-- Main Section of the Gigs Page -->
+    <!-- Background image displays on medium devices and above-->
     <div class="container-fluid bg-gigs-image">
       <div class="row">
         <div class="col-12">
@@ -59,112 +61,107 @@
         </div>
         <div class="col-12">
           <a href="contact-us.html"><h2 class="book-us-btn">Book Us Now</h2></a>
-        </div>
-        <!-- <div class="row"> -->
-          <div class="col-12">
-            <h2>Upcoming Events</h2>
-            <div class="row">
-              <div class="col-12 col-md-6">
-                <h3 class="dates">1 Oct 21 - 3 Oct 21</h3>
-                <p class="para-text">
-                  Venue: Greaser Bar, Fortitude Valley<br>
-                  259A Brunswick Street, Brisbane Qld
-                </p>
-                <p class="para-text">
-                  Starts at 5pm 1st October
-                </p>
-                <p class="para-text">
-                  For full details of this event and to<br>
-                  purchase tickets - Check out <a href="https://www.facebook.com/events/168270678669744/?acontext=%7B%22event_action_history%22%3A%7B%22surface%22%3A%22page%22%7D%7D" 
-                  target="_blank" class="blue-text">Facebook</a>
-                </p>
-                <a href="https://www.facebook.com/events/168270678669744/?acontext=%7B%22event_action_history%22%3A%7B%22surface%22%3A%22page%22%7D%7D" 
-                  target="_blank">
-                  <img class="img-fluid rounded" src="assets/images/gigs/bands-&-rec-weekender-1-oct-2021.jpg" alt="Bands and Rec Weekender">
-                </a>
-              </div>
-              <div class="col-12 col-md-6">
-                <h3 class="dates">17 Oct 21</h3>
-                <p class="para-text">
-                  Venue: Mo's Desert Clubhouse<br>
-                  6/36 Central Drive, Burleigh Heads Qld
-                </p>
-                <p class="para-text">
-                  Time: 4pm - 10pm
-                </p>
-                <p class="para-text">
-                  For full details of this event and to<br>
-                  purchase tickets - Check out <a href="https://www.mosdesertclubhouse.com/events/electric-farmers-club/pick-tickets" 
-                  target="_blank" class="blue-text">Facebook</a>
-                </p>
-                <a href="https://www.mosdesertclubhouse.com/events/electric-farmers-club/pick-tickets" target="_blank">
-                  <img class="img-fluid rounded" src="assets/images/gigs/sametime-17-oct-2021.jpg" alt="Sametime">
-                </a>
-              </div>
-            </div>            
-            <div class="row">
-              <div class="col-12">
-                <h2>Private Functions and Venue Bookings</h2>
-                <p class="para-text">
-                  Sailing In Space have entertained a diverse range 
-                  of people at a variety of events<br> 
-                  since forming a collection of <span id="dots">....</span><span id="more">live songs, both original 
-                  and covers.<br>
-                  They've played two weddings, two Corporate Christmas parties and many birthday parties.<br>
-                  If you decide to book Sailing In Space for your function, you won't be able<br>
-                  to resist getting on your feet and dancing to their 80's pop cover tunes and<br>
-                  jumping to their funky, club pumping originals.</span>
-                </p>
-                <div class="row">
-                  <div class="col-12">
-                    <button onclick="myFunction()" id="myBtn">Read more</button>
-                    <!--Read More Read Less script code and functionality sourced from - w3schools.com-->
-                    <script>
-                      function myFunction() {
-                        var dots = document.getElementById("dots");
-                        var moreText = document.getElementById("more");
-                        var btnText = document.getElementById("myBtn");
-                      
-                        if (dots.style.display === "none") {
-                          dots.style.display = "inline";
-                          btnText.innerHTML = "Read more"; 
-                          moreText.style.display = "none";
-                        } else {
-                          dots.style.display = "none";
-                          btnText.innerHTML = "Read less"; 
-                          moreText.style.display = "inline";
-                        }
-                      }
-                    </script>
-                  </div>
-                </div>
-              </div>
-            </div>             
-            <div class="row">
-              <div class="col-12 col-md-6">
-                <video class="wedding-video-one rounded" controls>
-                  <source src="assets/videos/uptownfunk.mp4" type="video/mp4">
-                </video>
-              </div>                     
-              <div class="col-12 col-md-6">
-                <video class="wedding-video-two rounded" controls>
-                  <source src="assets/videos/wedding.mp4" type="video/mp4">
-                </video>
-              </div>
-              <div class="col-12">
-                <a href="contact-us.html"><h2 class="book-us-btn">Book Us Now</h2></a>
-              </div>
-              <!-- <div class="row">
+        </div>        
+        <div class="col-12">
+          <h2>Upcoming Events</h2>
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <!-- First Event -->
+              <h3 class="dates">1 Oct 21 - 3 Oct 21</h3>
+              <p class="para-text">
+                Venue: Greaser Bar, Fortitude Valley<br>
+                259A Brunswick Street, Brisbane Qld
+              </p>
+              <p class="para-text">
+                Starts at 5pm 1st October
+              </p>
+              <p class="para-text">
+                For full details of this event and to<br>
+                purchase tickets - Check out <a href="https://www.facebook.com/events/168270678669744/?acontext=%7B%22event_action_history%22%3A%7B%22surface%22%3A%22page%22%7D%7D" 
+                target="_blank" class="blue-text">Facebook</a>
+              </p>
+              <a href="https://www.facebook.com/events/168270678669744/?acontext=%7B%22event_action_history%22%3A%7B%22surface%22%3A%22page%22%7D%7D" 
+                target="_blank">
+                <img class="img-fluid rounded" src="assets/images/gigs/bands-&-rec-weekender-1-oct-2021.jpg" alt="Bands and Rec Weekender">
+              </a>
+            </div>
+            <div class="col-12 col-md-6">
+              <!-- Second Event -->
+              <h3 class="dates">17 Oct 21</h3>
+              <p class="para-text">
+                Venue: Mo's Desert Clubhouse<br>
+                6/36 Central Drive, Burleigh Heads Qld
+              </p>
+              <p class="para-text">
+                Time: 4pm - 10pm
+              </p>
+              <p class="para-text">
+                For full details of this event and to<br>
+                purchase tickets - Check out <a href="https://www.mosdesertclubhouse.com/events/electric-farmers-club/pick-tickets" 
+                target="_blank" class="blue-text">Facebook</a>
+              </p>
+              <a href="https://www.mosdesertclubhouse.com/events/electric-farmers-club/pick-tickets" target="_blank">
+                <img class="img-fluid rounded" src="assets/images/gigs/sametime-17-oct-2021.jpg" alt="Sametime">
+              </a>
+            </div>
+          </div>            
+          <div class="row">
+            <div class="col-12">
+              <h2>Private Functions and Venue Bookings</h2>
+              <p class="para-text">
+                Sailing In Space have entertained a diverse range 
+                of people at a variety of events<br> 
+                since forming a collection of <span id="dots">....</span><span id="more">live songs, both original 
+                and covers.<br>
+                They've played two weddings, two Corporate Christmas parties and many birthday parties.<br>
+                If you decide to book Sailing In Space for your function, you won't be able<br>
+                to resist getting on your feet and dancing to their 80's pop cover tunes and<br>
+                jumping to their funky, club pumping originals.</span>
+              </p>
+              <div class="row">
                 <div class="col-12">
-                  <a href="contact-us.html"><h2 class="book-us-btn">Book Us Now</h2></a>
+                  <button onclick="myFunction()" id="myBtn">Read more</button>
+                  <!-- Read More Read Less script code -->
+                  <script>
+                    function myFunction() {
+                      var dots = document.getElementById("dots");
+                      var moreText = document.getElementById("more");
+                      var btnText = document.getElementById("myBtn");
+                    
+                      if (dots.style.display === "none") {
+                        dots.style.display = "inline";
+                        btnText.innerHTML = "Read more"; 
+                        moreText.style.display = "none";
+                      } else {
+                        dots.style.display = "none";
+                        btnText.innerHTML = "Read less"; 
+                        moreText.style.display = "inline";
+                      }
+                    }
+                  </script>
                 </div>
-              </div> -->
-            </div>        
-          </div>
-        <!-- </div> -->
+              </div>
+            </div>
+          </div>             
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <video class="wedding-video-one rounded" controls>
+                <source src="assets/videos/uptownfunk.mp4" type="video/mp4">
+              </video>
+            </div>                     
+            <div class="col-12 col-md-6">
+              <video class="wedding-video-two rounded" controls>
+                <source src="assets/videos/wedding.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="col-12">
+              <a href="contact-us.html"><h2 class="book-us-btn">Book Us Now</h2></a>
+            </div>
+          </div>        
+        </div>        
       </div>
     </div>
-  </section>
+  </main>
   <footer>
     <!-- Footer - I received assistance from Tutor Support with my footer -->
     <div class="footer-background fixed-bottom">

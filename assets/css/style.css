@@ -318,11 +318,11 @@ a {
     margin-right: auto;
 }
 
-/*----------------------------------------------------carousel - credits to Slack*/
+/*----------------------------------------------------carousel - credits to Slack - see testing.md*/
 
 .carousel {
     margin-left: 150px;
-    overflow: hidden; /*---credits to stack overflow---*/
+    overflow: hidden; /*---credits to stack overflow - see testing.md*/
     height: 500px;
     width: 300px;
     margin: 0 auto;
@@ -434,18 +434,6 @@ a {
 }
 
 /*----------------------------------------------------media queries*/
-
-/*-----extra small devices (portrait, phones, less than 590px)....*/
-@media screen and (max-width: 590px) {
-    
-}
-
-/*-------------------------small devices (landscape, phones, 590px and up)---*/
-
-@media screen and (min-width: 590px) {
-    
-    
- }
 
 /*-------------------------medium devices (tablets, 768px and up)---*/
 
@@ -564,21 +552,6 @@ a {
 
     .text-area {
         width: 480px;
- }
-
- /*-------------------------large devices (desktops, 992px and up)....*/
-
-@media screen and (min-width: 992px) {
-
-
-}
- 
- /*-------------------------extra large devices (large desktops, 1200px and up)....*/
-
- @media screen and (min-width: 1200px) { 
-
-
-
  }
 
 }

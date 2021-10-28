@@ -19,17 +19,18 @@
 </head>
 <body>
   <header>
-    <!-- Header - Logo and Navigation Bar. Navbar code sourced from Boostrap v4.6 -->
+    <!-- Header - Logo and Navigation Bar -->
     <nav class="navbar navbar-expand-lg fixed-top">
       <!-- Image used for logo -->
-      <a href="index.html" class="col-4 logo" aria-hidden="true">
+      <a href="index.html" class="col-4 logo">
         <span class="sr-only">Sailing In Space Logo</span>
       </a>
-      <!-- Hamburger and Navbar. Hamburger and Navbar code sourced from Bootstrap v4.6 -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- Hamburger and Navbar -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fas fa-bars"></i>
       </button> 
-      <!-- Navbar links - code sourced from Bootstrap v4.6 -->   
+      <!-- Navbar links -->   
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
@@ -51,30 +52,31 @@
       </div>
     </nav>
   </header>
-  <section>
-    <!-- Main Section of the Music Page - Grid system code sourced from Bootstrap v4.6 --> 
+  <main>
+    <!-- Main Section of the Music Page --> 
+    <!-- Background image displays on medium devices and above-->  
     <div class="container-fluid bg-music-image">
       <div class="row">
         <div class="col-12">
-          <!-- Image only displays on medium devices and above - Hiding elements code sourced from
-          Bootstrap v4.6 -->
+          <!-- Image  displays on medium devices and above -->
             <h1>The Music</h1>
         </div>
         <div class="row">
-          <!-- Order code sourced from Bootstrap v4.6 -->
+          <!-- Singles displays 2nd on xs and small devices and displays 1st on medium devices and above -->          
           <div class="col-12 col-md-4 order-2 order-md-1">
             <h2>Singles</h2>
-            <!-- 1st Single -->
+            <!-- Singles - 1st Single -->
             <div class="row">
               <div class="col-12">
                 <div class="song-title">
                   <p>
                     <b>Grave (I Don't Think You Know)</b>
-                    <a href="https://open.spotify.com/track/4vxpuN6qIzJ6xHG3asMx9I?si=973f6d52687043fa" target="_blank" class="play-lyrics-btn">Play</a>
-                    <!-- Button trigger modal - Modal code sourced from Bootstrap v4.6 -->
+                    <a href="https://open.spotify.com/track/4vxpuN6qIzJ6xHG3asMx9I?si=973f6d52687043fa" 
+                      target="_blank" class="play-lyrics-btn">Play</a>
+                    <!-- Button trigger modal -->
                     <a data-toggle="modal" data-target="#graveModal" class="play-lyrics-btn">Lyrics</a>
                   </p>
-                  <!-- Modal - code sourced from Bootstrap v4.6-->
+                  <!-- Modal -->
                   <div class="modal fade" id="graveModal" tabindex="-1" aria-labelledby="graveModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                       <div class="modal-content">
@@ -182,11 +184,12 @@
                 <div class="song-title">
                   <p>                    
                     <b>I Ain't You</b>                  
-                    <a href="https://open.spotify.com/track/02eGPo4Dd4m2FUBbWk36BJ?si=2c5272caa8c2472a" target="_blank" class="play-lyrics-btn">Play</a>
-                    <!-- Button trigger modal - Modal code sourced from Bootstrap v4.6 -->
+                    <a href="https://open.spotify.com/track/02eGPo4Dd4m2FUBbWk36BJ?si=2c5272caa8c2472a" 
+                      target="_blank" class="play-lyrics-btn">Play</a>
+                    <!-- Button trigger modal -->
                     <a data-toggle="modal" data-target="#iaintyouModal" class="play-lyrics-btn">Lyrics</a>
                   </p>  
-                    <!-- Modal - code sourced from Bootstrap v4.6-->
+                    <!-- Modal -->
                   <div class="modal fade" id="iaintyouModal" tabindex="-1" aria-labelledby="iaintyouModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                       <div class="modal-content">
@@ -263,11 +266,12 @@
                 <div class="song-title">
                   <p>
                     <b>Stubborn</b>                  
-                    <a href="https://open.spotify.com/track/0OL92xQx4utVKhzqNFAH0L?si=a7584e4ff27848dc" target="_blank" class="play-lyrics-btn">Play</a>
-                    <!--Button trigger modal - Modal code sourced from Bootstrap v4.6 -->
+                    <a href="https://open.spotify.com/track/0OL92xQx4utVKhzqNFAH0L?si=a7584e4ff27848dc" 
+                      target="_blank" class="play-lyrics-btn">Play</a>
+                    <!--Button trigger modal -->
                     <a data-toggle="modal" data-target="#stubbornModal" class="play-lyrics-btn">Lyrics</a>
                   </p>
-                    <!-- Modal - code sourced from Bootstrap v4.6 -->
+                    <!-- Modal -->
                   <div class="modal fade" id="stubbornModal" tabindex="-1" aria-labelledby="stubbornModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                       <div class="modal-content">
@@ -343,6 +347,8 @@
               </div>
             </div>              
           </div>
+          <!-- Coming Soon -->
+          <!-- Coming Soon displays 1st on xs and small devices and displays 2nd on medium devices and above -->   
           <div class="col-12 col-md-4 order-1 order-md-2">
             <h2>Coming Soon!!!</h2>
             <p class="para-text">
@@ -360,7 +366,7 @@
               <div class="row">
                 <div class="col-12">
                   <button onclick="myFunction()" id="myBtn">Read more</button>
-                  <!--Read More Read Less script code and functionality sourced from - w3schools.com-->
+                  <!--Read More Read Less script code -->
                   <script>
                     function myFunction() {
                       var dots = document.getElementById("dots");
@@ -385,6 +391,7 @@
               <source src="assets/videos/like-it.mp4" type="video/mp4">
             </video>
           </div>
+          <!-- Albums displays 3rd on all devices -->
           <div class="col-12 col-md-4 order-3 order-md-3">
             <h2>Albums</h2>
             <!---Albums - 1st Song-->
@@ -393,11 +400,12 @@
                 <div class="song-title">
                   <p>
                     <b>Different Man</b>                       
-                    <a href="https://open.spotify.com/track/5vM2pf9QXet4cTwMGcFyqY?si=ac07bf7b454a4de0" target="_blank" class="play-lyrics-btn">Play</a>
-                    <!-- Button trigger modal - Modal code sourced from Bootstrap v4.6 -->
+                    <a href="https://open.spotify.com/track/5vM2pf9QXet4cTwMGcFyqY?si=ac07bf7b454a4de0" 
+                      target="_blank" class="play-lyrics-btn">Play</a>
+                    <!-- Button trigger modal -->
                     <a data-toggle="modal" data-target="#diffmanModal" class="play-lyrics-btn">Lyrics</a>
                   </p>
-                  <!-- Modal - code sourced from Bootstrap v4.6-->
+                  <!-- Modal -->
                   <div class="modal fade" id="diffmanModal" tabindex="-1" aria-labelledby="diffmanModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                       <div class="modal-content">
@@ -501,11 +509,12 @@
                 <div class="song-title">
                   <p>
                     <b>Brain Freeze</b>
-                    <a href="https://open.spotify.com/track/61ExAOTMpZOAglRrPM6uqt?si=b5ad49900f1047ee" target="_blank" class="play-lyrics-btn">Play</a>
-                    <!-- Button trigger modal - Modal code sourced from Bootstrap v4.6 -->
+                    <a href="https://open.spotify.com/track/61ExAOTMpZOAglRrPM6uqt?si=b5ad49900f1047ee" 
+                      target="_blank" class="play-lyrics-btn">Play</a>
+                    <!-- Button trigger modal -->
                     <a data-toggle="modal" data-target="#brainfreezeModal" class="play-lyrics-btn">Lyrics</a>
                   </p>
-                  <!-- Modal - code sourced from Bootstrap v4.6 -->
+                  <!-- Modal -->
                   <div class="modal fade" id="brainfreezeModal" tabindex="-1" aria-labelledby="brainfreezeModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                       <div class="modal-content">
@@ -598,11 +607,12 @@
                 <div class="song-title">
                   <p>
                     <b>Lonely Moon</b>
-                    <a href="https://open.spotify.com/track/78VtucAwMKhfpsxDJ2b5uB?si=a27214cceae54487" target="_blank" class="play-lyrics-btn">Play</a>
-                    <!-- Button trigger modal - Modal code sourced from Bootstrap v4.6 -->
+                    <a href="https://open.spotify.com/track/78VtucAwMKhfpsxDJ2b5uB?si=a27214cceae54487" 
+                      target="_blank" class="play-lyrics-btn">Play</a>
+                    <!-- Button trigger modal -->
                     <a data-toggle="modal" data-target="#lonelymoonModal" class="play-lyrics-btn">Lyrics</a>
                   </p>
-                  <!-- Modal - code sourced from Bootstrap v4.6 -->
+                  <!-- Modal -->
                   <div class="modal fade" id="lonelymoonModal" tabindex="-1" aria-labelledby="lonelymoonModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                       <div class="modal-content">
@@ -704,11 +714,12 @@
                 <div class="song-title">
                   <p>
                     <b>Time Wizard</b>
-                    <a href="https://open.spotify.com/track/3rvz7EEDyL1JptfXXeV06V?si=8c3300a6769a4a6a" target="_blank" class="play-lyrics-btn">Play</a>
-                    <!-- Button trigger modal - Modal code sourced from Bootstrap v4.6 -->
+                    <a href="https://open.spotify.com/track/3rvz7EEDyL1JptfXXeV06V?si=8c3300a6769a4a6a" 
+                      target="_blank" class="play-lyrics-btn">Play</a>
+                    <!-- Button trigger modal -->
                     <a data-toggle="modal" data-target="#timewizardModal" class="play-lyrics-btn">Lyrics</a>
                   </p>
-                  <!-- Modal - code sourced from Bootstrap v4.6 -->
+                  <!-- Modal -->
                   <div class="modal fade" id="timewizardModal" tabindex="-1" aria-labelledby="timewizardModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                       <div class="modal-content">
@@ -794,11 +805,12 @@
                 <div class="song-title">
                   <p>
                     <b>Blissed Out</b>
-                    <a href="https://open.spotify.com/track/1rG4JjCl8vrMpO0sRuXSHi?si=a488a155439740e6" target="_blank" class="play-lyrics-btn">Play</a>
-                  <!-- Button trigger modal - Modal code sourced from Bootstrap v4.6 -->
+                    <a href="https://open.spotify.com/track/1rG4JjCl8vrMpO0sRuXSHi?si=a488a155439740e6" 
+                      target="_blank" class="play-lyrics-btn">Play</a>
+                  <!-- Button trigger modal -->
                     <a data-toggle="modal" data-target="#blissedoutModal" class="play-lyrics-btn">Lyrics</a>
                   </p>
-                  <!-- Modal - code sourced from Bootstrap v4.6 -->
+                  <!-- Modal -->
                   <div class="modal fade" id="blissedoutModal" tabindex="-1" aria-labelledby="blissedoutModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                       <div class="modal-content">
@@ -899,7 +911,7 @@
         </div>
       </div> 
     </div>   
-  </section>
+  </main>
   <footer>
     <!-- Footer - I received assistance from Tutor Support with my footer -->
     <div class="footer-background fixed-bottom">
