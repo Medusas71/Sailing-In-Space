@@ -14,8 +14,66 @@ Testing was conducted manually and through different validator services on each 
 * [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was used to ensure that there were no errors in my HTML document and was validated by direct input. Here are the results
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to ensure that there were no errors in my CSS document and was validated by direct input. Here are the results 
 * [Autoprefixer CSS Online](https://autoprefixer.github.io/) was used to ensure that all vendor prefixes were included in CSS. The results were copied into the style.css file.
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to check for any problems on all pages. Some of the issues I have resolved to improve the score. The remaining issues will be researched to improve the score as I learn.
+Here is the lighthouse score for each page on mobile and desktop:
 
-## Testing User Stories from the UX section of the [README.md](/SAILING-IN-SPACE/README.md/user-stories)
+### index.html - mobile  
+
+![index-mobile](assets/images/readme/lighthouse/index-mobile-lh.jpg)
+
+### index.html - desktop  
+
+![index-desktop](assets/images/readme/lighthouse/index-desktop-lh.jpg)  
+
+### the-music.html - mobile
+
+![music-mobile](assets/images/readme/lighthouse/the-music-mobile-lh.jpg)  
+
+### the-music.html - desktop
+![music-desktop](assets/images/readme/lighthouse/the-music-desktop-lh.jpg)  
+
+### gigs.html - mobile
+
+![gigs-mobile](assets/images/readme/lighthouse/gigs-mobile-lh.jpg)  
+
+### gigs.html - desktop
+
+![gigs-desktop](assets/images/readme/lighthouse/gigs-desktop-lh.jpg)  
+
+### the-band.html - mobile
+
+![gigs-mobile](assets/images/readme/lighthouse/gigs-mobile-lh.jpg)  
+
+### the-band.html - desktop
+
+![gigs-desktop](assets/images/readme/lighthouse/gigs-desktop-lh.jpg)  
+
+### merchandise.html - mobile
+
+![merchandise-mobile](assets/images/readme/lighthouse/merchandise-mobile-lh.jpg) 
+
+### merchandise.html - desktop
+
+![merchandise-desktop](assets/images/readme/lighthouse/merchandise-desktop-lh.jpg) 
+
+### contact-us.html - mobile
+
+![contact-us-mobile](assets/images/readme/lighthouse/contact-us-mobile-lh.jpg) 
+
+### contact-us.html - desktop
+
+![contact-us-desktop](assets/images/readme/lighthouse/contact-us-desktop-lh.jpg) 
+
+### thank-you.html - mobile
+
+![thank-you-mobile](assets/images/readme/lighthouse/thank-you-mobile-lh.jpg) 
+
+### thank-you.html - desktop
+
+![thank-you-desktop](assets/images/readme/lighthouse/thank-you-desktop-lh.jpg) 
+
+
+## Testing User Stories from the UX section of the [README](/SAILING-IN-SPACE/README.md/)  
 
 ### Fan Goals
 
