@@ -24,11 +24,29 @@
    "workbench.colorTheme": "Visual Studio Dark",
    "editor.defaultFormatter": "HookyQR.beautify",
    "cSpell.ignoreWords": [
+      "Balsamiq",
       "Boostrap",
+      "Commonmark",
+      "Coolors",
+      "Freepik",
+      "Gitpod",
+      "Hyman",
+      "Icterine",
+      "Optimised",
+      "PIXLR",
+      "Roboto",
       "Sametime",
+      "Snagit",
+      "Titillium",
+      "Wireframe",
       "error-page",
       "header",
       "iaintyou",
+      "pikisuperstar",
+      "portait",
       "preconnect"
+   ],
+   "cSpell.words": [
+      "wireframes"
    ]
 }
