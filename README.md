@@ -7,12 +7,12 @@
 
 **Please note: To open any links in this document in a new browser tab, press 'CTRL + Click'.**
 
-<!-- Table of Contents and the (click to expand or hide) is not my original work. 
+<!-- Table of Contents, anchor and the (click to expand or hide) is not my original work. 
 It has been sourced from https://gist.github.com/rachelhyman/b1f109155c9dafffe618#real-cool-heading 
-and https://github.com/ElectricRCAircraftGuy/AlfaWiFiAdapterSoftware/blob/master/README.md#wiki-instructions> -->
+and https://github.com/ElectricRCAircraftGuy/AlfaWiFiAdapterSoftware/blob/master/README.md -->
 
 <!-- Nested list spacing is not my original work. It has been sourced from 
-https://google.github.io/styleguide/docguide/style.html> -->
+https://google.github.io/styleguide/docguide/style.html -->
 
 <a id=#table-of-contents></a>
 # Table of Contents
@@ -41,6 +41,7 @@ https://google.github.io/styleguide/docguide/style.html> -->
 <!-- /MarkdownTOC -->
 </details>
 
+![Final Website](./readme-images/website-final.jpg)  
 
 <a id="description"></a>
 # Description  
@@ -53,7 +54,7 @@ This website has been created for local Sunshine Coast Band - Sailing In Space.
 The purpose of this website is for the band to promote gigs, their music and 
 merchandise to their fans.  
 
-The final project was published on DATE and submitted on DATE.
+The final project was submitted early November 2021.
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -144,38 +145,22 @@ users expect from a band website.
 <a id="skeleton"></a>
 ### 4. Skeleton  
 
-Originally there were 16 wireframes. After discussion with my Mentor I have cut down the website.
-There are now 8 wireframes.
+The wireframes have been created 3 times using Balsamiq. I originally had too many wireframes so I cut them down after discussion
+with my Mentor and they became the 2nd version.
 
-The current [wireframes](/documents/sailing-in-space-wireframes.pdf) have been created using Balsamiq.  
+As I was developing the website, I noticed that how I had set out the wireframes wasn't working on a mobile and 
+at times the desktop and tablet version needed to be changed as well. This has been included in my Lessons Learned.
 
-* [Home Page Wireframe](https://assets/images/wireframes/homepage.png)  
-* [Phone Navigation Wireframe](https://assets/images/wireframes/phone-navigation.png)  
-* [The Music Wireframe](https://assets/images/wireframes/the-music.png)  
-* [Gigs Wireframe](https://assets/images/wireframes/gigs.png)  
-* [The Band Wireframe](https://assets/images/wireframes/the-band.png)  
-* [Contact Us Wireframe](https://assets/images/wireframes/contact-us.png)  
-* [Thank You Wireframe](https://assets/images/wireframes/thank-you.png)  
-* [404 Error Wireframe](https://assets/images/wireframes/404-error.png)  
+Here are the final [wireframes](./documents/sailing-in-space-wireframes.pdf):
 
-The former [wireframes](/documents/sailing-in-space-wireframes-v1.pdf) have been created using Balsamiq.
-
-* [Home Page Wireframe V1](https://assets/images/wireframes/version1/homepage-v1.png)  
-* [Phone Navigation Wireframe V1](https://assets/images/wireframes/version1/phone-navigation-v1.png) 
-* [Coming Soon Wireframe V1](https://assets/images/wireframes/version1/coming-soon-v1.png)  
-* [Singles Wireframe V1](https://assets/images/wireframes/version1/singles-v1.png)  
-* [Albums Wireframe V1](https://assets/images/wireframes/version1/albums-v1.png)  
-* [Upcoming Events Wireframe V1](https://assets/images/wireframes/version1/upcoming-events-v1.png)  
-* [Private Functions Wireframe V1](https://assets/images/wireframes/version1/private-functions-v1.png)  
-* [Venue Bookings Wireframe V1](https://assets/images/wireframes/version1/venue-bookings-v1.png)  
-* [Meet the Boys Wireframe V1](https://assets/images/wireframes/version1/meet-the-boys-v1.png)  
-* [Gallery Wireframe V1](https://assets/images/wireframes/version1/gallery-v1.png) 
-* [Photos Wireframe V1](https://assets/images/wireframes/version1/photos-v1.png)  
-* [Videos Wireframe V1](https://assets/images/wireframes/version1/videos-v1.png)  
-* [Merchandise Wireframe V1](https://assets/images/wireframes/version1/merchandise-v1.png)  
-* [Contact Us Wireframe V1](https://assets/images/wireframes/version1/contact-us-v1.png)  
-* [Thank You Wireframe V1](https://assets/images/wireframes/version1/thank-you-v1.png)  
-* [404 Error Wireframe V1](https://assets/images/wireframes/version1/404-error.png)
+* [Home Page Wireframe](./readme-images/wireframes/homepage.png)  
+* [The Music Wireframe](./readme-images/wireframes/the-music.png)  
+* [Gigs Wireframe](./readme-images/wireframes/gigs.png)  
+* [The Band Wireframe](./readme-images/wireframes/the-band.png)  
+* [Merchandise Wireframe](./readme-images/wireframes/merchandise.png)  
+* [Contact Us Wireframe](./readme-images/wireframes/contact-us.png)  
+* [Thank You Wireframe](./readme-images/wireframes/thank-you.png)  
+* [404 Error Wireframe](./readme-images/wireframes/404-error.png)  
 
 <a id="surface"></a>
 ### 5. Surface  
@@ -184,18 +169,18 @@ Colour Scheme
   * I wanted to use black and white as colours that represented space. The main colour will be black #000 for the background and white #FFF for the text. I used blue #13A6DB (Cerulean Crayola) for the navigation bar, buttons and titles.
     The blue was selected from the logo by using [Image Color Picker](https://imagecolorpicker.com/).  
 
-    ![3 Colours](assets/images/readme/3-colours-of-website.JPG)   
+    ![3 Colours](./readme-images/3-colours-of-website.JPG)   
     Colours sourced using [Coolors](https://coolors.co/13a6db-ffffff-000000)  
   * I came up with this selection by firstly checking [WebAIM](https://webaim.org/resources/contrastchecker/) to ensure that the foreground colour of #13A6DB and the background colour #000 were accessible.  
     
-  ![WebAIM Contrast Checker](assets/images/readme/webaim-contrast-checker.JPG)  
+  ![WebAIM Contrast Checker](./readme-images/webaim-contrast-checker.JPG)  
   * I then wanted a different colour to display when hovering over a link. I used [Color Space](https://mycolor.space/?hex=%2313A6DB&sub=1) and found the yellow #F9F871 (Icterine) in the generic gradient to use as my link colour.  
     
-  ![Generic Gradient](assets/images/readme/generic-gradient.JPG)  
+  ![Generic Gradient](./readme-images/generic-gradient.JPG)  
 
   * The final four colours chosen:
 
-  ![Final Colours of Website](assets/images/readme/final-colours-of-website.JPG)  
+  ![Final Colours of Website]./readme-images/final-colours-of-website.JPG)  
   Colours sourced using [Coolors](https://coolors.co/13a6db-f9f871-ffffff-000000)
   
   Typography  
@@ -304,8 +289,8 @@ Languages Used
 
 Frameworks, Libraries, Programs and Resources Used  
 
-1. [Adobe Spark](https://www.adobe.com/express/feature/image/resize) - resizing images  
-2. [Anna Greaves (portait-artist)](https://github.com/AJGreaves/portrait-artist#readme) - for ideas and information from the README file  
+1. [Am I Responsive](https://www.adobe.com/express/feature/image/resize) - to create a Home Page image on each device for use in the Readme file  
+2. [Anna Greaves (portait-artist)](https://github.com/AJGreaves/portrait-artist#readme) - for ideas and information from the Readme file  
 3. [Autoprefixer CSS Online](https://autoprefixer.github.io/) - to ensure all vendor prefixes were included in CSS
 4. [Balsamiq](https://balsamiq.com/) - wireframes  
 5. [Bootstrap 4.6 CDN](https://getbootstrap.com/docs/4.6/getting-started/introduction/) - to make the website responsive  
@@ -317,19 +302,19 @@ Frameworks, Libraries, Programs and Resources Used
 11. [Facebook](https://www.facebook.com/SailingInSpace) - for the images and videos  
 12. [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2) - for their icons  
 13. [Freepik](https://www.freepik.com) - 404 error page  
-14. [Gabriel Staples](https://github.com/ElectricRCAircraftGuy/AlfaWiFiAdapterSoftware/blob/master/README.md#wiki-instructions) - to create a Table of Contents for the Readme and Testing documents
+14. [Gabriel Staples](https://github.com/ElectricRCAircraftGuy/AlfaWiFiAdapterSoftware/blob/master/README.md) - to create a Table of Contents for the Readme and Testing files
 15. [Google Fonts](https://fonts.google.com/) - typography  
 16. [GitPod](https://www.gitpod.io/) - IDE  
 17. [Git](https://git-scm.com/) - version control  
 18. [GitHub](https://github.com/) - hosting service  
 19. [Image Colour Picker](https://imagecolorpicker.com/) - to select a main colour for navigation bars, buttons and titles
-20. [Jim Lynx (Explore Island)](https://github.com/JimLynx/CI-MS1-Explore-Ireland/blob/master/README.md) - for ideas and information from the README file 
+20. [Jim Lynx (Explore Island)](https://github.com/JimLynx/CI-MS1-Explore-Ireland/blob/master/README.md) - for ideas and information from the Readme file 
 21. [jQuery](https://jquery.com/) - for the responsive navbar  
 22. [Lighthouse](https://developers.google.com/web/tools/lighthouse) to check for any issues on all pages
 23. [Markdown Style Guide](https://google.github.io/styleguide/docguide/style.html) - for nested list spacing
 24. [PIXLR](https://pixlr.com/x/) - to reverse a photo  
 25. [Popper.js](https://popper.js.org/) - for the responsive navbar  
-26. [Rachel Hyman](https://gist.github.com/rachelhyman/b1f109155c9dafffe618#real-cool-heading) - to assist with anchor links in the Readme and Testing documents
+26. [Rachel Hyman](https://gist.github.com/rachelhyman/b1f109155c9dafffe618#real-cool-heading) - to assist with anchor links in the Readme and Testing files
 27. [Slack](https://slack.com/) - main source of assistance from other students, developers and documents/resources  
 28. [Snagit](https://www.techsmith.com/screen-capture.html) - screen capture and resizing images  
 29. [Stack overflow](https://stackoverflow.com/) - for resolving specific issues
@@ -366,8 +351,10 @@ Frameworks, Libraries, Programs and Resources Used
   * For example, only use Bootstrap 4 as Bootstrap 5 is not supported by Code Institute  
 * There is so much to learn  
   * It takes time to introduce new features, it isn't as simple as copying and pasting code from Bootstrap and other sources
-* Don't forget to commit after an introduction of an item. I get too excited learning and playing that
-  I forget to commit regularly
+* Don't forget to commit after an introduction of an item. I get too excited learning and playing that I forget to commit regularly
+* I need to take more time with my wireframes so I am not changing them after starting the website. This was the first time
+I had ever created wireframes and realised that what works on a desktop does not always work on a mobile or tablet. I did change some 
+of the desktop wireframes too from the original wireframes as I now know what works well on a page
 
 [Back to Table of Contents](#table-of-contents)
 
