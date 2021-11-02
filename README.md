@@ -178,9 +178,9 @@ Colour Scheme
     
   ![Generic Gradient](./readme-images/generic-gradient.JPG)  
 
-  * The final four colours chosen:
+  * The final four colours chosen:  
 
-  ![Final Colours of Website]./readme-images/final-colours-of-website.JPG)  
+  ![Final Colours of Website](./readme-images/final-colours-of-website.JPG)  
   Colours sourced using [Coolors](https://coolors.co/13a6db-f9f871-ffffff-000000)
   
   Typography  
