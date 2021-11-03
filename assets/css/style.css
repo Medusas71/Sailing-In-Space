@@ -300,6 +300,10 @@ a {
     color: #FFF;
     padding-bottom: 10px;
     font-size: 28px;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 1px;
 }
 
 .bio-link {
@@ -331,7 +335,8 @@ a {
 }
 
 .carousel-caption {
-    top: 40px;
+    /* top: 40px; */
+    bottom: 0;
     color: red;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -342,7 +347,7 @@ a {
 }
 
 .carousel-caption-shirt {
-    top: 140px;
+    /* top: 140px; */
 }
 
 .carousel .item {
