@@ -6,106 +6,154 @@
 
 **Please note: To open any links in this document in a new browser tab, press 'CTRL + Click'.**
 
+<a id=#table-of-contents></a>
+# Table of Contents
+<details open>
+<summary><b>(click to expand or hide)</b></summary>
+<!-- MarkdownTOC -->
+
+[Testing](#testing)
+* [Validators](#validators)
+* [Lighthouse](#lighthouse)
+* [User Stories](#user-stories)
+
+<!-- /MarkdownTOC -->
+</details>
+
 <a id="testing"></a>
 # Testing 
 
 Testing was conducted manually and through different validator services on each page of the website.
 
-* [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was used to ensure that there were no errors in my HTML document and was validated by direct input. Here are the results
-* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to ensure that there were no errors in my CSS document and was validated by direct input. Here are the results 
-* [Autoprefixer CSS Online](https://autoprefixer.github.io/) was used to ensure that all vendor prefixes were included in CSS. The results were copied into the style.css file.
-* [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to check for any problems on all pages. Some of the issues I have resolved to improve the score. The remaining issues will be researched to improve the score as I learn.
+<a id="validators"></a>
+## Validators
+
+* [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was used on each page to ensure that there were no errors or warnings in my HTML document and was validated by direct input. I had no errors or warnings on any page:  
+
+![W3C Markup HTML results](./testing-images/results-w3c-markup-html.jpg)
+
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to ensure that there were no errors or warnings in my CSS document and was validated by direct input. I had no errors or warnings display:
+
+![W3C CSS Validation results](./testing-images/results-w3c-css.jpg)  
+
+* [Autoprefixer CSS Online](https://autoprefixer.github.io/) was used to ensure that all vendor prefixes were included in CSS. The results were copied into the style.css file  
+
+[Back to Table of Contents](#table-of-contents)
+
+<a id="lighthouse"></a>
+## Lighthouse
+
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to check for any problems on all pages. Some of the issues, like accessibility, I have resolved to improve the score. The remaining issues will be researched to improve the score as I learn.
 Here is the lighthouse score for each page on mobile and desktop:
 
 ### index.html - mobile  
 
-![index-mobile](assets/images/readme/lighthouse/index-mobile-lh.jpg)
+![index-mobile](./readme-images/lighthouse/index-mobile-lh.jpg)
 
 ### index.html - desktop  
 
-![index-desktop](assets/images/readme/lighthouse/index-desktop-lh.jpg)  
+![index-desktop](./readme-images/lighthouse/index-desktop-lh.jpg)  
 
 ### the-music.html - mobile
 
-![music-mobile](assets/images/readme/lighthouse/the-music-mobile-lh.jpg)  
+![music-mobile](./readme-images/lighthouse/the-music-mobile-lh.jpg)  
 
 ### the-music.html - desktop
-![music-desktop](assets/images/readme/lighthouse/the-music-desktop-lh.jpg)  
+![music-desktop](./readme-images/lighthouse/the-music-desktop-lh.jpg)  
 
 ### gigs.html - mobile
 
-![gigs-mobile](assets/images/readme/lighthouse/gigs-mobile-lh.jpg)  
+![gigs-mobile](./readme-images/lighthouse/gigs-mobile-lh.jpg)  
 
 ### gigs.html - desktop
 
-![gigs-desktop](assets/images/readme/lighthouse/gigs-desktop-lh.jpg)  
+![gigs-desktop](./readme-images/lighthouse/gigs-desktop-lh.jpg)  
 
 ### the-band.html - mobile
 
-![gigs-mobile](assets/images/readme/lighthouse/gigs-mobile-lh.jpg)  
+![gigs-mobile](./readme-images/lighthouse/gigs-mobile-lh.jpg)  
 
 ### the-band.html - desktop
 
-![gigs-desktop](assets/images/readme/lighthouse/gigs-desktop-lh.jpg)  
+![gigs-desktop](./readme-images/lighthouse/gigs-desktop-lh.jpg)  
 
 ### merchandise.html - mobile
 
-![merchandise-mobile](assets/images/readme/lighthouse/merchandise-mobile-lh.jpg) 
+![merchandise-mobile](./readme-images/lighthouse/merchandise-mobile-lh.jpg) 
 
 ### merchandise.html - desktop
 
-![merchandise-desktop](assets/images/readme/lighthouse/merchandise-desktop-lh.jpg) 
+![merchandise-desktop](./readme-images/lighthouse/merchandise-desktop-lh.jpg) 
 
 ### contact-us.html - mobile
 
-![contact-us-mobile](assets/images/readme/lighthouse/contact-us-mobile-lh.jpg) 
+![contact-us-mobile](./readme-images/lighthouse/contact-us-mobile-lh.jpg) 
 
 ### contact-us.html - desktop
 
-![contact-us-desktop](assets/images/readme/lighthouse/contact-us-desktop-lh.jpg) 
+![contact-us-desktop](./readme-images/lighthouse/contact-us-desktop-lh.jpg) 
 
 ### thank-you.html - mobile
 
-![thank-you-mobile](assets/images/readme/lighthouse/thank-you-mobile-lh.jpg) 
+![thank-you-mobile](./readme-images/lighthouse/thank-you-mobile-lh.jpg) 
 
 ### thank-you.html - desktop
 
-![thank-you-desktop](assets/images/readme/lighthouse/thank-you-desktop-lh.jpg) 
+![thank-you-desktop](./readme-images/lighthouse/thank-you-desktop-lh.jpg) 
 
+[Back to Table of Contents](#table-of-contents)
 
-## Testing User Stories from the UX section of the [README](/SAILING-IN-SPACE/README.md/)  
+<a id="user-stories"></a>
+## User Stories  
+
+### Testing User Stories from the UX section of the [README](/SAILING-IN-SPACE/README.md/)  
 
 ### Fan Goals
 
 1.  As a fan and a record company, I would like to listen to the bands songs:
     * This is achieved by clicking "The Music" navigation link at the top of each page in the fixed header. Once on "The Music" page, you can click the "Play" button next to each song. The song displays using Spotify in a new tab and it is up to the user to click play on the song. The users can also hear a snippet of the bands new upcoming single on "The Music" page.
     <p>&nbsp;</p>
+![1-fan-goals](./testing-images/user-stories/1-fan-goals-listen-songs.jpg)  
+    
+![1-fan-goals](./testing-images/user-stories/1-fan-goals-new-song.jpg)
 
 2.  As a fan, I would like to learn about the bands history and the band members:
     * This is achieved by clicking "The Band" navigation link at the top of each page in the fixed header and the "About" navigation link in the fixed footer on every page. A snippet of information regarding the band is displayed on "the Band" page and there is a link to read more about the band. There is also a link against each band member that displays a modal with their bio included.
     <p>&nbsp;</p>
+![2-fan-goals](./testing-images/user-stories/2-fan-goals-band.jpg)
 
 3.  As a fan, I would like to follow the band on social media:
     * This is achieved by clicking the social media links that are in the fixed footer on every page.
     <p>&nbsp;</p> 
+![3-fan-goals](./testing-images/user-stories/3-fan-goals-social-media.jpg)
 
-4.  As a fan, I would like to see the band live at an upcoming gig:
-    * This is achieved by viewing the "Upcoming Events" on the "Home Page - index.html" and clicking the "See more" link. The user is taken to the "Gigs" page where they can see what events are upcoming.
+4.  As a fan, I would like to see the band at an upcoming gig:
+    * This is achieved by viewing the "Upcoming Events" on the "Home Page - index.html" and clicking the "See more upcoming events" link. The user is taken to the "Gigs" page where they can see what events are upcoming.
     * This is also achieved by clicking the "Gigs" navigation link at the top of each page in the fixed header and viewing all upcoming events.
     <p>&nbsp;</p>
+![4-fan-goals](./testing-images/user-stories/4-fan-goals-upcoming-gig-home-page.jpg)
+
+![4-fan-goals](./testing-images/user-stories/4-fan-goals-upcoming-gig.jpg)
 
 5.  As a fan, I would like the opportunity to book the band for a show:
     * This is achieved by clicking the "Contact Us" link in the fixed header and footer of every page and requesting a booking.
     * You can also click the "Book Us Now" link on the "Gigs" page that forwards you to the "Contact Us" page. 
     <p>&nbsp;</p>  
+![5-fan-goals](./testing-images/user-stories/5-fan-goals-bookings.jpg)
+
+![5-fan-goals](./testing-images/user-stories/5-fan-goals-bookings-gigs-page.jpg)
 
 6.  As a fan, I would like to read the lyrics whilst listening to their songs:
     * This is achieved by clicking "The Music" navigation link in the fixed header at the top of every page. On the page you can click "Play" next to a song and Spotify opens in a new tab. You can press play and then go back to the website and click "Lyrics" next to the song. The lyrics display in a modal.
     <p>&nbsp;</p>  
+![6-fan-goals](./testing-images/user-stories/6-fan-goals-lyrics.jpg)
 
 7.  As a fan, I would like to view and possibly purchase the bands merchandise:
     * The merchandise can be viewed by clicking the "Merchandise" navigation link at the top of each page in the fixed header. The merchandise can be purchased by using the "Contact Us" form.
     <p>&nbsp;</p>  
+![7-fan-goals](./testing-images/user-stories/7-fan-goals-merchandise.jpg)
+
+![7-fan-goals](./testing-images/user-stories/7-fan-goals-merchandise-contact-us-page.jpg)
 
 8.  As a fan, I would like to see the site on all devices such as phone, tablet, laptop and desktop:
     * This is achieved by making the website responsive for all devices.
@@ -115,16 +163,26 @@ Here is the lighthouse score for each page on mobile and desktop:
 
 9.  As a band member of Sailing In Space, I would like to get more gigs:
     * This is achieved by:
-        * displaying upcoming gigs on the home page to promote what they are currently doing;
-        * displaying upcoming gigs on the "Gigs" page to promote what they are currently doing;
+        * displaying upcoming events on the "Home" page to promote what they are currently doing;
+        * a link on the home page to "See more upcoming events" to promote what they are currently doing;
+        * displaying upcoming events on the "Gigs" page to promote what they are currently doing;
         * displaying videos of the band performing on the "Gigs" page to promote what they have done previously;
         * having a contact form on the "Contact Us" page.
     <p>&nbsp;</p>  
+![9-site-owner-goals](./testing-images/user-stories/9-site-owner-goals-home-page.jpg)
 
-10. As a band member of Sailing In Space, I would like the opportunity for fans to purchase tickets to
-    upcoming gigs:
-    * The upcoming gigs displayed on the "Home" and "Gigs" page have links to the event where tickets can be purchased directly from the event via Facebook.
+![9-site-owner-goals](./testing-images/user-stories/9-site-owner-goals-gigs-page.jpg)
+
+![9-site-owner-goals](./testing-images/user-stories/9-site-owner-goals-gigs-page-videos.jpg)
+
+![9-site-owner-goals](./testing-images/user-stories/9-site-owner-goals-contact-us-page.jpg)
+
+10. As a band member of Sailing In Space, I would like the opportunity for fans to purchase tickets to upcoming gigs:
+    * The upcoming events displayed on the "Home" and "Gigs" page have links to the event where tickets can be purchased directly from the event via Facebook.
     <p>&nbsp;</p>  
+![10-site-owner-goals](./testing-images/user-stories/10-site-owner-goals-purchase-tickets-home-page.jpg)
+
+![10-site-owner-goals](./testing-images/user-stories/10-site-owner-goals-purchase-tickets-gigs-page.jpg)
 
 11. As a band member of Sailing In Space, I would like to sell merchandise:
     * This is achieved by viewing all merchandise on "The Band" page and by using the contact form on the "Contact Us" page to purchase the merchandise.
@@ -133,20 +191,30 @@ Here is the lighthouse score for each page on mobile and desktop:
 12. As a band member of Sailing In Space, I would like to increase our social media following:
     * This is achieved by having all social media links displayed on the fixed footer that is on each page.
     <p>&nbsp;</p>  
+![12-site-owner-goals](./testing-images/user-stories/12-site-owner-goals-increase-social-media.jpg)
 
 13. As a band member of Sailing In Space, I would like to receive a record deal:
     * This can potentially be achieved by promoting their music on "The Music" page and their gigs on "The Band" page.
-    * Also, it is noted on the "Gigs" page that the band is looking for a record deal.
+    * Also, it is noted on the "Band" page that the band is looking for a record deal.
     <p>&nbsp;</p>  
+![13-site-owner-goals](./testing-images/user-stories/13-site-owner-goals-record-deal-music.jpg)
+
+![13-site-owner-goals](./testing-images/user-stories/13-site-owner-goals-record-deal-gigs-page.jpg)
+
+![13-site-owner-goals](./testing-images/user-stories/13-site-owner-goals-record-deal-band-page.jpg)
 
 ### Record Company Goals
 
 14. As a record company, I would like to find out if they already have signed a record deal:
     * The information on "The Band" page advises that the band is looking for a record deal.
     <p>&nbsp;</p>
+![14-record-company-goals](./testing-images/user-stories/14-record-company-goals-record-deal.jpg)
 
-15. as a record company, I would like to contact the band:
+15. As a record company, I would like to contact the band:
     * This is achieved by having a contact form on the "Contact Us" page.
+![15-record-company-goals](./testing-images/user-stories/15-record-company-goals-contact.jpg)
+
+[Back to Table of Contents](#table-of-contents)
 
 ## Manual testing of all elements and functionality on every page
 
@@ -328,6 +396,8 @@ Here is the lighthouse score for each page on mobile and desktop:
 |       |         | Click each icon | The correct corresponding page displays in a new tab | 
 |       | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | At 991px the hamburger menu displays; At 767px the content displays vertically with Contact Us at the top, the form in the middle and the image of Sailing In Space displayed last; At 576px the footer is placed into 3 rows vertically; As you scroll down the page on any size, the header and footer are fixed. | 
 
+[Back to Table of Contents](#table-of-contents)
+
 # Bugs/Fixes
 
 **Home Page - index.html**
@@ -363,3 +433,5 @@ Here is the lighthouse score for each page on mobile and desktop:
 **1.    Issue**;
     When conducting a [Wave Report](https://wave.webaim.org/) on the page, I was advised that a label was missing on the text area part of the form.  
 * **Fix**: I found the same question asked on [stack overflow](https://stackoverflow.com/questions/38142464/web-accessibility-failing-on-missing-form-label) and found a resolution in how to add the missing label to the text area part of the form. I added aria-label in the text area.
+
+[Back to Table of Contents](#table-of-contents)
