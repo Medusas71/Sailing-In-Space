@@ -48,58 +48,58 @@ Here is the lighthouse score for each page on mobile and desktop:
 
 ### index.html - mobile  
 
-![index-mobile](./readme-images/lighthouse/index-mobile-lh.jpg)
+![index-mobile](./testing-images/lighthouse/index-mobile-lh.jpg)
 
 ### index.html - desktop  
 
-![index-desktop](./readme-images/lighthouse/index-desktop-lh.jpg)  
+![index-desktop](./testing-images/lighthouse/index-desktop-lh.jpg)  
 
 ### the-music.html - mobile
 
-![music-mobile](./readme-images/lighthouse/the-music-mobile-lh.jpg)  
+![music-mobile](./testing-images/lighthouse/the-music-mobile-lh.jpg)  
 
 ### the-music.html - desktop
-![music-desktop](./readme-images/lighthouse/the-music-desktop-lh.jpg)  
+![music-desktop](./testing-images/lighthouse/the-music-desktop-lh.jpg)  
 
 ### gigs.html - mobile
 
-![gigs-mobile](./readme-images/lighthouse/gigs-mobile-lh.jpg)  
+![gigs-mobile](./testing-images/lighthouse/gigs-mobile-lh.jpg)  
 
 ### gigs.html - desktop
 
-![gigs-desktop](./readme-images/lighthouse/gigs-desktop-lh.jpg)  
+![gigs-desktop](./testing-images/lighthouse/gigs-desktop-lh.jpg)  
 
 ### the-band.html - mobile
 
-![gigs-mobile](./readme-images/lighthouse/gigs-mobile-lh.jpg)  
+![gigs-mobile](./testing-images/lighthouse/gigs-mobile-lh.jpg)  
 
 ### the-band.html - desktop
 
-![gigs-desktop](./readme-images/lighthouse/gigs-desktop-lh.jpg)  
+![gigs-desktop](./testing-images/lighthouse/gigs-desktop-lh.jpg)  
 
 ### merchandise.html - mobile
 
-![merchandise-mobile](./readme-images/lighthouse/merchandise-mobile-lh.jpg) 
+![merchandise-mobile](./testing-images/lighthouse/merchandise-mobile-lh.jpg) 
 
 ### merchandise.html - desktop
 
-![merchandise-desktop](./readme-images/lighthouse/merchandise-desktop-lh.jpg) 
+![merchandise-desktop](./testing-images/lighthouse/merchandise-desktop-lh.jpg) 
 
 ### contact-us.html - mobile
 
-![contact-us-mobile](./readme-images/lighthouse/contact-us-mobile-lh.jpg) 
+![contact-us-mobile](./testing-images/lighthouse/contact-us-mobile-lh.jpg) 
 
 ### contact-us.html - desktop
 
-![contact-us-desktop](./readme-images/lighthouse/contact-us-desktop-lh.jpg) 
+![contact-us-desktop](./testing-images/lighthouse/contact-us-desktop-lh.jpg) 
 
 ### thank-you.html - mobile
 
-![thank-you-mobile](./readme-images/lighthouse/thank-you-mobile-lh.jpg) 
+![thank-you-mobile](./testing-images/lighthouse/thank-you-mobile-lh.jpg) 
 
 ### thank-you.html - desktop
 
-![thank-you-desktop](./readme-images/lighthouse/thank-you-desktop-lh.jpg) 
+![thank-you-desktop](./testing-images/lighthouse/thank-you-desktop-lh.jpg) 
 
 [Back to Table of Contents](#table-of-contents)
 
