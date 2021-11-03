@@ -15,6 +15,7 @@
 [Testing](#testing)
 * [Validators](#validators)
 * [Lighthouse](#lighthouse)
+* [Wave Report](#wave)
 * [User Stories](#user-stories)
 
 <!-- /MarkdownTOC -->
@@ -100,6 +101,87 @@ Here is the lighthouse score for each page on mobile and desktop:
 ### thank-you.html - desktop
 
 ![thank-you-desktop](./testing-images/lighthouse/thank-you-desktop-lh.jpg) 
+
+[Back to Table of Contents](#table-of-contents)
+
+<a id="wave"></a>
+## Wave Report  
+
+* [Wave](https://wave.webaim.org/) was used to check for any accessibility issues on all pages. The report came back with no errors and no contrast errors. There were alerts that displayed. I have addressed each alert below:
+
+### index.html
+
+![Summary Home Page](./testing-images/wave/summary-home-page.jpg)
+
+![Details Home Page](./testing-images/wave/details-home-page.jpg)
+
+5 Alerts display:  
+* 1 x Suspicious alternative text - This text is explaining what the image is.
+* 1 x Missing first level heading - There is no level 1 heading on this page as it is not required.
+* 1 x Possible heading - The See more upcoming events is a paragraph and not a heading.
+* 2 x Redundant link - 1 link is for the Home page which the logo also has a link to the Home page. The reason this was done was due to feedback that the user did not know how to return home when on another page. The other link is for the new song "Like It", this link is used twice on the page, once on the words and once on the image.
+
+### the-music.html
+
+![Summary Music Page](./testing-images/wave/summary-music-page.jpg)
+
+![Details Music Page](./testing-images/wave/details-music-page.jpg)
+
+5 Alerts display:
+* 2 x Skipped heading level - I cannot locate where the heading level is skipped.
+* 1 x Possible heading - The words "Our new song Like It" is a paragraph and not a heading.
+* 1 x Redundant link - Link is for the Home page which the logo also has a link to the Home page. The reason this was done was due to feedback that the user did not know how to return home when on another page.
+* 1 x HTML5 video or audio - This is due to having a snippet of the bands new song on the page. There is no text format available.
+
+### gigs.html
+
+![Summary Gigs Page](./testing-images/wave/summary-gigs-page.jpg)
+
+![Details Gigs Page](./testing-images/wave/details-gigs-page.jpg)
+
+7 Alerts display:
+* 1 x Possible heading - The time on the 2nd event is a paragraph and not a heading.
+* 4 x Redundant links:
+    * The 1st redundant link is for the Home page which the logo also has a link to the Home page. The reason this was done was due to feedback that the user did not know how to return home when on another page.
+    * The "Book Us Now" link is on the page twice. The reason for this is if the user wanted to book the band they can do this near the top of the page. The 2nd "Book Us Now" link is at the bottom of the page, in case the user wanted to read the content first and then possibly book the band.
+    * The 3rd redundant link is for the 1st event. The same link is on the words "Facebook" and also on the image. 
+    * The 4th redundant link is for the 2nd event. The same link is on the words "Facebook" and also on the image. 
+* 2 x HTML5 video or audio - There are 2 wedding videos on this page and the band is singing and that is why there is no text format available.
+
+### the-band.html
+
+![Summary Band Page](./testing-images/wave/summary-band-page.jpg)
+
+![Details Band Page](./testing-images/wave/details-band-page.jpg)
+
+3 Alerts display:
+* 1 x Skipped heading level - No headings were skipped.
+* 1 x Possible heading -the text of the individual band member and their role is a paragraph and not a heading.
+* 1 x Redundant link - The link is for the Home page which the logo also has a link to the Home page. The reason this was done was due to feedback that the user did not know how to return home when on another page.
+
+### merchandise.html
+
+![Summary Merchandise Page](./testing-images/wave/summary-merchandise-page.jpg)
+
+![Details Merchandise Page](./testing-images/wave/details-merchandise-page.jpg)
+
+2 Alerts display:
+* 2 x Redundant links - 1 link is for the Home page which the logo also has a link to the Home page. The reason this was done was due to feedback that the user did not know how to return home when on another page. The other link is for the "Contact Us" link, this link is used twice on the page, once on the words and once on the navbar.
+
+### contact-us.html
+
+![Summary Contact Us Page](./testing-images/wave/summary-contact-us-page.jpg)
+
+![Details Contact Us Page](./testing-images/wave/details-contact-us-page.jpg)
+
+1 Alert displays:
+* 1 x Redundant link - Link is for the Home page which the logo also has a link to the Home page. The reason this was done was due to feedback that the user did not know how to return home when on another page.
+
+### thank-you.html
+
+![Summary Thank You Page](./testing-images/wave/summary-thank-you-page.jpg)
+
+![Details Thank You Page](./testing-images/wave/details-thank-you-page.jpg)
 
 [Back to Table of Contents](#table-of-contents)
 
