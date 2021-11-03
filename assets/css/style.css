@@ -335,7 +335,6 @@ a {
 }
 
 .carousel-caption {
-    /* top: 40px; */
     bottom: 0;
     color: red;
     font-family: "Roboto", sans-serif;
@@ -344,10 +343,6 @@ a {
     font-size: 15px;
     letter-spacing: 1px;
     z-index: 10;
-}
-
-.carousel-caption-shirt {
-    /* top: 140px; */
 }
 
 .carousel .item {
