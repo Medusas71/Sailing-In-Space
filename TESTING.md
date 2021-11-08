@@ -17,6 +17,8 @@
 * [Lighthouse](#lighthouse)
 * [Wave Report](#wave)
 * [User Stories](#user-stories)
+* [Manual Testing](#manual-testing)
+* [Bugs/Fixes](#bugs-fixes)
 
 <!-- /MarkdownTOC -->
 </details>
@@ -313,6 +315,7 @@ Here is the lighthouse score for each page on mobile and desktop:
   
 [Back to Table of Contents](#table-of-contents)
 
+<a id="manual-testing"></a>
 ## Manual testing of all elements and functionality on every page
 
 ### Browsers tested:
@@ -548,40 +551,81 @@ Here is the lighthouse score for each page on mobile and desktop:
 
 [Back to Table of Contents](#table-of-contents)
 
+<a id="bugs-fixes"></a>
 # Bugs/Fixes
 
-**Home Page - index.html**
+**Home Page**
 
 **1.    Issue**:  
     On the home page, I had issues where the images weren't displaying on top of each other on a mobile view. 
-* **Fix**: To rectify this, I made my images responsive and that fixed the issue.  
+* **Fix**: To rectify this, I made my images responsive and that fixed the issue.   
 
 **2.    Issue**:  
-    I initially created the video using the video tag in HTML but found the video was taking over the whole screen and wasn't responsive. I changed the video tag to an iframe and this fixed the problem. However the video was set to autoplay on a desktop, which I didn't want to happen. 
-* **Fix**: I reverted back to using the video tag and made it responsive by using height: auto and width: 100%.  
+    I was completely lost in making the footer work on a mobile and be responsive.
+* **Fix**: I chatted to Tutor Support and they assisted me with the CSS in how to rectify this.  
 
 **3.    Issue**:  
-    The 2nd event wasn't fully displaying on mobile phones. 
-* **Fix**: To rectify this I added some media queries specifically for screens with a max-width of 576px. 
+    I had a friend test my website and she didn't know how to navigate to the Home page once on a different page.  
+* **Fix**: I added a Home navigation link to each page.
 
-**4.    Issue**:  
+**The Music Page**
+
+**1.    Issue**:  
     I originally had the background image URL on the music page in the HTML instead of the CSS. I was advised by some of the slack students that it was better if I have the URL in the CSS. I tried to put it in the CSS but I was having lots of issues having the image displayed as I wanted it. I spoke to Tutor Support and they advised that there is nothing wrong with having the URL and a huge negative margin to display the text on top of the image.
 * **Fix**: I placed the URL for the background image on the music page back in the HTML and I was able to display the image perfectly.  
 
-**Merchandise Page merchandise.html**
+**2.    Issue**:  
+    I didn't want to let the background image URL beat me, so I decided to try once more to place the image in the CSS, instead of HTML.
+* **Fix**: I positioned the image using "relative" and this fixed up all issues regarding the image displaying as a background image.
 
-**1.    Issue**: 
+**3.    Issue**:  
+    I was having issues with the text displaying over the top of the image. The image was opaque and all the text displayed opaque.
+* **Fix**: I found an article on [coder-coder.com](https://coder-coder.com/background-image-opacity/) advising How to change background-image opacity in CSS without affecting text or HTML/CSS. The solution was to put the background image into a pseudo-element of the parent.
+
+**4.    Issue**:  
+    I initially created the video using the video tag in HTML but found the video was taking over the whole screen and wasn't responsive. I changed the video tag to an iframe and this fixed the problem. However the video was set to autoplay on a desktop, which I didn't want to happen. 
+* **Fix**: I reverted back to using the video tag and made it responsive by using [height: auto and width: 100%](https://blog.webdevsimplified.com/2020-12/responsive-css-video/)  
+
+**5.    Issue**:  
+    When testing on a mobile, the image wasn't displaying on a video, it was a black background with a play button over the top. I wanted the image to display on the video.
+* **Fix**: On Developer Forums I found an article about the [video tag not showing preview on iPhone](https://developer.apple.com/forums/thread/129377). One of the answers advised to add #t=0.001 at the end of the video file, as then we are telling the browser to skip the first millisecond of the video. When I did this the browser on the mobile preloaded the video and showed the specific frame to the user.  
+
+**Gigs Page**
+
+**1.    Issue**:  
+    I initially created the video using the video tag in HTML but found the video was taking over the whole screen and wasn't responsive. I changed the video tag to an iframe and this fixed the problem. However the video was set to autoplay on a desktop, which I didn't want to happen. 
+* **Fix**: I reverted back to using the video tag and made it responsive by using [height: auto and width: 100%](https://blog.webdevsimplified.com/2020-12/responsive-css-video/)  
+
+**2.    Issue**:  
+    When testing on a mobile, the image wasn't displaying on a video, it was a black background with a play button over the top. I wanted the image to display on the video.
+* **Fix**: On Developer Forums I found an article about the [video tag not showing preview on iPhone](https://developer.apple.com/forums/thread/129377). One of the answers advised to add #t=0.001 at the end of the video file, as then we are telling the browser to skip the first millisecond of the video. When I did this the browser on the mobile preloaded the video and showed the specific frame to the user.  
+
+**The Band Page** 
+
+**1.    Issue**:  
+    I wanted to make the text scrollable but the image to stay displayed on the screen.
+* **Fix**: I made the background-attachment fixed and this solved the issue.
+
+**Merchandise Page**
+
+**1.    Issue**:  
     I was interested in adding a carousel to the merchandise page. I copied the code from Bootstrap, however whenever I would click the arrow on the carousel, the carousel would change size and get larger.  
 * **Fix**: I found the same question asked on [stack overflow](https://stackoverflow.com/questions/49844515/how-do-i-stop-my-bootstrap-carousel-from-changing-size) and found a resolution to the issue by adding an overflow to the css.  
 
-**2.    Issue**;
+**2.    Issue**:  
     On the carousel the text wouldn't display on the first 2 images, but will display on the 3rd image.  
 * **Fix**: I had a look on Slack and found this article by [Des Cahill](https://slack-files.com/T0L30B202-F8BFVUW8K-afa2370dff) that I copied and modified accordingly. I could then view the text on the carousel and was able to move the text position.  
 
-**Contact Us Page contact-us.html**
+**Contact Us Page**
 
-**1.    Issue**;
+**1.    Issue**:  
     When conducting a [Wave Report](https://wave.webaim.org/) on the page, I was advised that a label was missing on the text area part of the form.  
 * **Fix**: I found the same question asked on [stack overflow](https://stackoverflow.com/questions/38142464/web-accessibility-failing-on-missing-form-label) and found a resolution in how to add the missing label to the text area part of the form. I added aria-label in the text area.
+
+**Lighthouse testing on each page**
+
+**1.    Issue**:  
+    I noticed that on the Best Practices I was receiving an error regarding "Links to cross-origin destinations are unsafe" and to add a rel="noopener" on each external link to improve performance and prevent security vulnerabilities.
+* **Fix**: I added rel="noopener" to each external link
 
 [Back to Table of Contents](#table-of-contents)
