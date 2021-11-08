@@ -44,8 +44,11 @@ Testing was conducted manually and through different validator services on each 
 <a id="lighthouse"></a>
 ## Lighthouse
 
-* [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to check for any problems on all pages. Some of the issues, like accessibility, I have resolved to improve the score. The remaining issues will be researched to improve the score as I learn.
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse) was used to check for any problems on all pages. Some of the issues, like accessibility, I have resolved to improve the score. The remaining issues will be researched to improve the score as I learn.  
 Here is the lighthouse score for each page on mobile and desktop:
+
+<details open>
+<summary><b>(click to expand or hide)</b></summary>  
 
 ### index.html - mobile  
 
@@ -102,12 +105,17 @@ Here is the lighthouse score for each page on mobile and desktop:
 
 ![thank-you-desktop](./testing-images/lighthouse/thank-you-desktop-lh.jpg) 
 
+</details> 
+  
 [Back to Table of Contents](#table-of-contents)
 
 <a id="wave"></a>
 ## Wave Report  
 
 * [Wave](https://wave.webaim.org/) was used to check for any accessibility issues on all pages. The report came back with no errors and no contrast errors. There were alerts that displayed. I have addressed each alert below:
+  
+<details open>
+<summary><b>(click to expand or hide)</b></summary>  
 
 ### index.html
 
@@ -181,14 +189,19 @@ Here is the lighthouse score for each page on mobile and desktop:
 
 ![Summary Thank You Page](./testing-images/wave/summary-thank-you-page.jpg)
 
-![Details Thank You Page](./testing-images/wave/details-thank-you-page.jpg)
-
+![Details Thank You Page](./testing-images/wave/details-thank-you-page.jpg)  
+  
+</details>   
+  
 [Back to Table of Contents](#table-of-contents)
 
 <a id="user-stories"></a>
 ## User Stories  
 
-### Testing User Stories from the UX section of the [README](/SAILING-IN-SPACE/README.md/)  
+### Testing User Stories from the UX section of [the main README.md document](README.md)  
+
+<details open>
+<summary><b>(click to expand or hide)</b></summary>  
 
 ### Fan Goals
 
@@ -296,6 +309,8 @@ Here is the lighthouse score for each page on mobile and desktop:
     * This is achieved by having a contact form on the "Contact Us" page.
 ![15-record-company-goals](./testing-images/user-stories/15-record-company-goals-contact.jpg)
 
+</details> 
+  
 [Back to Table of Contents](#table-of-contents)
 
 ## Manual testing of all elements and functionality on every page
@@ -314,169 +329,220 @@ Here is the lighthouse score for each page on mobile and desktop:
 *   laptop
 *   desktop 
 
+<details open>
+<summary><b>(click to expand or hide)</b></summary>  
 
 |Page   | Section | Action | Expected Behaviour | Result |
 | ----- | ------- | ------ | ------------------ | ------ |
-| Home Page | Tab at top of page | On a desktop, go to https://medusas71.github.io/Sailing-In-Space | The Home Page displays; The favicon displays in the tab; the tab is named "Home Sailing In Space" | P/F |
-|       | Background | The background is black | The background is black | 
-|       | Header | Scroll to ensure the header is fixed | The header is fixed |
-| | Logo | Confirm the logo displays | The logo displays | 
-|       |         | Confirm that you can click the logo and verify the Home Page displays | The Home Page displays |   |
-|       | Navigation Bar |Confirm 5 navigation links display, which includes The Music, Gigs, The Band, Merchandise, Contact Us | The 5 links display |
-|       |         | Hover over the 5 navigation links stated above to ensure that they change colour to yellow | All links change colour to yellow once hovered |
-|       |         | Click each navigation link | The correct corresponding page displays and the navigation link stays yellow to state you are on that particular page |
-|       | Page Section | Confirm the hero image of Jesse displays on the left of the screen | Jesse displays on the left of the screen| 
-|       |         | A blurb about Sailing In Space displays at the top of the screen | A blurb displays | 
-|       |         | The New Song Coming Soon information displays in the middle of the screen | Information regarding the new song displays | 
-|       |         | You can hover over the words "Like It" and the text turns yellow | The text turns yellow on hover |
-|       |         | You can click the words "Like It" and "The Music" page displays | "The Music" page displays | 
-|       |         | You can click the "Like It image" and "The Music" page displays | "The Music" page displays |
-|       |         | A hero image of Dylan displays on the right of the screen | An image of Dylan displays on the right of the screen |
-|       |         | Under the "Like It image" there is an upcoming event | There is a title called "Upcoming Events"; there is a date of the event; there is an image of the event; there is a link regarding "see more upcoming events" |
-|       |         | Click the "Upcoming event image" | The upcoming event page displays in Facebook |
-|       |         | Click the link "see more upcoming events" | The "Gigs" page displays | 
-|       |         | Hover over each image and confirm the alt text displays | The alt text displays on all images | 
-|       | Footer | Scroll to ensure the footer is fixed | The footer is fixed | 
-|       |         | Confirm there are two links on the left hand side called "About" and "Contact Us" | There are two links named "About" and "Contact Us" |
-|       |         | Hover over the two links stated above to ensure that they change colour to yellow | Both links change colour to yellow once hovered |
-|       |         | Click the "About" link | You are taken to "The Band" page |
-|       |         | Click the "Contact Us" link | You are taken to the "Contact Us" page |
-|       |         | Confirm the "copywright" information and the "developed by" information displays in the middle of the footer | Copywright and developed by information displays in the middle of the footer |
-|       |         | Confirm there are 6 icons in the bottom right of the footer, which includes Facebook, Instagram, YouTube, Spotify, Apple Music, SoundCloud | The correct 6 icons display | 
-|       |         | Hover over the 6 icons stated above to ensure that they change colour to yellow | All icons change colour to yellow once hovered | 
-|       |         | Click each icon | The correct corresponding page displays in a new tab | 
-|       | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | At 991px the hamburger menu displays; At 767px the SIS Bio reduces in text, and the 2 separate images come together to make one image, underneath is the "New Song Coming Soon" text and image, and lastly the Upcoming Events display; At 576px the footer is placed into 3 rows vertically; As you scroll down the page on any size, the header and footer are fixed. | 
-| The Music Page | Tab at top of page | On a desktop, go to https://medusas71.github.io/Sailing-In-Space/the-music.html | The Music Page displays; The favicon displays in the tab; the tab is named "Music Sailing In Space" | P/F | 
-|       | Background | The background is an opaque image of the boys performing | The background is an opaque image of the boys performing | 
-|       | Header | Scroll to ensure the header is fixed | The header is fixed |
-| | Logo | Confirm the logo displays | The logo displays | 
-|       |         | Confirm that you can click the logo and verify the Home Page displays | The Home Page displays |   |
-|       | Navigation Bar |Confirm 5 navigation links display, which includes The Music (which displays in yellow), Gigs, The Band, Merchandise, Contact Us | The 5 links display |
-|       |         | Hover over the blue navigation links stated above to ensure that they change colour to yellow | All links change colour to yellow once hovered |
-|       |         | Click each navigation link | The correct corresponding page displays and the navigation link stays yellow to state you are on that particular page |
-|       | Page Section | The title "The Music" displays in the centre of the screen | The title "The Music" displays | 
-|       |         | 3 columns display underneath the title | Singles, Coming Soon and Albums | 
-|       |         | Against each song in the Singles and Albums the words "Play" and "Lyrics" display and when hovered over the text changes colour | The words "Play" and "Lyrics" display next to each song title and the text changes colour from blue to yellow |
-|       |         | Against each song in the Singles and Albums you can click "Play" and "Lyrics" | Play and Lyrics display next to each song title; once "Play" is clicked the song displays on Spotify in a new tab, where the user can select to press play and hear the song; On the original tab once "Lyrics" is clicked the lyrics of the song displays on a modal |
-|       |         | On each modal, you can either click the close button or click elsewhere on the screen for the modal to close | The modal closes when clicking the close button or clicking elsewhere on the screen |
-|       |         | The Coming Soon information displays in the middle of the screen | Information regarding the new song displays | 
-|       |         | There is a "Read more" button underneath part of the text that displays yellow when hovered over | The button displays and the text turns yellow on hover | 
-|       |         | When "Read more" is clicked, the remaining parts of the text about the new song display | The rest of the text displays and the button changes from "Read more" to "Read Less" | 
-|       |         | When hovering over the "Read less" button, the text changes colour; Once you click "Read less" the overflow of text disappears | The "Read less" button changes text colour from blue to yellow; once clicked the overflow of text disappears |
-|       |         | Under the button the Like It video displays; The video does not autoplay; Click play and the video plays, click pause and the video pauses, click the sound button and the video mutes, there is an option to open in full screen and to close the full screen once opened | The button displays; the video does not autoplay, the video plays, the video pauses, the video mutes and you can open the video in full screen and close the full screen | 
-|       | Footer | Scroll to ensure the footer is fixed | The footer is fixed | 
-|       |         | Confirm there are two links on the left hand side called "About" and "Contact Us" | There are two links named "About" and "Contact Us" |
-|       |         | Hover over the two links stated above to ensure that they change colour to yellow | Both links change colour to yellow once hovered | 
-|       |         | Click the "About" link | You are taken to "The Band" page |
-|       |         | Click the "Contact Us" link | You are taken to the "Contact Us" page | 
-|       |         | Confirm the "copywright" information and the "developed by" information displays in the middle of the footer | Copywright and developed by information displays in the middle of the footer |
-|       |         | Confirm there are 6 icons in the bottom right of the footer, which includes Facebook, Instagram, YouTube, Spotify, Apple Music, SoundCloud | The correct 6 icons display | 
-|       |         | Hover over the 6 icons stated above to ensure that they change colour to yellow | All icons change colour to yellow once hovered | 
-|       |         | Click each icon | The correct corresponding page displays in a new tab | 
-|       | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | At 991px the hamburger menu displays; At 767px the background image is removed and the background colour is black; the content displays vertically with Coming Soon at the top, Singles in the middle and Albums displayed last; At 576px the footer is placed into 3 rows vertically; As you scroll down the page on any size, the header and footer are fixed. | 
-| The Gigs Page | Tab at top of page | On a desktop, go to https://medusas71.github.io/Sailing-In-Space/gigs.html | The Gigs Page displays; The favicon displays in the tab; the tab is named "Gigs Sailing In Space" | P/F | 
-|       | Background | The background is an image of the boys performing | The background is an image of the boys performing | 
-|       | Header | Scroll to ensure the header is fixed | The header is fixed |
-| | Logo | Confirm the logo displays | The logo displays | 
-|       |         | Confirm that you can click the logo and verify the Home Page displays | The Home Page displays |   |
-|       | Navigation Bar |Confirm 5 navigation links display, which includes The Music, Gigs (which displays in yellow), The Band, Merchandise, Contact Us | The 5 links display and the Gigs link displays in Yellow | 
-|       |         | Hover over the blue navigation links stated above to ensure that they change colour to yellow | All links change colour to yellow once hovered |
-|       |         | Click each navigation link | The correct corresponding page displays and the navigation link stays yellow to state you are on that particular page | 
-|       | Page Section | The title "Gigs" displays in the centre of the screen | The title "Gigs" displays | 
-|       |         | The title "Upcoming Events" displays under "Gigs" | The title "Upcoming Events" displays | 
-|       |         | 2 columns display underneath the titles | two upcoming events display with date, venue, time, information and image of event | 
-|       |         | The word "Facebook" is in blue and changes colour when you hover over the word | The word "Facebook" changes from blue to yellow when hovered over |
-|       |         | When you click either the "Facebook" link or the upcoming event image, a new tab displays the event via Facebook | A new tab displays the event via Facebook |
-|       |         | Below the events, the title "Book Us Now" displays and when hovered over the colour changes. When clicked the "Contact Us" page displays | The words "Book Us Now" display next to each song title and the text changes colour from blue to yellow when hovered over |
-|       |         | On the next line there is a Private Functions and Venue Bookings heading display with a blurb about booking the band | The title of Private Functions and Venue Bookings display with a blurb underneath |
-|       |         | There is a "Read more" button underneath part of the text that displays yellow when hovered over | The button displays and the text turns yellow on hover | 
-|       |         | When "Read more" is clicked, the remaining parts of the text about the new song display | The rest of the text displays and the button changes from "Read more" to "Read Less" | 
-|       |         | When hovering over the "Read less" button, the text changes colour; Once you click "Read less" the overflow of text disappears | The "Read less" button changes text colour from blue to yellow; once clicked the overflow of text disappears |
-|       |         | Under the button two wedding videos display; The videos do not autoplay; Click play and the video plays and there is an option to open in full screen | The button displays; the videos do not autoplay and you can open each video in full screen | 
-|       | Footer | Scroll to ensure the footer is fixed | The footer is fixed | 
-|       |         | Confirm there are two links on the left hand side called "About" and "Contact Us" | There are two links named "About" and "Contact Us" |
-|       |         | Hover over the two links stated above to ensure that they change colour to yellow | Both links change colour to yellow once hovered | 
-|       |         | Click the "About" link | You are taken to "The Band" page |
-|       |         | Click the "Contact Us" link | You are taken to the "Contact Us" page |
-|       |         | Confirm the "copywright" information and the "developed by" information displays in the middle of the footer | Copywright and developed by information displays in the middle of the footer |
-|       |         | Confirm there are 6 icons in the bottom right of the footer, which includes Facebook, Instagram, YouTube, Spotify, Apple Music, SoundCloud | The correct 6 icons display | 
-|       |         | Hover over the 6 icons stated above to ensure that they change colour to yellow | All icons change colour to yellow once hovered | 
-|       |         | Click each icon | The correct corresponding page displays in a new tab | 
-|       | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | At 991px the hamburger menu displays; At 767px the background image is removed and the background colour is black; the content displays vertically with Gigs and Upcoming Events at the top, Book Us Now in the middle and Private Functions and Venue Bookings displayed last; At 576px the footer is placed into 3 rows vertically; As you scroll down the page on any size, the header and footer are fixed. | 
-| The Band Page | Tab at top of page | On a desktop, go to https://medusas71.github.io/Sailing-In-Space/the-band.html | The Band Page displays; The favicon displays in the tab; the tab is named "The Band Sailing In Space" | P/F | 
-|       | Background | The background is an image of the boys sitting down | The background is an image of the boys sitting down facing each other | 
-|       | Header | Scroll to ensure the header is fixed | The header is fixed |
-| | Logo | Confirm the logo displays | The logo displays | 
-|       |         | Confirm that you can click the logo and verify the Home Page displays | The Home Page displays |   |
-|       | Navigation Bar |Confirm 5 navigation links display, which includes The Music, Gigs, The Band (which displays in yellow), Merchandise, Contact Us | The 5 links display and The Band link displays in Yellow | 
-|       |         | Hover over the blue navigation links stated above to ensure that they change colour to yellow | All links change colour to yellow once hovered over |
-|       |         | Click each navigation link | The correct corresponding page displays and the navigation link stays yellow to state you are on that particular page | 
-|       | Page Section | The title "The Band" displays in the centre of the screen | The title "The Band" displays | 
-|       |         | Under the title there is part of a spiel about how the band was formed | Part of a speil displays | 
-|       |         | There is a "Read more" button underneath part of the text that displays yellow when hovered over | The button displays and the text turns yellow on hover | 
-|       |         | When "Read more" is clicked, the remaining parts of the text about the band display | The rest of the text displays and the button changes from "Read more" to "Read Less" | 
-|       |         | When hovering over the "Read less" button, the text changes colour; Once you click "Read less" the overflow of text disappears | The "Read less" button changes text colour from blue to yellow; once clicked the overflow of text disappears |
-|       |         | Under the button to the left of the screen is Jesse's title and a link to his bio in blue; when you hover over the link it changes colour | The words "Jesse Bio" display in blue and change colour to yellow upon hover | 
-|       |         | Under the button to the right of the screen is Dylan's title and a link to his bio in blue; when you hover over the link it changes colour | The words "Dylan Bio" display in blue and change colour to yellow upon hover | 
-|       | Footer | Scroll to ensure the footer is fixed | The footer is fixed | 
-|       |         | Confirm there are two links on the left hand side called "About" and "Contact Us" | There are two links named "About" and "Contact Us" |
-|       |         | Hover over the two links stated above to ensure that they change colour to yellow | Both links change colour to yellow once hovered | 
-|       |         | Click the "About" link | You are taken to "The Band" page |
-|       |         | Click the "Contact Us" link | You are taken to the "Contact Us" page | 
-|       |         | Confirm the "copywright" information and the "developed by" information displays in the middle of the footer | Copywright and developed by information displays in the middle of the footer |
-|       |         | Confirm there are 6 icons in the bottom right of the footer, which includes Facebook, Instagram, YouTube, Spotify, Apple Music, SoundCloud | The correct 6 icons display | 
-|       |         | Hover over the 6 icons stated above to ensure that they change colour to yellow | All icons change colour to yellow once hovered | 
-|       |         | Click each icon | The correct corresponding page displays in a new tab | 
-|       | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | At 991px the hamburger menu displays; At 767px the background image is removed and the background colour is black; the content displays vertically with Gigs and Upcoming Events at the top, Book Us Now in the middle and Private Functions and Venue Bookings displayed last; At 576px the footer is placed into 3 rows vertically; As you scroll down the page on any size, the header and footer are fixed. | 
-| The Merchandise Page | Tab at top of page | On a desktop, go to https://medusas71.github.io/Sailing-In-Space/merchandise.html | The Merchandise Page displays; The favicon displays in the tab; the tab is named "Merchandise Sailing In Space" | P/F | 
-|       | Background | The background is black | The background is black | 
-|       | Header | Scroll to ensure the header is fixed | The header is fixed |
-| | Logo | Confirm the logo displays | The logo displays | 
-|       |         | Confirm that you can click the logo and verify the Home Page displays | The Home Page displays |   |
-|       | Navigation Bar |Confirm 5 navigation links display, which includes The Music, Gigs, The Band, Merchandise (which displays in yellow), Contact Us | The 5 links display and the Merchandise link displays in Yellow | 
-|       |         | Hover over the blue navigation links stated above to ensure that they change colour to yellow | All links change colour to yellow once hovered over |
-|       |         | Click each navigation link | The correct corresponding page displays and the navigation link stays yellow to state you are on that particular page | 
-|       | Page Section | The title "Merchandise" displays in the centre of the screen | The title "Merchandise" displays | 
-|       |         | Under the title there is line of text and the words "Contact Us" are displayed in blue and change colour when hovered over | A line of text displays and the words "Contact Us" display in blue and change colour to yellow when hovered over | 
-|       |         | Click the words "Contact Us" and the "Contact Us" page displays | The "Contact Us" page displays | 
-|       |         | To the left of the screen a carousel displays with 5 different images with text and prices on each image | 5 different images display in a carousel with text and prices on each image | 
-|       |         | To the right of the screen an image displays of the back of the Sailing In Space shirt worn by Dylan | Image displays of the back of the Sailing In Space shirt worn by Dylan | 
-|       | Footer | Scroll to ensure the footer is fixed | The footer is fixed | 
-|       |         | Confirm there are two links on the left hand side called "About" and "Contact Us" | There are two links named "About" and "Contact Us" |
-|       |         | Hover over the two links stated above to ensure that they change colour to yellow | Both links change colour to yellow once hovered | 
-|       |         | Click the "About" link | You are taken to "The Band" page |
-|       |         | Click the "Contact Us" link | You are taken to the "Contact Us" page | 
-|       |         | Confirm the "copywright" information and the "developed by" information displays in the middle of the footer | Copywright and developed by information displays in the middle of the footer |
-|       |         | Confirm there are 6 icons in the bottom right of the footer, which includes Facebook, Instagram, YouTube, Spotify, Apple Music, SoundCloud | The correct 6 icons display | 
-|       |         | Hover over the 6 icons stated above to ensure that they change colour to yellow | All icons change colour to yellow once hovered | 
-|       |         | Click each icon | The correct corresponding page displays in a new tab | 
-|       | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | At 991px the hamburger menu displays; At 767px the content displays vertically with Merchandise at the top, the carousel in the middle and the image of the back of the shirt worn by Dylan displayed last; At 576px the footer is placed into 3 rows vertically; As you scroll down the page on any size, the header and footer are fixed. | 
-| The Contact Us Page | Tab at top of page | On a desktop, go to https://medusas71.github.io/Sailing-In-Space/contact-us.html | The Merchandise Page displays; The favicon displays in the tab; the tab is named "Contact Us Sailing In Space" | P/F | 
-|       | Background | The background is black | The background is black | 
-|       | Header | Scroll to ensure the header is fixed | The header is fixed |
-| | Logo | Confirm the logo displays | The logo displays | 
-|       |         | Confirm that you can click the logo and verify the Home Page displays | The Home Page displays |   |
-|       | Navigation Bar |Confirm 5 navigation links display, which includes The Music, Gigs, The Band, Merchandise, Contact Us (which displays in yellow) | The 5 links display and the Contact Us link displays in Yellow | 
-|       |         | Hover over the blue navigation links stated above to ensure that they change colour to yellow | All links change colour to yellow once hovered over |
-|       |         | Click each navigation link | The correct corresponding page displays and the navigation link stays yellow to state you are on that particular page | 
-|       | Page Section | The title "Contact Us" displays in the centre of the screen | The title "Contact Us" displays | 
-|       |         | To the left of the screen a form displays asking for Name, Email, Phone Number, Subject (with a dropdown menu), an area to type your message and a blue text Submit button that changes colour when hovered over | The words and text boxes display for Name, Email, Phone Number, Subject that has a dropdown menu consisting of Bookings, Merchandise, General Queries and Other, a text box to type your message and the submit button text is in blue and changes colour to yellow when hovered over | 
-|       |         | Click the "Submit" button without entering any text | An error message displays that the field must be filled in as it is a required field |
-|       |         | Enter an invalid email address without the @ symbol | An error message displays that the @ symbol is missing from the email address |
-|       |         | Enter all fields except for a phone number | An error message displays that the field must be filled in as it is a required field |
-|       |         | Click the dropdown menu on Subject and confirm that you can select a different subject | Bookings, Merchandise, General Queries and Other could be selected | 
-|       |         | Enter all fields and click the "Submit" button | A Thank You page displays advising the user that their enquiry has been submitted, that Sailing In Space will get back to the user as soon as possible and to have a wonderful day, with a rocket emoji |
-|       |         | To the right of the screen an image display of Sailing In Space | an image of Sailing In Space displays | 
-|       | Footer | Scroll to ensure the footer is fixed | The footer is fixed | 
-|       |         | Confirm there are two links on the left hand side called "About" and "Contact Us" | There are two links named "About" and "Contact Us" |
-|       |         | Hover over the two links stated above to ensure that they change colour to yellow | Both links change colour to yellow once hovered | 
-|       |         | Click the "About" link | You are taken to "The Band" page |
-|       |         | Click the "Contact Us" link | You are taken to the "Contact Us" page | 
-|       |         | Confirm the "copywright" information and the "developed by" information displays in the middle of the footer | Copywright and developed by information displays in the middle of the footer |
-|       |         | Confirm there are 6 icons in the bottom right of the footer, which includes Facebook, Instagram, YouTube, Spotify, Apple Music, SoundCloud | The correct 6 icons display | 
-|       |         | Hover over the 6 icons stated above to ensure that they change colour to yellow | All icons change colour to yellow once hovered | 
-|       |         | Click each icon | The correct corresponding page displays in a new tab | 
-|       | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | At 991px the hamburger menu displays; At 767px the content displays vertically with Contact Us at the top, the form in the middle and the image of Sailing In Space displayed last; At 576px the footer is placed into 3 rows vertically; As you scroll down the page on any size, the header and footer are fixed. | 
+| Home Page | Tab at top of page | On a desktop, go to https://medusas71.github.io/Sailing-In-Space | The Home Page displays; The favicon displays in the tab; the tab is named "Home Sailing In Space" | Pass |
+|       | Background | The background is black | The background is black | Pass |
+|       | Header  | Scroll to ensure the header is fixed | The header is fixed | Pass |
+|       | Logo    | Confirm the logo displays | The logo displays in the top left corner | Pass |
+|       |         | Click the logo | The Home Page displays | Pass |
+|       | Navigation Bar | Confirm the Home link is yellow | Home link is yellow | Pass |
+|       |         | Confirm 6 navigation links display, which include: Home, The Music, Gigs, The Band, Merchandise, Contact Us | The 6 navigation links display | Pass |
+|       |         | Hover over the 6 navigation links stated above | All links, except Home, change colour to yellow and all links are underlined once hovered | Pass |
+|       |         | Click each navigation link | The correct corresponding page displays and the navigation link stays yellow to state you are on that particular page | Pass |
+|       | Main    | Confirm the hero image of Jesse displays on the left of the screen | An image of Jesse displays on the left of the screen | Pass |
+|       |         | A blurb about Sailing In Space displays | Blurb displays, top, middle of screen | Pass |
+|       |         | The "New Song Coming Soon" heading displays | The heading displays in the middle of the screen | Pass |
+|       |         | Hover over the words "Like It" | The text turns yellow and is underlined on hover | Pass |
+|       |         | Click the words "Like It" | "The Music" page displays | Pass |
+|       |         | Click the "Like It image" | "The Music" page displays | Pass |
+|       |         | A hero image of Dylan displays on the right of the screen | An image of Dylan displays on the right of the screen | Pass |
+|       |         | Under the "Like It image" there is an upcoming event | There is a title called "Upcoming Events"; there is a date of the event; there is an image of the event; there is a link regarding "see more upcoming events" | Pass |
+|       |         | Click the "Upcoming event image" | The upcoming event page displays in Facebook | Pass |
+|       |         | Click the link see "more upcoming events" | The "Gigs" page displays | Pass | 
+|       | Footer  | Scroll to ensure the footer is fixed | The footer is fixed | Pass |
+|       |         | Confirm there are two links on the left hand side | There are two links named "About" and "Contact Us" | Pass |
+|       |         | Hover over the two links stated above | Both links change colour to yellow and are underlined once hovered | Pass | 
+|       |         | Click the "About" link | "The Band" page displays | Pass |
+|       |         | Click the "Contact Us" link |The "Contact Us" page displays | Pass |
+|       |         | Confirm the "copyright" information and the "developed by" information display in the middle of the footer | Copyright and developed by information displays in the middle of the footer | Pass |
+|       |         | Confirm there are 6 icons in the bottom right of the footer, which includes: Facebook, Instagram, YouTube, Spotify, Apple Music, SoundCloud | The correct 6 icons display | Pass |
+|       |         | Hover over the 6 icons stated above | All icons change colour to yellow once hovered | Pass |
+|       |         | Click each icon | The correct corresponding page displays in a new tab | Pass |
+|       | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | The correct page displays | Pass | 
+|       |         | Change the pixels to 991px | The hamburger menu displays | Pass | 
+|       |         | Click the hamburger menu | 6 navigation links display and Home is in yellow | Pass | 
+|       |         | Change the pixels to 767px | The page displays vertically; the SIS Bio reduces in text; the 2 separate images come together to make one image; underneath is the "New Song Coming Soon" text and image; and lastly the Upcoming Events display and the footer is placed into 3 rows vertically | Pass |
+|       |         | As you scroll down the page on any size, the header and footer are fixed | Header and Footer are fixed | Pass |
+| The Music Page | Tab at top of page | On a desktop, go to https://medusas71.github.io/Sailing-In-Space/the-music.html | The Music Page displays; The favicon displays in the tab; the tab is named "Music Sailing In Space" | Pass | 
+|       | Background | The background is an opaque image of the boys performing | The background is an opaque image of the boys performing | Pass | 
+|       | Header  | Scroll to ensure the header is fixed | The header is fixed | Pass |
+|       | Logo    | Confirm the logo displays | The logo displays in the top left corner | Pass | 
+|       |         | Click the logo | The Home Page displays | Pass |
+|       | Navigation Bar | Confirm the Music link is yellow | Music link is yellow | Pass |
+|       |         | Confirm 6 navigation links display, which include: Home, The Music, Gigs, The Band, Merchandise, Contact Us | The 6 navigation links display | Pass |
+|       |         | Hover over the 6 navigation links stated above | All links, except Music, change colour to yellow and all links are underlined once hovered | Pass |
+|       |         | Click each navigation link | The correct corresponding page displays and the navigation link stays yellow to state you are on that particular page | Pass |
+|       | Main    | The title "The Music" displays | The Music title displays in the top, middle of the screen | Pass | 
+|       |         | 3 columns display underneath the title | Singles, Coming Soon and Albums | Pass | 
+|       |         | Against each song in the Singles and Albums the words "Play" and "Lyrics" display | Play and Lyrics display | Pass | 
+|       |         | Hover over the words "Play" and "Lyrics" | The words change colour to yellow and all links are underlined once hovered | Pass |
+|       |         | Click "Play" | The song displays on Spotify in a new tab, where the user can select to press play and hear the song | Pass |
+|       |         | Click "Lyrics" | A modal displays the lyrics | Pass |
+|       |         | On each modal, you can either click the close button or click elsewhere on the screen for the modal to close | The modal closes when clicking the close button or clicking elsewhere on the screen | Pass | 
+|       |         | The Coming Soon information displays | Information regarding the new song displays in the middle of the screen | Pass | 
+|       |         | A "Read more" button displays underneath part of the text | The button displays | Pass | 
+|       |         | Hover over "Read more" button | The button text turns yellow on hover | Pass |
+|       |         | Click "Read more" | The rest of the text displays and the button changes from "Read more" to "Read less" | Pass | 
+|       |         | Hover over "Read less" button | The button text turns yellow on hover | Pass |
+|       |         | Click "Read less" | The overflow of text disappears and the button changes from "Read less" to "Read more" | Pass | 
+|       |         | Under the button the Like It video displays | The video does not auto play and you can see the image of the video | Pass |
+|       |         | Click play then pause | Video plays, video pauses | Pass | 
+|       |         | Click the sound button | Video mutes | Pass | 
+|       |         | There is an option to open in full screen and to close the full screen once opened | The video opens in full screen and full screen can be closed | Pass | 
+|       | Footer  | Scroll to ensure the footer is fixed | The footer is fixed | Pass |
+|       |         | Confirm there are two links on the left hand side | There are two links named "About" and "Contact Us" | Pass |
+|       |         | Hover over the two links stated above | Both links change colour to yellow and are underlined once hovered | Pass | 
+|       |         | Click the "About" link | "The Band" page displays | Pass |
+|       |         | Click the "Contact Us" link | The "Contact Us" page displays | Pass |
+|       |         | Confirm the "copyright" information and the "developed by" information display in the middle of the footer | Copyright and developed by information displays in the middle of the footer | Pass |
+|       |         | Confirm there are 6 icons in the bottom right of the footer, which include: Facebook, Instagram, YouTube, Spotify, Apple Music, SoundCloud | The correct 6 icons display | Pass |
+|       |         | Hover over the 6 icons stated above | All icons change colour to yellow once hovered | Pass |
+|       |         | Click each icon | The correct corresponding page displays in a new tab | Pass |
+|       | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | The correct page displays | Pass | 
+|       |         | Change the pixels to 991px | The hamburger menu displays | Pass | 
+|       |         | Click the hamburger menu | 6 navigation links display and The Music is in yellow | Pass | 
+|       |         | Change the pixels to 767px | The background image does not display and the background is black; the page displays vertically; the "New Song Coming Soon" text displays first with a "Read more" button which is clickable; once clicked the rest of the text and a "Read less" button displays; the video displays under the button; the Singles display next and the Albums display last and the footer is placed into 3 rows vertically | Pass |
+|       |         | As you scroll down the page on any size, the header and footer are fixed | Header and Footer are fixed | Pass |
+| The Gigs Page | Tab at top of page | On a desktop, go to https://medusas71.github.io/Sailing-In-Space/gigs.html | The Gigs Page displays; The favicon displays in the tab; the tab is named "Gigs Sailing In Space" | Pass | 
+|       | Background | The background is an opaque image of the boys performing | The background is an opaque image of the boys performing | Pass |
+|       | Header  | Scroll to ensure the header is fixed | The header is fixed | Pass |
+|       | Logo    | Confirm the logo displays | The logo displays in the top left corner | Pass |
+|       |         | Click the logo | The Home Page displays | Pass |
+|       | Navigation Bar | Confirm the Gigs link is yellow | Gigs link is yellow | Pass | 
+|       |         | Confirm 6 navigation links display, which include: Home, The Music, Gigs, The Band, Merchandise, Contact Us | The 6 navigation links display | Pass |  
+|       |         | Hover over the 6 navigation links stated above | All links, except Gigs change colour to yellow and all links are underlined once hovered | Pass |
+|       |         | Click each navigation link | The correct corresponding page displays and the navigation link stays yellow to state you are on that particular page | Pass |
+|       | Main    | The title "Gigs" displays | The Gigs title displays in the top, middle of the screen | Pass | 
+|       |         | Under the title, there is another title named "Book Us Now" | 'Book Us Now" title displays and when hovered over the colour changes to yellow and the link is underlined | Pass |
+|       |         | Click the "Book Us Now" link | The "Contact Us" page displays | Pass | 
+|       |         | The title "Upcoming Events" displays under "Book Us Now" | The title "Upcoming Events" displays | Pass |
+|       |         | 2 columns display underneath the titles | two upcoming events display with date, venue, time, information and image of event | Pass | 
+|       |         | The word "Facebook", on both events, is in blue and changes colour when you hover over the word | The word "Facebook" changes from blue to yellow when hovered over | Pass | 
+|       |         | When you click either the "Facebook" link or the upcoming event image, on both events, a new tab displays the event via Facebook | A new tab displays the event via Facebook | Pass |
+|       |         | On the next line there is a Private Functions and Venue Bookings heading display with a blurb about booking the band | The title of Private Functions and Venue Bookings display with a blurb underneath | Pass | 
+|       |         | A "Read more" button displays underneath part of the text | The button displays | Pass | 
+|       |         | Hover over "Read more" button | The button text turns yellow on hover | Pass | 
+|       |         | Click "Read more" | The rest of the text displays and the button changes from "Read more" to "Read less" | Pass |
+|       |         | Hover over "Read less" button | The button text turns yellow on hover | Pass | 
+|       |         | Click "Read less" | The overflow of text disappears and the button changes from "Read less" to "Read more" | Pass | 
+|       |         | Under the button two wedding videos display | Two wedding videos display, they do not auto play and you can see the image of the video | Pass |
+|       |         | Click "Play" then "Pause" | Video plays, video pauses | Pass | 
+|       |         | Click the "sound" button | Video mutes | Pass | 
+|       |         | There is an option to open in full screen and to close the full screen once opened | the video opens in full screen and full screen can be closed | Pass | 
+|       |         | At the bottom of the page there is a title named "Book Us Now" | "Book Us Now" title displays and when hovered over the colour changes to yellow and the link is underlined | Pass | 
+|       |         | Click the "Book Us Now" link | The "Contact Us" page displays | Pass |
+|       | Footer  | Scroll to ensure the footer is fixed | The footer is fixed | Pass | 
+|       |         | Confirm there are two links on the left hand side | There are two links named "About" and "Contact Us" | Pass |
+|       |         | Hover over the two links stated above | Both links change colour to yellow and are underlined once hovered | Pass |
+|       |         | Click the "About" link | "The Band" page displays | Pass |
+|       |         | Click the "Contact Us" link | The "Contact Us" page displays | Pass | 
+|       |         | Confirm the "copyright" information and the "developed by" information displays in the middle of the footer | Copyright and developed by information displays in the middle of the footer | Pass |
+|       |         | Confirm there are 6 icons in the bottom right of the footer, which includes Facebook, Instagram, YouTube, Spotify, Apple Music, SoundCloud | The correct 6 icons display | Pass |
+|       |         | Hover over the 6 icons stated above | All icons change colour to yellow once hovered | Pass | 
+|       |         | Click each icon | The correct corresponding page displays in a new tab | Pass | 
+|       | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | The correct page displays | Pass | 
+|       |         | Change the pixels to 991px | The hamburger menu displays | Pass | 
+|       |         | Click the hamburger menu | 6 navigation links display and Gigs is in yellow | Pass | 
+|       |         | Change the pixels to 767px | The background image does not display and the background is black; the page displays vertically; The titles "Gigs" "Book Us Now" and "Upcoming Events" display in that order; The 1st event displays; The 2nd event displays; the "Private Functions and Venue Bookings" title displays; There is a "Read more" button under the text which is clickable; once clicked the rest of the text and a "Read less" button displays; the two videos display underneath and another "Book Us Now" link displays last and the footer is placed into 3 rows vertically | Pass | 
+|       |         | As you scroll down the page on any size, the header and footer are fixed | Header and Footer are fixed | Pass | 
+| The Band Page | Tab at top of page | On a desktop, go to https://medusas71.github.io/Sailing-In-Space/the-band.html | The Band Page displays; The favicon displays in the tab; the tab is named "The Band Sailing In Space" | Pass | 
+|       | Background | The background is an image of the boys sitting down | The background is an image of the boys sitting down facing each other | Pass | 
+|       | Header  | Scroll to ensure the header is fixed | The header is fixed | Pass |
+|       | Logo    | Confirm the logo displays | The logo displays in the top left corner| Pass |
+|       |         | Click the logo | The Home Page displays | Pass | 
+|       | Navigation Bar | Confirm The Band link is yellow | The Band link is yellow | Pass | 
+|       |         | Confirm 6 navigation links display, which include: Home, The Music, Gigs, The Band, Merchandise, Contact Us | The 6 navigation links display | Pass | 
+|       |         | Hover over the 6 navigation links stated above | All links except The Band change colour to yellow and all links are underlined once hovered | Pass | 
+|       |         | Click each navigation link | The correct corresponding page displays and the navigation link stays yellow to state you are on that particular page | Pass | 
+|       | Main | The title "The Band" displays | The title "The Band" displays in the top, middle of the screen | Pass |
+|       |         | Under the title part of a spiel displays | Part of a spiel displays in the middle of the screen of how the band formed | Pass |  
+|       |         | A "Read more" button displays underneath part of the text | The button displays | Pass | 
+|       |         | Hover over "Read more" button | The button text turns yellow on hover | Pass |  
+|       |         | Click "Read more" | The rest of the text displays and the button changes from "Read more" to "Read Less" | Pass | 
+|       |         | Hover over "Read less" button | The button text turns yellow on hover | Pass | 
+|       |         | Click "Read less" | The overflow of text disappears and the button changes from "Read less" to "Read more" | Pass | 
+|       |         | Under the button to the left of the screen is Jesse's title and a link to his bio | Jesse's title and bio display and when hovered over the bio, the colour changes to yellow and the link is underlined | Pass | 
+|       |         | Click the "Jesse Bio" link | A modal displays Jesse's bio | Pass | 
+|       |         | Under the button to the right of the screen is Dylan's title and a link to his bio | Dylan's title and bio display and when hovered over the bio, the colour changes to yellow and the link is underlined | Pass | 
+|       |         | Click the "Dylan Bio" link | A modal displays Dylan's bio | Pass | 
+|       | Footer  | Scroll to ensure the footer is fixed | The footer is fixed | Pass |
+|       |         | Confirm there are two links on the left hand side | There are two links named "About" and "Contact Us" | Pass | 
+|       |         | Hover over the two links stated above | Both links change colour to yellow and are underlined once hovered | Pass | 
+|       |         | Click the "About" link | "The Band" page displays | Pass | 
+|       |         | Click the "Contact Us" link | The "Contact Us" page displays | Pass | 
+|       |         | Confirm the "copyright" information and the "developed by" information displays in the middle of the footer | Copyright and developed by information displays in the middle of the footer | Pass | 
+|       |         | Confirm there are 6 icons in the bottom right of the footer, which include: Facebook, Instagram, YouTube, Spotify, Apple Music, SoundCloud | The correct 6 icons display | Pass | 
+|       |         | Hover over the 6 icons stated above | All icons change colour to yellow once hovered | Pass | 
+|       |         | Click each icon | The correct corresponding page displays in a new tab | Pass | 
+|       | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | The correct page displays | Pass | 
+|       |         | Change the pixels to 991px | The hamburger menu displays | Pass | 
+|       |         | Click the hamburger menu | 6 navigation links display and The Band is in yellow | Pass | 
+|       |         | Change the pixels to 767px | The background image does not display and the background is black; the page displays vertically; The title "The Band" displays; Text regarding how the band formed displays under the title with a "Read more" button which is clickable; once clicked the rest of the text and a "Read less" button displays; Jesse's title displays under the text; a circular image of Jesse's head displays under the title and the "Jesse Bio" link displays; Next Dylan's title displays; a circular image of Dylan's head displays under his title and the "Dylan Bio" link displays; The footer is placed into 3 rows vertically | Pass | 
+| The Merchandise Page | Tab at top of page | On a desktop, go to https://medusas71.github.io/Sailing-In-Space/merchandise.html | The Merchandise Page displays; The favicon displays in the tab; the tab is named "Merchandise Sailing In Space" | Pass | 
+|       | Background | The background is black | The background is black | Pass | 
+|       | Header  | Scroll to ensure the header is fixed | The header is fixed | Pass | 
+|       | Logo    | Confirm the logo displays | The logo displays in the top left corner | Pass | 
+|       |         | Click the logo | The Home Page displays | Pass |
+|       | Navigation Bar | Confirm the Merchandise link is yellow | Merchandise link is yellow | Pass | 
+|       |         | Confirm 6 navigation links display, which include: Home, The Music, Gigs, The Band, Merchandise, Contact Us | The 6 links display | Pass |  
+|       |         | Hover over the 6 navigation links stated above | All links, except Merchandise change colour to yellow and all links are underlined once hovered | Pass | 
+|       |         | Click each navigation link | The correct corresponding page displays and the navigation link stays yellow to state you are on that particular page | Pass | 
+|       | Main    | The title "Merchandise" displays | The title "Merchandise" displays in the top, middle of the screen | Pass |  
+|       |         | Under the title there is line of text and the words "Contact Us" are displayed in blue and change colour when hovered over | A line of text displays and the words "Contact Us" display in blue and change colour to yellow when hovered over | Pass |
+|       |         | Click the words "Contact Us" | The "Contact Us" page displays | Pass | 
+|       |         | To the left of the screen a carousel displays with 5 different images with text and prices on each image | 5 different images display in a carousel with text and prices on each image | Pass | 
+|       |         | To the right of the screen an image displays of the back of the Sailing In Space shirt worn by Dylan | Image displays of the back of the Sailing In Space shirt worn by Dylan | Pass | 
+|       | Footer  | Scroll to ensure the footer is fixed | The footer is fixed | Pass | 
+|       |         | Confirm there are two links on the left hand side | There are two links named "About" and "Contact Us" | Pass | 
+|       |         | Hover over the two links stated above | Both links change colour to yellow and are underlined once hovered | Pass | 
+|       |         | Click the "About" link | "The Band" page displays | Pass | 
+|       |         | Click the "Contact Us" link |The "Contact Us" page displays | Pass | 
+|       |         | Confirm the "copyright" information and the "developed by" information displays in the middle of the footer | Copyright and developed by information displays in the middle of the footer | Pass | 
+|       |         | Confirm there are 6 icons in the bottom right of the footer, which include: Facebook, Instagram, YouTube, Spotify, Apple Music, SoundCloud | The correct 6 icons display | Pass |
+|       |         | Hover over the 6 icons stated above | All icons change colour to yellow once hovered | Pass | 
+|       |         | Click each icon | The correct corresponding page displays in a new tab | Pass | 
+|       | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | The correct page displays | Pass | 
+|       |         | Change the pixels to 991px | The hamburger menu displays | Pass | 
+|       |         | Click the hamburger menu | 6 navigation links display and Merchandise is in yellow | Pass | 
+|       |         | Change the pixels to 767px | The background image is black; the page displays vertically; the title "Merchandise" displays; a line of text displays under the title with the link "Contact Us" within the text; A carousel displays underneath with 5 different images with text and prices on each image; lastly the image of the back of the Sailing In Space shirt worn by Dylan displays; the footer is placed into 3 rows vertically | Pass | 
+|       |         |  As you scroll down the page on any size, the header and footer are fixed | Header and Footer are fixed | Pass | 
+| The Contact Us Page | Tab at top of page | On a desktop, go to https://medusas71.github.io/Sailing-In-Space/contact-us.html | The Contact Us Page displays; The favicon displays in the tab; the tab is named "Contact Us Sailing In Space" | Pass | 
+|       | Background | The background is black | The background is black | Pass | 
+|       | Header | Scroll to ensure the header is fixed | The header is fixed | Pass | 
+| | Logo | Confirm the logo displays | The logo displays in the top left corner | Pass | 
+|       |         | Click the logo | The Home Page displays | Pass | 
+|       | Navigation Bar | Confirm the Contact Us link is yellow | Contact Us link is yellow | Pass | 
+|       |         | Confirm 6 navigation links display, which include: Home, The Music, Gigs, The Band, Merchandise, Contact Us | The 6 links display | Pass | 
+|       |         | Hover over the 6 navigation links stated above | All links, except Contact Us change colour to yellow and all links are underlined once hovered | Pass | 
+|       |         | Click each navigation link | The correct corresponding page displays and the navigation link stays yellow to state you are on that particular page | Pass | 
+|       | Main    | The title "Contact Us" displays | The title "Contact Us" displays in the top, middle of the screen | Pass | 
+|       |         | To the left of the screen a form displays asking for Name, Email, Phone Number, Subject (with a dropdown menu), an area to type your message and a blue text Submit button that changes colour when hovered over | The words and text boxes display for Name, Email, Phone Number, Subject that has a dropdown menu consisting of Bookings, Merchandise, General Queries and Other, a text box to type your message and the submit button text is in blue and changes colour to yellow when hovered over | Pass |  
+|       |         | Click the "Submit" button without entering any text | An error message displays that the field must be filled in | Pass | 
+|       |         | Enter an invalid email address without the @ symbol | An error message displays that the @ symbol is missing from the email address | Pass | 
+|       |         | Enter all fields except for a phone number | An error message displays that the field must be filled in | Pass | 
+|       |         | Click the dropdown menu on Subject and confirm that you can select a different subject | Bookings, Merchandise, General Queries and Other could be selected | Pass | 
+|       |         | Enter all fields and click the "Submit" button | A Thank You page displays advising the user that their enquiry has been submitted, that Sailing In Space will get back to the user as soon as possible and to have a wonderful day, with a rocket emoji | Pass | 
+|       |         | To the right of the screen an image displays of Sailing In Space | An image of Sailing In Space displays | Pass | 
+|       | Footer  | Scroll to ensure the footer is fixed | The footer is fixed | Pass | 
+|       |         | Confirm there are two links on the left hand side | There are two links named "About" and "Contact Us" | Pass | 
+|       |         | Hover over the two links stated above | Both links change colour to yellow and are underlined once hovered | Pass | 
+|       |         | Click the "About" link | "The Band" page displays | Pass | 
+|       |         | Click the "Contact Us" link | The "Contact Us" page displays | Pass | 
+|       |         | Confirm the "copyright" information and the "developed by" information displays in the middle of the footer | Copyright and developed by information displays in the middle of the footer | Pass | 
+|       |         | Confirm there are 6 icons in the bottom right of the footer, which include: Facebook, Instagram, YouTube, Spotify, Apple Music, SoundCloud | The correct 6 icons display | Pass | 
+|       |         | Hover over the 6 icons stated above | All icons change colour to yellow once hovered | Pass | 
+|       |         | Click each icon | The correct corresponding page displays in a new tab | Pass | 
+|       | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | The correct page displays | Pass | 
+|       |         | Change the pixels to 991px | The hamburger menu displays | Pass | 
+|       |         | Click the hamburger menu | 6 navigation links display and Contact Us is in yellow | Pass | 
+|       |         | Change the pixels to 767px | The background is black; the page displays vertically; the title "Contact Us" displays; The name, email, phone number and text areas, subject (with a dropdown menu) and an area to type your message with a Submit button displays; the footer is placed into 3 rows vertically | Pass | 
+|       |         | As you scroll down the page on any size, the header and footer are fixed | Header and Footer are fixed | Pass | 
+
+</details>
 
 [Back to Table of Contents](#table-of-contents)
 
