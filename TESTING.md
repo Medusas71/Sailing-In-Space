@@ -467,8 +467,10 @@ Here is the lighthouse score for each page on mobile and desktop:
 |       |         | Click "Read less" | The overflow of text disappears and the button changes from "Read less" to "Read more" | Pass | 
 |       |         | Under the button to the left of the screen is Jesse's title and a link to his bio | Jesse's title and bio display and when hovered over the bio, the colour changes to yellow and the link is underlined | Pass | 
 |       |         | Click the "Jesse Bio" link | A modal displays Jesse's bio | Pass | 
+|       |         | On the modal, you can either click the close button or click elsewhere on the screen for the modal to close | The modal closes when clicking the close button or clicking elsewhere on the screen | Pass |
 |       |         | Under the button to the right of the screen is Dylan's title and a link to his bio | Dylan's title and bio display and when hovered over the bio, the colour changes to yellow and the link is underlined | Pass | 
 |       |         | Click the "Dylan Bio" link | A modal displays Dylan's bio | Pass | 
+|       |         | On the modal, you can either click the close button or click elsewhere on the screen for the modal to close | The modal closes when clicking the close button or clicking elsewhere on the screen | Pass |
 |       | Footer  | Scroll to ensure the footer is fixed | The footer is fixed | Pass |
 |       |         | Confirm there are two links on the left hand side | There are two links named "About" and "Contact Us" | Pass | 
 |       |         | Hover over the two links stated above | Both links change colour to yellow and are underlined once hovered | Pass | 
