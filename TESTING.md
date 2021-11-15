@@ -335,6 +335,8 @@ Here is the lighthouse score for each page on mobile and desktop:
 <details open>
 <summary><b>(click to expand or hide)</b></summary>  
 
+The testing below is for an end user. This way they can check each step and verify the correct outcome.
+
 |Page   | Section | Action | Expected Behaviour | Result |
 | ----- | ------- | ------ | ------------------ | ------ |
 | Home Page | Tab at top of page | On a desktop, go to https://medusas71.github.io/Sailing-In-Space | The Home Page displays; The favicon displays in the tab; the tab is named "Home Sailing In Space" | Pass |
