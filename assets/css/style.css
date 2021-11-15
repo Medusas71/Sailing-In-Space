@@ -110,6 +110,7 @@ a:hover {
 
 .submit-button:hover {
     color: #F9F871;
+    text-decoration: underline;
 }
 
 .social-links li a i:hover {
@@ -145,6 +146,7 @@ a:hover {
         -ms-flex-align: center;
             align-items: center;
     padding: 0 20px;
+    border-top: 3px solid #13A6DB;
 }
 
 .footer-links {
@@ -257,6 +259,7 @@ a {
 #myBtn { 
     background-color: black;
     color: #13A6DB;
+    border: #13A6DB;
     font-family: "Titillium Web", sans-serif;
     font-style: italic;
     font-size: 20px;
@@ -316,6 +319,7 @@ a {
     font-weight: 700;
     font-style: italic;
     letter-spacing: 1px;
+    background-color: black;
     cursor: pointer;
 }
 
@@ -411,6 +415,7 @@ a {
 .submit-button {
     margin-left: 30px;
     background-color: #000;
+    border: #13A6DB;
     color: #13A6DB;
     font-family: "Titillium Web", sans-serif;
     font-style: italic;
@@ -447,6 +452,23 @@ a {
 }
 
 /*----------------------------------------------------media queries*/
+
+/*------------------------small devices (up to 767px)---*/
+
+@media screen and (max-width: 767px) {
+    
+    /* .footer-background {
+        height: 200px;
+    }
+
+    .footer-links {
+        height: 20px;
+    } */
+
+    /* .band-bio {
+        margin-left: 0;
+    } */
+}
 
 /*-------------------------medium devices (tablets, 768px and up)---*/
 
