@@ -208,7 +208,7 @@ Each page features:
 * A fixed header that contains:  
   * a logo featured on the left hand side that when clicked takes you to the Home Page  
   * a responsive navigation bar that includes 6 links - Home, The Music, Gigs, The Band, Merchandise and Contact Us  
-* A fixed footer that contains:
+* A fixed footer. The reason the footer is fixed is due to the user being able to access the band's social media icons at any time, as fans often want to follow their favourite band on social media. The fixed footer contains:
   * an About and Contact Us link on the bottom left hand side
   * copyright information placed in the middle
   * social media icons on the right hand side linking to 6 social media and music pages  
@@ -237,7 +237,7 @@ when to play the video
 The Gigs Page features:
 * An opaque background image of Jesse and Dylan playing displays on anything larger than a mobile
 * A black background displays on anything smaller than a tablet
-* A list of all their upcoming events with links to each gig in Facebook
+* A list of all the bands upcoming events with links to each gig in Facebook - Please Note: the upcoming events were upcoming at the time of development. If there were no upcoming events to display, the wording would be changed from Upcoming Events to Recent Events
 * Information regarding private functions and venue bookings
 * Two videos where the band had played at weddings
 * A "read more / read less" button displays under "Private Functions and Venue Bookings" as there is too much text to display on the page initially and the user can click the button to read more and click the read less button to shorten the text
