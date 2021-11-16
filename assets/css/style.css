@@ -292,10 +292,6 @@ a {
     margin-top: 30px;
 }
 
-.band-bio {
-    margin-top: 60px;
-}
-
 .face {
     height: 180px;
     width: 180px;
@@ -370,7 +366,6 @@ a {
 /*----------------------------------------------------contact-us*/
 
 .contact-us-form {
-    margin-top: 100px;
     margin-left: 30px;    
     text-align: left;
     color: #13A6DB;
@@ -424,7 +419,6 @@ a {
 }
 
 .contact-us-image {
-    margin-top: 100px;
     margin-right: 600px;
     margin-left: 200px;
 }
