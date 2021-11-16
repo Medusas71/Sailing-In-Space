@@ -188,7 +188,7 @@ a {
     font-family: "Roboto", sans-serif;
     font-size: 12px;
     letter-spacing: 1px;  
-    line-height: 5px;
+    line-height: 0;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -460,25 +460,15 @@ a {
     
     .copyright-style p {
         font-size: 10px;
-        letter-spacing: 1px;  
-        line-height: 0px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        text-align: center;
+    }
+
+    .list-inline {
+        margin: 0 0 5px  0;
     }
     
     .list-inline-item {
         height: 0;
     }
-    
-    
-    /* .footer-background {
-        height: 200px;
-    }
-
-    .footer-links {
-        height: 20px;
-    } */
 
 }
 
