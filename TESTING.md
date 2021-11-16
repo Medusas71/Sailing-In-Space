@@ -205,6 +205,8 @@ Here is the lighthouse score for each page on mobile and desktop:
 <details open>
 <summary><b>(click to expand or hide)</b></summary>  
 
+Each screenshot displays a red square around each item that is needed to achieve the testing criteria.
+
 ### Fan Goals
 
 1.  As a fan and a record company, I would like to listen to the bands songs:
@@ -215,7 +217,7 @@ Here is the lighthouse score for each page on mobile and desktop:
 ![1-fan-goals](./testing-images/user-stories/1-fan-goals-new-song.jpg)
 
 2.  As a fan, I would like to learn about the bands history and the band members:
-    * This is achieved by clicking "The Band" navigation link at the top of each page in the fixed header and the "About" navigation link in the fixed footer on every page. A snippet of information regarding the band is displayed on "the Band" page and there is a link to read more about the band. There is also a link against each band member that displays a modal with their bio included.
+    * This is achieved by clicking "The Band" navigation link at the top of each page in the fixed header and the "About" navigation link in the fixed footer on every page. A snippet of information regarding the band is displayed on "The Band" page and there is a link to read more about the band. There is also a link against each band member that displays a modal with their bio included.
     <p>&nbsp;</p>
 ![2-fan-goals](./testing-images/user-stories/2-fan-goals-band.jpg)
 
@@ -241,7 +243,7 @@ Here is the lighthouse score for each page on mobile and desktop:
 ![5-fan-goals](./testing-images/user-stories/5-fan-goals-bookings-gigs-page.jpg)
 
 6.  As a fan, I would like to read the lyrics whilst listening to their songs:
-    * This is achieved by clicking "The Music" navigation link in the fixed header at the top of every page. On the page you can click "Play" next to a song and Spotify opens in a new tab. You can press play and then go back to the website and click "Lyrics" next to the song. The lyrics display in a modal.
+    * This is achieved by clicking "The Music" navigation link in the fixed header at the top of every page. On the page you can click "Play" next to a song and Spotify opens in a new tab. You can press play on Spotify and then go back to the website and click "Lyrics" next to the song. The lyrics display in a modal.
     <p>&nbsp;</p>  
 ![6-fan-goals](./testing-images/user-stories/6-fan-goals-lyrics.jpg)
 
@@ -264,7 +266,7 @@ Here is the lighthouse score for each page on mobile and desktop:
         * a link on the home page to "See more upcoming events" to promote what they are currently doing;
         * displaying upcoming events on the "Gigs" page to promote what they are currently doing;
         * displaying videos of the band performing on the "Gigs" page to promote what they have done previously;
-        * having a contact form on the "Contact Us" page.
+        * having a contact form on the "Contact Us" page and a "Subject" called "Bookings" in the drop-down menu.
     <p>&nbsp;</p>  
 ![9-site-owner-goals](./testing-images/user-stories/9-site-owner-goals-home-page.jpg)
 
@@ -282,8 +284,12 @@ Here is the lighthouse score for each page on mobile and desktop:
 ![10-site-owner-goals](./testing-images/user-stories/10-site-owner-goals-purchase-tickets-gigs-page.jpg)
 
 11. As a band member of Sailing In Space, I would like to sell merchandise:
-    * This is achieved by viewing all merchandise on "The Band" page and by using the contact form on the "Contact Us" page to purchase the merchandise.
+    * This is achieved by viewing all merchandise on the "Merchandise" page and by clicking "Contact Us" on the "Merchandise" page. 
+    * This is then achieved using the contact form on the "Contact Us" page to purchase the merchandise by using the "Subject" drop-down menu.
     <p>&nbsp;</p>  
+![11-site-owner-goals](./testing-images/user-stories/11-site-owner-goals-merchandise-page.jpg)
+
+![11-site-owner-goals](./testing-images/user-stories/11-site-owner-goals-merchandise-contact-us-page.jpg)
 
 12. As a band member of Sailing In Space, I would like to increase our social media following:
     * This is achieved by having all social media links displayed on the fixed footer that is on each page.
@@ -309,6 +315,7 @@ Here is the lighthouse score for each page on mobile and desktop:
 
 15. As a record company, I would like to contact the band:
     * This is achieved by having a contact form on the "Contact Us" page.
+    <p>&nbsp;</p>
 ![15-record-company-goals](./testing-images/user-stories/15-record-company-goals-contact.jpg)
 
 </details> 
@@ -329,13 +336,15 @@ Here is the lighthouse score for each page on mobile and desktop:
 *   iPhone 12
 *   iPhone 11
 *   iPhone 8 Plus
+*   Samsung 20 Plus
+*   Samsung A7 Tablet
 *   laptop
 *   desktop 
 
 <details open>
 <summary><b>(click to expand or hide)</b></summary>  
 
-The testing below is for an end user. This way they can check each step and verify the correct outcome.
+The testing below is for an end user, hence why it is in so much detail. This way anyone can check each step and verify the correct outcome.
 
 |Page   | Section | Action | Expected Behaviour | Result |
 | ----- | ------- | ------ | ------------------ | ------ |
@@ -528,10 +537,11 @@ The testing below is for an end user. This way they can check each step and veri
 |       |         | Click each navigation link | The correct corresponding page displays and the navigation link stays yellow to state you are on that particular page | Pass | 
 |       | Main    | The title "Contact Us" displays | The title "Contact Us" displays in the top, middle of the screen | Pass | 
 |       |         | To the left of the screen a form displays asking for Name, Email, Phone Number, Subject (with a dropdown menu), an area to type your message and a blue text Submit button that changes colour when hovered over | The words and text boxes display for Name, Email, Phone Number, Subject that has a dropdown menu consisting of Bookings, Merchandise, General Queries and Other, a text box to type your message and the submit button text is in blue and changes colour to yellow when hovered over | Pass |  
-|       |         | Click the "Submit" button without entering any text | An error message displays that the field must be filled in | Pass | 
-|       |         | Enter an invalid email address without the @ symbol | An error message displays that the @ symbol is missing from the email address | Pass | 
-|       |         | Enter all fields except for a phone number | An error message displays that the field must be filled in | Pass | 
+|       |         | Click the "Submit" button without entering any text | An error message displays under the "Name" text field that the field must be filled in | Pass | 
+|       |         | Enter a "Name" and an invalid email address without the @ symbol | An error message displays under the "Email" text field that the @ symbol is missing from the email address | Pass | 
+|       |         | Enter a "Name" and a valid "Email address" but don't complete the other fields | An error message displays under the "Phone Number" field, that the field must be filled in | Pass | 
 |       |         | Click the dropdown menu on Subject and confirm that you can select a different subject | Bookings, Merchandise, General Queries and Other could be selected | Pass | 
+|       |         | Enter a "Name", valid "Email", "Phone Number" | An error message displays under the text box field, that the field must be filled in | Pass |
 |       |         | Enter all fields and click the "Submit" button | A Thank You page displays advising the user that their enquiry has been submitted, that Sailing In Space will get back to the user as soon as possible and to have a wonderful day, with a rocket emoji | Pass | 
 |       |         | To the right of the screen an image displays of Sailing In Space | An image of Sailing In Space displays | Pass | 
 |       | Footer  | Scroll to ensure the footer is fixed | The footer is fixed | Pass | 
