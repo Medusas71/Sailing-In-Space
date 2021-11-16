@@ -173,10 +173,11 @@ a {
 .footer-button-style {
     font-family: "Titillium Web", sans-serif;
     font-style: italic;
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 700;
     letter-spacing: 1px;
-    margin: 20px 0px 20px 10px;
+    margin: 0;
+    padding-left: 15px;
     text-align: center;
     text-decoration: none;
 }
@@ -457,6 +458,20 @@ a {
 
 @media screen and (max-width: 767px) {
     
+    .copyright-style p {
+        font-size: 10px;
+        letter-spacing: 1px;  
+        line-height: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .list-inline-item {
+        height: 0;
+    }
+    
+    
     /* .footer-background {
         height: 200px;
     }
@@ -476,7 +491,7 @@ a {
     }
 
     .footer-links {
-        width: 200px;
+        width: 230px;
     }
 
     .footer-background { /*.......received assistance from Tutor Support with the footer CSS*/
@@ -484,6 +499,11 @@ a {
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row;
+    }
+
+    .footer-button-style {
+        font-size: 24px;  
+        margin: 20px 0px 20px 10px;     
     }
 
      .para-text {
