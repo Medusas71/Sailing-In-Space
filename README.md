@@ -54,7 +54,7 @@ This website has been created for local Sunshine Coast Band - Sailing In Space.
 The purpose of this website is for the band to promote gigs, their music and 
 merchandise to their fans.  
 
-The final project was submitted early November 2021.
+The final project was submitted 17 November 2021.
 
 [Back to Table of Contents](#table-of-contents)
 
