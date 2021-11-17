@@ -584,7 +584,7 @@ The testing below is for an end user, hence why it is in so much detail. This wa
 **The Music Page**
 
 **1.    Issue**:  
-    I originally had the background image URL on the music page in the HTML instead of the CSS. I was advised by some of the slack students that it was better if I have the URL in the CSS. I tried to put it in the CSS but I was having lots of issues having the image displayed as I wanted it. I spoke to Tutor Support and they advised that there is nothing wrong with having the URL and a huge negative margin to display the text on top of the image.
+    I originally had the background image URL on the music page in the HTML instead of the CSS. I was advised by some of the slack students that it was better if I have the URL in the CSS. I tried to put it in the CSS but I was having lots of issues having the image displayed as I wanted it. I spoke to Tutor Support and they advised that there is nothing wrong with having the URL in HTML and a huge negative margin to display the text on top of the image.
 * **Fix**: I placed the URL for the background image on the music page back in the HTML and I was able to display the image perfectly.  
 
 **2.    Issue**:  
