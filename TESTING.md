@@ -337,6 +337,7 @@ Each screenshot displays a red square around each item that is needed to achieve
 *   iPhone 11
 *   iPhone 8 Plus
 *   Samsung 20 Plus
+*   Samsung 10
 *   Samsung A7 Tablet
 *   laptop
 *   desktop 
@@ -633,6 +634,10 @@ The testing below is for an end user, hence why it is in so much detail. This wa
 **1.    Issue**:  
     When conducting a [Wave Report](https://wave.webaim.org/) on the page, I was advised that a label was missing on the text area part of the form.  
 * **Fix**: I found the same question asked on [stack overflow](https://stackoverflow.com/questions/38142464/web-accessibility-failing-on-missing-form-label) and found a resolution in how to add the missing label to the text area part of the form. I added aria-label in the text area.
+
+**2.    Issue**:  
+    When testing the form from the Contact Us page on an android mobile, you would lose focus of the form and couldn't see what you were typing. There were also issues with scrolling within the form.
+* **Fix**: I removed the top margin from the top of the form. This allowed the user to actually see the input fields whilst completing the form.
 
 **Lighthouse testing on each page**
 
