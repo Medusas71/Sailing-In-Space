@@ -384,6 +384,11 @@ To do this:
 * From the [GitHub repository](https://github.com/Medusas71/Sailing-In-Space) which is on the 'Code' heading page
 * Click the dropdown 'Code' button which is next to the green Gitpod button
 * You can either copy the link into your own IDE or 'Download Zip' which can be unzipped on your local machine
+* If you are copying the link into your own IDE - Open Git Bash
+* Change the current working directory to the location where you want the cloned directory
+* Type *git clone*, and then paste the URL you copied earlier.
+* Press "Enter" to create your local clone
+* Click index.html in the created folder and the website will open up in the default browser
 
 Please Note: That if you are wanting to use Gitpod as your IDE you will need to install the [Gitpod Browser Extentions for Chrome](https://www.gitpod.io/docs/browser-extension/). After installation, restart the browser.
 
@@ -398,7 +403,7 @@ Code
 and for showing me a new way to do the commits so it isn't all on 1 line  
 * SuzyBee, Code Institute student for her assistance in helping me understand some code  
 * Tutor Support for assistance in helping me understand some code  
-* My mentor for all his support
+* My mentor for all his support and assisting me with the deployment in the Readme file
 * [W3Schools](https://www.w3schools.com/) for assistance with code  
 * [Responsive CSS Aspect Ratio](https://blog.webdevsimplified.com/2020-12/responsive-css-video/) for how to make the videos responsive  
 * [Stack Overflow](https://stackoverflow.com/) for resolving specific issues
